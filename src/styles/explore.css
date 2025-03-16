@@ -1,0 +1,110 @@
+.tourist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    gap: 40px;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.tourist-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tourist-header {
+    align-items: flex-start;
+    width: 100%;
+}
+
+.tourist-header h1 {
+    border-left: 5px solid var(--primary-color);
+    padding-left: 10px;
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
+.tourist-header p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.place-card:nth-child(even) {
+    flex-direction: row-reverse;
+    border-right: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.place-card:nth-child(odd) {
+    border-left: 3px solid var(--primary-green);
+    border-top: 3px solid var(--primary-green);
+}
+
+.tourist-places {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.place-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    line-height: 1.7em;
+    font-size: 0.9em;
+    width: 100%;
+    background-color: var(--card-background-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.place-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.place-image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.place-details {
+    width: 500px;
+}
+
+.place-details h2 {
+    font-size: 1.2em;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.place-details p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.place-details ul {
+    padding-left: 40px;
+    padding-top: 10px;
+    list-style-type: disc;
+}
+
+.place-details ul li {
+    margin-bottom: 5px;
+    color: #555;
+}

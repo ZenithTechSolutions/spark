@@ -1,0 +1,212 @@
+hr {
+    height: 2.5px;
+    background-color: #33333380;
+    margin: 32px;
+    width: 95%;
+}
+
+span {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.contact_us-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.contact_us-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    margin-left: 30px;
+    height: 546px;
+    gap: 180px;
+}
+
+.form-main {
+    width: 500px;
+    height: 466px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    padding: 16px 24px;
+    gap: 32px;
+    background: var(--form-bg);
+}
+
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 409px;
+    gap: 20px;
+
+}
+
+
+label {
+    font-size: 1rem;
+    font-weight: 200;
+    color: black;
+}
+
+input[type="email"],
+input[type="text"] {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    border: none;
+    width: 420px;
+    height: 43px;
+    background-color: var(--form-bg);
+    font-size: 1rem;
+    padding: 8px;
+    transition: border-color 0.3s ease-in-out;
+    border-bottom: 1px solid #742525;
+}
+
+input[type="submit"] {
+    background-color: #d7c2cc;
+    color: var(--primary-bg-blue);
+    font-size: 1rem;
+    border-radius: 40px;
+    border: none;
+    width: 160px;
+    height: 50px;
+    font-family: var(--main-font);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--form-bg);
+    /* border: 1px solid #ccc;  */
+    color: var(--primary-bg-blue);
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 120px;
+    align-items: center;
+
+}
+
+.get-in-touch-info {
+    width: 500px;
+    height: 166px;
+    text-align: left;
+
+}
+
+.git-head {
+    border-bottom: 5px solid var(--primary-bg-blue);
+    width: 165px;
+    font-size: 24px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#git-head-span {
+    padding-left: 6px;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-bg-blue);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.map {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 120px;
+    align-items: center;
+}
+
+.map-live {
+    width: 500px;
+    height: 400px;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+#map-head {
+    border-left: 5px solid var(--primary-bg-blue);
+    width: 110px;
+    font-size: 24px;
+    height: 40px;
+    padding-left: 8px;
+}
+
+.map-image {
+    width: 400px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--form-bg);
+}
+
+.map-image img {
+    width: 500;
+    height: 243;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.map-image a {
+    text-decoration: none;
+    width: fit-content;
+    position: relative;
+    margin-bottom: 10px;
+    color: var(--primary-bg-blue);
+    padding-left: 10px;
+}
+
+.map-image p {
+    color: black;
+    padding-left: 10px;
+}
+
+.map-image a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--primary-bg-blue);
+    transition: width 0.3s ease-in;
+}
+
+.map-image a:hover::after {
+    width: 100%;
+}

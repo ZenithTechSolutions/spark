@@ -1,0 +1,71 @@
+.speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--black);
+}
+
+.speakers h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: var(--spacing-medium) 0;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-large);
+    padding: var(--spacing-medium) 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.1);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.box img {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    margin: var(--spacing-small);
+    object-fit: cover;
+}
+
+.box_content {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    padding: var(--spacing-small);
+}
+
+.box h2 {
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    padding: var(--spacing-small);
+}
+
+.box p {
+    font-size: var(--font-size-small);
+    font-weight: 400;
+    padding: var(--spacing-small);
+}

@@ -1,0 +1,70 @@
+.about_container {
+  margin: 25px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about_institution {
+  padding: var(--spacing-medium) var(--spacing-large);
+  gap: var(--spacing-medium);
+}
+
+.about_container h1 {
+  font-size: var(--font-size-heading);
+  font-weight: 800;
+  border-left: 4px solid var(--primary-bg-blue);
+  padding: var(--spacing-small);
+  color: var(--black);
+}
+
+.about_container p {
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  padding: var(--spacing-small);
+  text-align: justify;
+  color: var(--black);
+}
+
+.about_container p span {
+  font-weight: 700;
+}
+
+.about_logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.logo {
+  gap: 12px;
+  width: 105px;
+  text-align: center;
+}
+
+.logo p {
+  text-align: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.logo p {
+  font-size: var(--font-size-small);
+}
+
+hr {
+  height: 2.5px;
+  background-color: var(--copyright-color);
+  margin: var(--spacing-large);
+}
+
+.about_spark,
+.about_ece,
+.about_eee {
+  padding: var(--spacing-medium) var(--spacing-large);
+  gap: var(--spacing-medium);
+}

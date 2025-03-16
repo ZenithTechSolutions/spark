@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+  --main-font: "Poppins", sans-serif;
+  --primary-bg-blue: #1b345f;
+  --text-color: #ffffff;
+  --secondary-color: #ffffffba;
+  --copyright-color: #bdc3c7;
+  --linkedin-color: #0077b5;
+  --mail-colour: #FBBC05;
+  --twitter-color: #1DA1F2;
+  --phone-color: #25D366;
+  --font-family: "Poppins", sans-serif;
+  --font-size-main: clamp(1.4rem, 2.4vw, 2rem);
+  --font-size-heading: clamp(1rem, 2vw, 1.2rem);
+  --font-size-base: clamp(0.8rem, 1vw, 1rem);
+  --font-size-small: clamp(0.6rem, 1vw, 0.8rem);
+  --logo-width: 140px;
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+  --white: #fff;
+  --form-bg: #F3F2EF;
+  --background-color: #f9f9f9;
+  --card-background-color: #d1d9e6;
+  --primary-color: #1b345f;
+  --primary-green: #1b924b;
+  --secondary-background-color: #d1e7dd;
+  --main-font-family: "Poppins", sans-serif;
+  --main-font-size: 14px;
+  --form-bg: #F3F2EF;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--white);
+  font-family: var(--main-font);
+  line-height: 1.6;
+  background-color: #F3F2EF;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: var(--primary-bg-blue);
+  color: var(--white);
+}

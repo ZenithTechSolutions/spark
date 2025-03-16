@@ -1,0 +1,25 @@
+.plagiarism_cointainer {
+    color: var(--black);
+    width: 95vw;
+    margin: 25px auto;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.heading {
+    padding: var(--spacing-small);
+    font-size: var(--font-size-heading);
+    font-weight: 800;
+    border-left: 4px solid var(--primary-bg-blue);
+    gap: var(--spacing-small);
+    margin-bottom: 20px;
+}
+
+.span {
+    font-weight: 800;
+    text-align: center;
+}
