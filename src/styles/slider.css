@@ -95,7 +95,6 @@
 
 .viewall-button {
     cursor: pointer;
-    text-decoration: none;
     color: var(--background-color);
     background-color: var(--primary-color);
     padding: 15px 20px;
@@ -103,7 +102,6 @@
     transition: all 0.3s ease;
     font-size: 0.9em;
     font-weight: 500;
-    border: none;
 }
 
 .viewall-button:hover {
