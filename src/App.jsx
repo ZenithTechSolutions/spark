@@ -10,6 +10,7 @@ import Committees from './pages/committees'
 import Plagiarism from './pages/plagiarism';
 import Explore from './pages/explore';
 import Guidelines from './pages/guidelines';
+import Accommodation from './pages/accommodation'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/Guidelines' element={<Guidelines />} />
         <Route path='/Contact-Us' element={<Contact />} />
         <Route path='/Explore' element={<Explore />} />
+        <Route path='/Accommodation' element={<Accommodation />} />
       </Routes >
       <Footer />
     </>

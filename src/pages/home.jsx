@@ -9,10 +9,10 @@ function Home() {
       <div className="main_container">
         <div className="container">
           <div className="container-text">
-            <p>Date : 15 July 2025 and 16 July 2025</p>
-            <h1>
+            <h1>Conference Date : 18 July 2025</h1>
+            <h2>
               International Conference on Smart Systems, Power Electronics, Artificial Intelligence, Robotics, and Knowledge Engineering
-            </h1>
+            </h2>
             <p>
               Department of Electrical and Electronics Engineering [EEE] and Electronics and Communication Engineering [ECE]
             </p>

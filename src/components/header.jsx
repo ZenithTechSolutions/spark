@@ -34,7 +34,7 @@ function Header() {
                         <div className="dropdown">
                             <Link to='/Explore'>Explore Tamil Nadu</Link>
                             <Link >Conference Venue</Link>
-                            <Link >Accomodation</Link>
+                            <Link to='/Accommodation'>Accomodation</Link>
                         </div>
                     </li>
                     <li className='dropdown-container'>

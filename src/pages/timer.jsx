@@ -2,7 +2,7 @@ import '../styles/timer.css';
 import React, { useState, useEffect } from "react";
 
 function Countdown() {
-  const [targetDate, setTargetDate] = useState(new Date("2025-05-31T23:59:59").getTime());
+  const [targetDate, setTargetDate] = useState(new Date("2025-07-18T00:00:00").getTime());
 
   const flipAllCards = (time) => {
     const seconds = Math.floor(time % 60);

@@ -152,28 +152,28 @@ function Call() {
                             <div class="timeline-icon"><FaPaperPlane /></div>
                             <div class="timeline-content">
                                 <strong>Paper Submission Deadline</strong>
-                                <p>June 15, 2025</p>
+                                <p>May 31, 2025</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-icon"><FaBell /></div>
                             <div class="timeline-content">
-                                <strong>Paper Acceptance</strong>
-                                <p>June 30, 2025</p>
+                                <strong>Notification of Acceptance</strong>
+                                <p>June 10, 2025</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-icon"><FaCamera /></div>
                             <div class="timeline-content">
-                                <strong>Paper Submission</strong>
-                                <p>July 20, 2025</p>
+                                <strong>Camera-Ready Submission</strong>
+                                <p>July 18, 2025</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-icon"><FaCalendarMinus /></div>
                             <div class="timeline-content">
-                                <strong>Conference Dates</strong>
-                                <p>August 20-22, 2025</p>
+                                <strong>Conference Date</strong>
+                                <p>July 18, 2025</p>
                             </div>
                         </div>
                     </div>

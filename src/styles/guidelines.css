@@ -1,0 +1,77 @@
+.Guidelines_container {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 40px 60px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Guidelines_container p{
+    text-align: justify;
+}
+
+.Line1 {
+    font-size: var(--font-size-heading);
+    font-weight: 800;
+    border-left: 4px solid var(--primary-bg-blue);
+    padding: var(--spacing-small);
+    color: var(--black);
+}
+
+.Line2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 0px 10px 0px 10px;
+    font-weight: 400;
+}
+
+.Line3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.Line4 {
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#button {
+    margin-bottom: 35px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: #1b345f;
+    color: #ffffff;
+    cursor: pointer;
+    width: 300px;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+
+#button:hover {
+    background-color: #d1d9e6;
+    color: #1b345f;
+}
+
+.Line5 {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #1b345f;
+    font-weight: 600;
+}
+
+span {
+    font-weight: 700;
+}
+
+.Line6 {
+    margin-right: 25px;
+    margin-top: 10px;
+    padding: 0px 0px 40px 0px;
+}
