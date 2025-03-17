@@ -1,6 +1,5 @@
 {
-  "homepage": "https://spark-three-orcin.vercel.app/Home",
-  "name": "spark-test",
+  "name": "spark",
   "private": true,
   "version": "0.0.0",
   "type": "module",

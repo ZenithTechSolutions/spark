@@ -110,7 +110,6 @@ function Contact() {
                     </a>
                 </div>
             </div>
-            <hr />
         </div>
     );
 }

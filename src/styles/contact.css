@@ -22,6 +22,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 25px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .center-text {
@@ -142,7 +147,6 @@ input[type="submit"]:hover {
     gap: 50px;
     align-items: center;
 }
-
 
 .map {
     display: flex;
