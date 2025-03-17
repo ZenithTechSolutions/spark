@@ -3,7 +3,7 @@
     max-width: 1536px;
     position: relative;
     border-radius: 6px;
-    height: 400px;
+    min-height: 500px;
     margin  : 5rem;
     overflow: hidden;
     mask-image: linear-gradient(to right,
@@ -41,7 +41,6 @@
 .wrapper:hover .item {
     animation-play-state: paused;
 }
-
 .wrapper:hover .item:hover {
     transform: scale(1.1);
     z-index: 1;
