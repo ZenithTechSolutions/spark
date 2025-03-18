@@ -60,7 +60,7 @@
   object-fit: cover;
 }
 
-hr {
+.main_container hr {
   height: 2.5px;
   background-color: var(--copyright-color);
   margin: var(--spacing-large);
