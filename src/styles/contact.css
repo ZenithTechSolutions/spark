@@ -123,15 +123,16 @@ input[type="submit"]:hover {
 
 .git-head {
     border-bottom: 5px solid var(--primary-bg-blue);
-    width: 165px;
-    font-size: 24px;
+    width:fit-content;
     height: 45px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 10px;
 }
-
+.git-head h1{
+    font-size: 30px;
+}
 #git-head-span {
     padding-left: 6px;
     font-size: 24px;

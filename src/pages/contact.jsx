@@ -74,7 +74,7 @@ function Contact() {
             <hr />
             <div className="get-in-touch">
                 <div className="get-in-touch-info">
-                    <p className="git-head"> Get in  <span id="git-head-span"> Touch</span></p>
+                    <p className="git-head"> <h1>Get in</h1>  <span id="git-head-span"> Touch</span></p>
                     <p>Get in touch with an academic advisor at KPR Institute of Engineering and Technology with any questions you have about programs, applications, curriculum, and important dates.</p>
                 </div>
                 <div className="get-in-touch-contact">
