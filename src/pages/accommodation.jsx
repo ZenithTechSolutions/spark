@@ -22,7 +22,7 @@ function Accommodation() {
                         to the conference venue and other campus amenities. Staying on campus allows attendees to immerse themselves
                         in the conference experience while enjoying a vibrant academic environment.
                     </p>
-                    <p>For hostel stay details, Contact +91 94438 39525 / +91 96554 45823 or Email spark2025@kpriet.ac.in.</p>
+                    <p>For hostel stay details, Contact +91 94438 39525 / +91 96554 45823 or Email spark2025@kpriet.ac.in</p>
                 </div>
                 <hr />
                 <div className="accommodation-hotel">
@@ -39,7 +39,8 @@ function Accommodation() {
                         <img src={leMeridienImg} alt="Le Meridien, Coimbatore" />
                         <div className="accommodation-hotel-content">
                             <h3>Le Meridien, Coimbatore</h3>
-                            <p>★★★★★</p>
+                            <p>⭐⭐⭐⭐⭐ </p>
+
                             <p>9 km from KPRIET</p>
                         </div>
                     </div>
@@ -48,7 +49,7 @@ function Accommodation() {
                         <img src={fairfieldImg} alt="Fairfield by Marriott, Coimbatore" />
                         <div className="accommodation-hotel-content">
                             <h3>Fairfield by Marriott, Coimbatore</h3>
-                            <p>★★★★</p>
+                            <p>⭐⭐⭐⭐</p>
                             <p>14 km from KPRIET</p>
                         </div>
                     </div>
@@ -57,7 +58,7 @@ function Accommodation() {
                         <img src={radissonImg} alt="Radisson Blu Hotel, Coimbatore" />
                         <div className="accommodation-hotel-content">
                             <h3>Radisson Blu Hotel, Coimbatore</h3>
-                            <p>★★★★★</p>
+                            <p>⭐⭐⭐⭐⭐</p>
                             <p>19 km from KPRIET</p>
                         </div>
                     </div>
@@ -66,7 +67,7 @@ function Accommodation() {
                         <img src={residencyImg} alt="The Residency Towers, Coimbatore" />
                         <div className="accommodation-hotel-content">
                             <h3>The Residency Towers, Coimbatore</h3>
-                            <p>★★★★★</p>
+                            <p>⭐⭐⭐⭐⭐</p>
                             <p>20 km from KPRIET</p>
                         </div>
                     </div>
@@ -75,7 +76,7 @@ function Accommodation() {
                         <img src={vivantaImg} alt="Vivanta, Coimbatore" />
                         <div className="accommodation-hotel-content">
                             <h3>Vivanta, Coimbatore</h3>
-                            <p>★★★★★</p>
+                            <p>⭐⭐⭐⭐⭐</p>
                             <p>20 km from KPRIET</p>
                         </div>
                     </div>
@@ -83,8 +84,8 @@ function Accommodation() {
                     <div className="accommodation-hotel1">
                         <img src={welcomeHotelImg} alt="Welcome hotel By ITC Hotels, Coimbatore" />
                         <div className="accommodation-hotel-content">
-                            <h3>Welcome hotel By ITC Hotels, Coimbatore</h3>
-                            <p>★★★★★</p>
+                            <h3>Welcomhotel, Coimbatore</h3>
+                            <p>⭐⭐⭐⭐⭐</p>
                             <p>21 km from KPRIET</p>
                         </div>
                     </div>
