@@ -23,7 +23,7 @@ function Call() {
                             <img src={img1} alt="Artificial Intelligence & Machine Learning" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 1. Artificial Intelligence & Machine Learning</h2>
+                            <h2>Track 1 : Artificial Intelligence & Machine Learning</h2>
                             <ul>
                                 <li>Deep Learning and Neural Networks</li>
                                 <li>AI for Edge Computing and IoT</li>
@@ -39,7 +39,7 @@ function Call() {
                             <img src={img2} alt="Embedded Systems & Internet of Things (IoT)" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 2. Embedded Systems & Internet of Things (IoT)</h2>
+                            <h2>Track 2 : Embedded Systems & Internet of Things (IoT)</h2>
                             <ul>
                                 <li>Embedded AI and TinyML</li>
                                 <li>IoT for Smart Healthcare and Industry 4.0</li>
@@ -54,7 +54,7 @@ function Call() {
                             <img src={img3} alt="Electronics & VLSI" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 3. Electronics & VLSI</h2>
+                            <h2>Track 3 : Electronics & VLSI</h2>
                             <ul>
                                 <li>Low-Power VLSI and Nanoelectronics</li>
                                 <li>FPGA-Based System Design</li>
@@ -69,7 +69,7 @@ function Call() {
                             <img src={img4} alt="Computer Science & Cybersecurity" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 4. Computer Science & Cybersecurity</h2>
+                            <h2>Track 4 : Computer Science & Cybersecurity</h2>
                             <ul>
                                 <li>Cloud and Edge Computing Architectures</li>
                                 <li>Blockchain for Secure Transactions</li>
@@ -84,7 +84,7 @@ function Call() {
                             <img src={img5} alt="Power Systems & Renewable Energy" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 5. Power Systems & Renewable Energy</h2>
+                            <h2>Track 5 : Power Systems & Renewable Energy</h2>
                             <ul>
                                 <li>Smart Grids and Energy Storage Technologies</li>
                                 <li>AI for Renewable Energy Optimization</li>
@@ -99,7 +99,7 @@ function Call() {
                             <img src={img6} alt="Signal Processing & Communication Technologies" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 6. Signal Processing & Communication Technologies</h2>
+                            <h2>Track 6 : Signal Processing & Communication Technologies</h2>
                             <ul>
                                 <li>5G, 6G, and Beyond: Emerging Technologies</li>
                                 <li>AI-Enabled Wireless Communication</li>
@@ -114,7 +114,7 @@ function Call() {
                             <img src={img7} alt="Control Systems & Robotics" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 7. Control Systems & Robotics</h2>
+                            <h2>Track 7 : Control Systems & Robotics</h2>
                             <ul>
                                 <li>Autonomous Systems and Drones</li>
                                 <li>AI-Based Industrial Automation</li>
@@ -129,7 +129,7 @@ function Call() {
                             <img src={img8} alt="Smart and Sustainable Technologies" />
                         </div>
                         <div class="topic-content">
-                            <h2>Track 8. Smart and Sustainable Technologies</h2>
+                            <h2>Track 8 : Smart and Sustainable Technologies</h2>
                             <ul>
                                 <li>AI for Climate Change Mitigation</li>
                                 <li>Digital Transformation for Sustainable Development</li>

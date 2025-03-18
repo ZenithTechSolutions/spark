@@ -7,14 +7,17 @@
     font-family: "Poppins", sans-serif;
 }
 .total{
+    color: black;
     background-color: #ffffff;
-    margin: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .grid-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 0px 20px 0px;
+    padding: 40px 60px;
 }
 .image {
     display: grid;
