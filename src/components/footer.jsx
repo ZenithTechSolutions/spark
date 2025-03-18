@@ -20,7 +20,7 @@ function Footer() {
                     <ul>
                         <li><Link to='/'>Registration</Link></li>
                         <li><Link to='/'>Speakers</Link></li>
-                        <li><Link to='/'>Call for Papers</Link></li>
+                        <li><Link to='/Call-for-Papers'>Call for Papers</Link></li>
                         <li><Link to='/'>Upcoming Sessions</Link></li>
                         <li><Link to='/'>Workshop</Link></li>
                     </ul>
