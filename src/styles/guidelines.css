@@ -13,11 +13,11 @@
 }
 
 .Line1 {
-    font-size: var(--font-size-heading);
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 700;
     border-left: 4px solid var(--primary-bg-blue);
-    padding: var(--spacing-small);
-    color: var(--black);
+    padding: 0 0 0 10px;
+    color: var(--primary-bg-blue);
 }
 
 .Line2 {
