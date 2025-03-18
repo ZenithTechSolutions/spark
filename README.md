@@ -11,7 +11,7 @@ A simple conference website built using React.js, hosted on GitHub, and deployed
 
   [Setup-Instructions](#Setup-Instructions)
 
-  [Contributors](#Contributors)
+  [Team-Members](#Team-Members)
 
   [Live-Preview](#Live-Preview)
 
@@ -55,7 +55,8 @@ A simple conference website built using React.js, hosted on GitHub, and deployed
 
 #### Open the project in your browser at:
 ``http://localhost:5173``
-## Contributors
+
+## Team-Members
 
   [Sadhur](https://github.com/Sadhurnithy)
 
