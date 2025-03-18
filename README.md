@@ -58,8 +58,11 @@ A simple conference website built using React.js, hosted on GitHub, and deployed
 ## Contributors
 
   [Sadhur](https://github.com/Sadhurnithy)
+
   [Pradeep](https://github.com/Pradeep5377)
+
   [Giri Prasath](https://github.com/Giriprasath1726)
+  
   [Vishal Kannan](https://github.com/VISHALKANNAN070)
 
 
