@@ -62,7 +62,7 @@ A simple conference website built using React.js, hosted on GitHub, and deployed
   [Pradeep](https://github.com/Pradeep5377)
 
   [Giri Prasath](https://github.com/Giriprasath1726)
-  
+
   [Vishal Kannan](https://github.com/VISHALKANNAN070)
 
 
@@ -70,3 +70,7 @@ A simple conference website built using React.js, hosted on GitHub, and deployed
 
 The website is deployed on Vercel. You can view it here:
 [Live Preview](https://spark-three-orcin.vercel.app/)
+
+## License 
+
+Copyright © 2025 KPR Institute of Engineering and Technology Developed by [Team-ZENITH] ()
