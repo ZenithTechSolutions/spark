@@ -56,10 +56,10 @@
   font-size: var(--font-size-small);
 }
 
-.about_container hr {
+hr {
   height: 2.5px;
   background-color: var(--copyright-color);
-  margin: 32px;
+  margin: var(--spacing-large);
 }
 
 .about_spark,
