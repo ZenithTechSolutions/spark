@@ -1,10 +1,13 @@
 p {
   color: var(--primary-bg-blue);
 }
+
 .navbar span{
   font-size: 15px;
   padding-left: 2px;
+  color: var(--white);
 }
+
 li {
   list-style: none;
 }
