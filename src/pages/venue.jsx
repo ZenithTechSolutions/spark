@@ -1,4 +1,9 @@
 import '../styles/venue.css';
+import venue1 from '../assets/venue1.jpg'
+import venue2 from '../assets/venue2.jpg'
+import venue3 from '../assets/venue3.jpg'
+import venue4 from '../assets/venue4.jpg'
+import venue5 from '../assets/venue5.jpg'
 function Venue(){
     return(
         <div class="total">
@@ -9,19 +14,19 @@ function Venue(){
         <div class="grid-container">
             <div class="image">
                 <div class="img1">
-                    <img src="./Images/venue1.jpg" alt="Image 1"/>
+                    <img src={venue1} alt="Image 1"/>
                 </div>
                 <div class="img2">
-                    <img src="./Images/venue2.jpg" alt="Image 2"/>
+                    <img src={venue2} alt="Image 2"/>
                 </div>
                 <div class="img3">
-                    <img src="./Images/venue3.jpg" alt="Image 3"/>
+                    <img src={venue3} alt="Image 3"/>
                 </div>
                 <div class="img4">
-                    <img src="./Images/venue4.jpg" alt="Image 4"/>
+                    <img src={venue4} alt="Image 4"/>
                 </div>
                 <div class="img5">
-                    <img src="./Images/venue5.jpg" alt="Image 5"/>
+                    <img src={venue5} alt="Image 5"/>
                 </div>
             </div>
         </div>
