@@ -20,7 +20,7 @@ function Header() {
                     <li><Link to='/Home'>Home</Link></li>
                     <li><Link to='/About-Us'>About Us</Link></li>
                     <li className='dropdown-container'>
-                        Committee &#x25BC;
+                        Committee   <span> &#x2B9F;</span>
                         <div className='dropdown'>
                             <Link to='/Committees'>committees</Link>
                             <Link >Speacial Technical Committees</Link>
@@ -30,7 +30,7 @@ function Header() {
                     <li><Link to='/Call-for-papers'>Call for Papers</Link></li>
                     <li><Link to='/Speakers'>Speakers</Link></li>
                     <li className='dropdown-container'>
-                        Attend &#x25BC;
+                        Attend  <span>&#x2B9F;</span>
                         <div className="dropdown">
                             <Link to='/Explore'>Explore Tamil Nadu</Link>
                             <Link >Conference Venue</Link>
@@ -38,7 +38,7 @@ function Header() {
                         </div>
                     </li>
                     <li className='dropdown-container'>
-                        Registration &#x25BC;
+                        Registration <span>&#x2B9F;</span>
                         <div className='dropdown'>
                             <Link >Register</Link>
                             <Link >Download Brochure</Link>
