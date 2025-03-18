@@ -8,6 +8,7 @@
 }
 .total{
     background-color: #ffffff;
+    margin: 20px;
 }
 .grid-container{
     display: flex;
