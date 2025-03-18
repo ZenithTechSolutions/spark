@@ -64,8 +64,8 @@ function Contact() {
                     </form>
                 </div>
                 <div className="form-content">
-                    <p style={{ paddingLeft: "160px" }}> <span> Ask how we can Help! </span></p>
-                    <p style={{ textAlign: "center" }}>Please fill the provided form, and we will get back to you as soon as possible</p>
+                <p style={{ paddingLeft: "160px" }}> <span> Ask how we can Help! </span></p>
+                    <p>Please fill the provided form, and we will get back to you as soon as possible</p>
                     <p><span>Your Email </span>– Share your email with us so we can reach out to you with the right support and updates! Stay connected effortlessly.</p>
                     <p><span>Subject</span> – Help us understand your query better by selecting the right subject. This ensures a quick and precise response from our team.</p>
                     <p><span>Message</span> – Tell us what’s on your mind! Whether it’s a question, feedback, or collaboration, drop your message, and we’ll get back to you soon.</p>
@@ -74,7 +74,7 @@ function Contact() {
             <hr />
             <div className="get-in-touch">
                 <div className="get-in-touch-info">
-                    <p className="git-head"> <h1>Get in</h1>  <span id="git-head-span"> Touch</span></p>
+                    <p className="git-head"> Get in  <span id="git-head-span"> Touch</span></p>
                     <p>Get in touch with an academic advisor at KPR Institute of Engineering and Technology with any questions you have about programs, applications, curriculum, and important dates.</p>
                 </div>
                 <div className="get-in-touch-contact">

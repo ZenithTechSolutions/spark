@@ -8,39 +8,25 @@
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-.Guidelines_container p{
-    text-align: justify;
-}
 
-.Line1 {
-    font-size: 24px;
-    font-weight: 700;
+.guideline-h {
+    font-size: var(--font-size-small);
+    font-weight: 800;
     border-left: 4px solid var(--primary-bg-blue);
-    padding: 0 0 0 10px;
-    color: var(--primary-bg-blue);
+    padding: var(--spacing-small);
+    color: var(--black);
 }
 
-.Line2 {
+.guideline-p {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1rem;
     padding: 0px 10px 0px 10px;
     font-weight: 400;
+    text-align: justify;
 }
 
-.Line3 {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 1rem;
-}
-
-.Line4 {
-    margin-bottom: 25px;
-    margin-right: 25px;
-}
-
-#button {
+.guideline-btn {
     margin-bottom: 35px;
     padding: 15px 20px;
     border-radius: 25px;
@@ -53,25 +39,11 @@
     border: none;
 }
 
-#button:hover {
+.guideline-btn:hover {
     background-color: #d1d9e6;
     color: #1b345f;
 }
 
-.Line5 {
-    font-size: 1rem;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    border-left: 4px solid #1b345f;
-    font-weight: 600;
-}
-
-.Guidelines_container span {
+.guideline-p span {
     font-weight: 700;
-}
-
-.Line6 {
-    margin-right: 25px;
-    margin-top: 10px;
-    padding: 0px 0px 40px 0px;
 }

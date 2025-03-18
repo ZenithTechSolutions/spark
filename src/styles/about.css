@@ -12,11 +12,11 @@
 }
 
 .about_container h1 {
-  font-size: var(--font-size-heading);
-  font-weight: 800;
+  font-size: 24px;
   border-left: 4px solid var(--primary-bg-blue);
-  padding: var(--spacing-small);
-  color: var(--black);
+  padding: 0 0 0 10px;
+  margin-bottom: 10px;
+  color: var(--primary-bg-blue);
 }
 
 .about_container p {
@@ -25,6 +25,7 @@
   padding: var(--spacing-small);
   text-align: justify;
   color: var(--black);
+  margin: 0 0 var(--spacing-large) 0;
 }
 
 .about_container p span {
@@ -41,6 +42,7 @@
   gap: 12px;
   width: 105px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .logo p {
@@ -56,10 +58,10 @@
   font-size: var(--font-size-small);
 }
 
-.about_container hr {
+hr {
   height: 2.5px;
   background-color: var(--copyright-color);
-  margin: var(--spacing-large);
+  margin: 0;
 }
 
 .about_spark,

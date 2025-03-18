@@ -15,6 +15,8 @@
 
 #acc-p {
     color: black;
+    text-align: justify;
+
 }
 
 .accommodation-hostel {
@@ -36,6 +38,7 @@
 }
 
 .accommodation-hostel p {
+    text-align: justify;
     padding-top: 20px ;
     color: black;
 }
@@ -126,28 +129,10 @@
     cursor: pointer;
 }
 
-.accommodation-main hr {
+hr {
     height: 2.5px;
     background-color: #33333380;
     margin: 32px;
     width: 100%;
     margin-top: 100px;
-}
-
-@media (max-width: 768px) {
-    .accommodation-hotel {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .accommodation-hotel1 {
-        width: 100%;
-        height: 300px;
-    }
-
-    .accommodation-hotel1 img {
-        width: 100%;
-        height: 300px;
-    }
-    
 }
