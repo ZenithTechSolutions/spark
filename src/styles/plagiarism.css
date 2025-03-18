@@ -11,12 +11,13 @@
 }
 
 .heading {
-    padding: var(--spacing-small);
-    font-size: var(--font-size-heading);
-    font-weight: 800;
+    padding: 0 0 0 10px;
+    font-size: 23px;
+    font-weight: 700;
     border-left: 4px solid var(--primary-bg-blue);
     gap: var(--spacing-small);
     margin-bottom: 20px;
+    color: var(--primary-bg-blue);
 }
 
 .span {
