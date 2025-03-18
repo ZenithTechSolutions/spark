@@ -95,8 +95,11 @@ a:visited {
 
 .dropdown a:hover {
   background-color: var(--copyright-color);
+  
 }
-
+.dropdown-container:hover{
+  cursor: pointer;
+}
 .dropdown-container:hover .dropdown {
   display: flex;
   flex-direction: column;

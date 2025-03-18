@@ -117,6 +117,7 @@
 
 .accommodation-hotel-content p {
     color: var(--white);
+    padding: 0;
 }
 
 .accommodation-hotel1:hover {

@@ -66,7 +66,7 @@ function Accommodation() {
                     <div className="accommodation-hotel1">
                         <img src={residencyImg} alt="The Residency Towers, Coimbatore" />
                         <div className="accommodation-hotel-content">
-                            <h3>The Residency Towers, Coimbatore</h3>
+                            <h3>Residency Towers, Coimbatore</h3>
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>20 km from KPRIET</p>
                         </div>
