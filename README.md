@@ -1,77 +1,12 @@
+# React + Vite
 
-# Spark'25
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-A simple conference website built using React.js, hosted on GitHub, and deployed with Vercel. It includes event details, schedules, speaker info, and a registration form.
+Currently, two official plugins are available:
 
-### Table of Contents
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-  [Features](#Features)
+## Expanding the ESLint configuration
 
-  [Technologies-Used](#Technologies-Used)
-
-  [Setup-Instructions](#Setup-Instructions)
-
-  [Team-Members](#Team-Members)
-
-  [Live-Preview](#Live-Preview)
-
-  [License](#License)
-
-
-## Features
-- Speaker and schedule details
- 
-- Registration form for participants
- 
-- Contact section for inquiries
-
-
-
-## Technologies-Used
-- React.js
-
-- GitHub for version control
-
-- Vercel for deployment
-
-- HTML5, CSS3, JavaScript
-
-## Setup-Instructions
-#### Clone the repository:
-
-``git clone https://github.com/vickyy234/spark.git``
-
-#### Navigate to the project directory:
-
-``cd spark``
-
-#### Install dependencies:
-
-``npm install``
-
-#### Start the development server:
-
-``npm run dev``
-
-#### Open the project in your browser at:
-``http://localhost:5173``
-
-## Team-Members
-
-  [Sadhur](https://github.com/Sadhurnithy)
-
-  [Pradeep](https://github.com/Pradeep5377)
-
-  [Giri Prasath](https://github.com/Giriprasath1726)
-
-  [Vishal Kannan](https://github.com/VISHALKANNAN070)
-
-
-## Live Preview
-
-The website is deployed on Vercel. You can view it here:
-[Live Preview](https://spark-three-orcin.vercel.app/)
-
-## License 
-
-Copyright © KPR Institute of Engineering and Technology Developed by [Team-ZENITH]()
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -14,7 +14,7 @@ function Call() {
         <div class="callForPapers">
             <div class="callForPapers-content">
                 <div class="callForPapers-header">
-                    <h1>Call for Papers</h1>
+                    <h1>CALL FOR PAPERS</h1>
                     <p>Authors are invited to submit high-quality research papers aligned with the conference topics, including but not limited to:</p>
                 </div>
                 <div class="callForPapers-topics">

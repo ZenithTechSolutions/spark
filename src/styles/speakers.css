@@ -4,73 +4,81 @@
     align-items: center;
     color: var(--black);
     margin: 25px;
-    padding: 40px 60px;
+    padding: 50px 60px;
     background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .speakers h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
-    padding: var(--spacing-medium) 0;
+    color: var(--black);
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: var(--spacing-large);
-    padding: var(--spacing-medium) 0;
+    gap: 25px;
+    padding: 20px 0;
 }
 
 .box {
     display: flex;
     flex-direction: row;
-    width: 360px;
+    width: 420px;
     height: 180px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgba(128, 128, 128, 0.1);
-    box-shadow: var(--box-shadow);
-    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .box:hover {
     transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
 .box img {
-    width: 165px;
-    height: 165px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin: var(--spacing-small);
+    margin: 15px;
     object-fit: cover;
+    border: 3px solid var(--primary-bg-blue);
 }
 
 .box_content {
-    width: 180px;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 10px;
 }
 
-.box h1 {
-    font-size: var(--font-size-base);
+.box_content h2 {
+    font-size: 18px;
     font-weight: 600;
-    padding: var(--spacing-small);
+    color: var(--black);
+    margin-bottom: 5px;
 }
 
-.box h2 {
-    font-size: var(--font-size-base);
-    font-weight: 400;
-    padding: var(--spacing-small);
+.box_content h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 5px;
 }
 
-.box p {
-    font-size: var(--font-size-small);
-    font-weight: 400;
-    padding: var(--spacing-small);
+.box_content p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
 }
+

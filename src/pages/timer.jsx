@@ -70,9 +70,6 @@ function Countdown() {
   return (
     <div className="countdown-body">
       <div>
-        <div>
-          <h1 className="main-heading">COUNTDOWN</h1>
-        </div>
         <div className="countdown-container">
           {/* Days Section */}
           <div className="countdown-cards">

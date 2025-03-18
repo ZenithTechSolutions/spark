@@ -10,12 +10,6 @@ span {
     font-weight: 700;
 }
 
-p {
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-
 .contact_us-container {
     margin-top: 30px;
     display: flex;
@@ -28,7 +22,9 @@ p {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.contact_us-container-text p{
+    color: var(--black);
+}
 .center-text {
     text-align: center;
 }
@@ -47,7 +43,6 @@ p {
     width: 500px;
     height: 466px;
     display: flex;
-    align-items: flex-start;
     border-radius: 10px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
     padding: 16px 24px;
@@ -63,9 +58,11 @@ p {
     width: 500px;
     height: 409px;
     gap: 20px;
-
 }
 
+.form-content p{
+color: var(--black);
+}
 
 label {
     font-size: 1rem;
@@ -88,8 +85,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: var(--primary-bg-blue);
-    color: var(--white);
+    background-color: #d7c2cc;
+    color: var(--primary-bg-blue);
     font-size: 1rem;
     border-radius: 40px;
     border: none;
@@ -101,15 +98,16 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    color: var(--primary-color);
-    background-color: var(--card-background-color);
+    background-color: var(--form-bg);
+    color: var(--primary-bg-blue);
 }
 
 .get-in-touch {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 120px;
+    align-items: space-between;
+    width: 100%;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -120,8 +118,11 @@ input[type="submit"]:hover {
     text-align: left;
 
 }
-
+.get-in-touch-info p{
+    color: var(--black);
+}
 .git-head {
+    font-weight: 700;
     border-bottom: 5px solid var(--primary-bg-blue);
     width: 165px;
     font-size: 24px;
@@ -146,13 +147,15 @@ input[type="submit"]:hover {
     gap: 50px;
     align-items: center;
 }
-
+.contact p{
+    color: var(--black);
+}
 .map {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 120px;
     align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .map-live {
@@ -161,7 +164,9 @@ input[type="submit"]:hover {
     gap: 30px;
     margin-left: 60px;
 }
-
+.map-live p{
+    color: var(--black);
+}
 #map-head {
     border-left: 5px solid var(--primary-bg-blue);
     width: 110px;
@@ -197,4 +202,19 @@ input[type="submit"]:hover {
 .map-image p {
     color: black;
     padding-left: 10px;
+}
+
+.map-image a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--primary-bg-blue);
+    transition: width 0.3s ease-in;
+}
+
+.map-image a:hover::after {
+    width: 100%;
 }

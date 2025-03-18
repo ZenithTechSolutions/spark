@@ -2,6 +2,8 @@ import "../styles/home.css";
 import Countdown from "./timer";
 import Slider from "./slider";
 import conf1 from "../assets/conf-1.png";
+import Sidebar from './sidebar';
+
 
 function Home() {
   return (
@@ -17,12 +19,15 @@ function Home() {
               Department of Electrical and Electronics Engineering [EEE] and Electronics and Communication Engineering [ECE]
             </p>
           </div>
-          <img src={conf1} alt="" width='500px' />
+          <img src={conf1} alt="" />
         </div>
         <hr />
         <Slider />
         <hr />
-        <Countdown />
+        <div className="important">
+          <Countdown />
+          <Sidebar />
+        </div>
       </div>
     </>
   );

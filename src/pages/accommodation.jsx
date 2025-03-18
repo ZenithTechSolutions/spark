@@ -1,5 +1,5 @@
 import "../styles/accommodation.css";
-import hostelImg from "../assets/hostel.webp";
+import hostelImg from "../assets/hostel-bg.png";
 import leMeridienImg from "../assets/079319c7_z.webp";
 import fairfieldImg from "../assets/fairfield mariot.png";
 import radissonImg from "../assets/Raddisson blu.avif";

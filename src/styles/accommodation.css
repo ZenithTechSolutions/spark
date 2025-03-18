@@ -15,6 +15,8 @@
 
 #acc-p {
     color: black;
+    text-align: justify;
+
 }
 
 .accommodation-hostel {
@@ -36,6 +38,7 @@
 }
 
 .accommodation-hostel p {
+    text-align: justify;
     padding-top: 20px ;
     color: black;
 }
