@@ -11,6 +11,7 @@ import Plagiarism from './pages/plagiarism';
 import Explore from './pages/explore';
 import Guidelines from './pages/guidelines';
 import Accommodation from './pages/accommodation'
+import Venue from './pages/venue'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/Contact-Us' element={<Contact />} />
         <Route path='/Explore' element={<Explore />} />
         <Route path='/Accommodation' element={<Accommodation />} />
+        <Route path='/Venue' element={<Venue />} />
       </Routes >
       <Footer />
     </>

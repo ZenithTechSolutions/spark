@@ -74,4 +74,4 @@ The website is deployed on Vercel. You can view it here:
 
 ## License 
 
-Copyright © 2025 KPR Institute of Engineering and Technology Developed by [Team-ZENITH]()
+Copyright © KPR Institute of Engineering and Technology Developed by [Team-ZENITH]()

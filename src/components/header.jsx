@@ -33,7 +33,7 @@ function Header() {
                         Attend  <span>&#x2B9F;</span>
                         <div className="dropdown">
                             <Link to='/Explore'>Explore Tamil Nadu</Link>
-                            <Link >Conference Venue</Link>
+                            <Link to='/Venue' >Conference Venue</Link>
                             <Link to='/Accommodation'>Accomodation</Link>
                         </div>
                     </li>
