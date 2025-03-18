@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+total{
+    background-color: #ffffff;
+}
 .grid-container{
     display: flex;
     align-items: center;
