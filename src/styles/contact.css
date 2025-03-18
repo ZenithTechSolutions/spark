@@ -198,18 +198,3 @@ input[type="submit"]:hover {
     color: black;
     padding-left: 10px;
 }
-
-.map-image a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background-color: var(--primary-bg-blue);
-    transition: width 0.3s ease-in;
-}
-
-.map-image a:hover::after {
-    width: 100%;
-}
