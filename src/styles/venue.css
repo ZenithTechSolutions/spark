@@ -7,7 +7,6 @@
     font-family: "Poppins", sans-serif;
 }
 .total{
-    color: black;
     background-color: #ffffff;
     margin: 25px;
     border-radius: 10px;
@@ -73,6 +72,7 @@
 }
 span {
     font-weight: 700;
+    color: #000000;
 }
 .text {
     font-size: 1rem;
@@ -81,4 +81,5 @@ span {
 }
 p{
     padding: 0px 0px 25px 0px;
+    color: #000000;
 }
