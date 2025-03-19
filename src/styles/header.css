@@ -79,6 +79,7 @@
 .dropdown p {
   padding: var(--spacing-small) var(--spacing-medium);
   color: var(--primary-bg-blue);
+  white-space: nowrap;
 }
 
 .dropdown a:hover {

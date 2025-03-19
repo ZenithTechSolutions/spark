@@ -9,6 +9,11 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.Guidelines_container h1{
+    font-size: 24px ;
+    color: var(--primary-bg-blue);
+}
+
 .guideline-h {
     font-size: var(--font-size-small);
     border-left: 4px solid var(--primary-bg-blue);

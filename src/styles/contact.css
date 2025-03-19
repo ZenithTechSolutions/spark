@@ -88,9 +88,9 @@ input[type="submit"] {
     background-color: var(--primary-bg-blue);
     color: var(--white);
     font-size: 1rem;
-    border-radius: 40px;
+    border-radius: 10px;
     border: none;
-    width: 160px;
+    width: 140px;
     height: 50px;
     font-family: var(--main-font);
     cursor: pointer;
