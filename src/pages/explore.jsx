@@ -40,7 +40,7 @@ function Explore() {
                             <img src={vaalparai} alt="Valparai" />
                         </div>
                         <div className="place-details">
-                            <h2>Valparai - Serene Tea Plantations</h2>
+                            <h2>Valparai - The 7th Heaven</h2>
                             <p>A tranquil hill station in the Western Ghats, Valparai is a paradise for nature lovers.</p>
                             <ul>
                                 <li>Aliyar Dam - A beautiful reservoir with a park and boating options.</li>
