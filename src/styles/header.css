@@ -1,4 +1,4 @@
-/* Header Styles */
+
 .header {
   background: url("../assets/header_bg_1.png");
   color: var(--primary-bg-blue);
@@ -24,6 +24,7 @@
   width: 160px;
 }
 
+/* Navbar */
 .navbar {
   width: 100%;
   position: sticky;
@@ -31,7 +32,6 @@
   height: 60px;
   background-color: var(--primary-bg-blue);
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0 var(--spacing-large);
   z-index: 1000;
@@ -46,13 +46,13 @@
   align-items: center;
 }
 
-.navbar ul a,
-.navbar ul a:visited {
+.navbar ul a {
   color: var(--white);
   text-decoration: none;
   transition: text-decoration-color 0.3s ease, color 0.3s ease;
 }
 
+/* Dropdown */
 .dropdown-container {
   position: relative;
   cursor: pointer;
@@ -72,22 +72,20 @@
   flex-direction: column;
 }
 
-.dropdown p{
-  display: block;
+.dropdown.open {
+  display: flex;
+}
+
+.dropdown p {
   padding: var(--spacing-small) var(--spacing-medium);
   color: var(--primary-bg-blue);
-  white-space: nowrap;
 }
 
 .dropdown a:hover {
   background-color: var(--copyright-color);
 }
 
-.dropdown-container:hover .dropdown {
-  display: flex;
-  flex-direction: column;
-}
-
+/* Button */
 .btn a {
   color: var(--primary-bg-blue) !important;
   background-color: var(--white);
@@ -98,4 +96,76 @@
 
 .btn a:hover {
   background-color: var(--copyright-color);
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  top: 18px;
+  left: 20px;
+  color: var(--white);
+  z-index: 1100;
+}
+
+/* Navbar - Mobile */
+@media (max-width: 1150px) {
+  .hamburger {
+    display: block;
+  }
+
+.header_content{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  width: 100vw;
+} 
+.header_content p{
+  width: 420px;
+  padding-left: 20px;
+}
+ .header_content img{
+  position: absolute;
+    right: 30px;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--primary-bg-blue);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    padding-top: 80px;
+  }
+
+  .navbar.open {
+    transform: translateX(0);
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--spacing-medium);
+    gap: var(--spacing-medium);
+  }
+
+  .dropdown {
+    position: static;
+    display: none;
+  }
+
+  .dropdown.open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn a {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
 }
