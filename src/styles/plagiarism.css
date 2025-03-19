@@ -50,12 +50,8 @@
     font-size: 1.2rem;
     text-align: left;
     margin-bottom: 20px;
-    /* border-left: 4px solid var(--primary-bg-blue); */
-    /* text-decoration: underline; */
     color: var(--primary-bg-blue);
-    /* padding: 0 0 0 10px; */
 }
-
 
 @media (max-width: 660px) {
     .plagiarism_cointainer {
