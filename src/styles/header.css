@@ -1,27 +1,4 @@
-p {
-  color: var(--primary-bg-blue);
-}
-
-.navbar span{
-  font-size: 15px;
-  padding-left: 2px;
-  color: var(--white);
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  color: var(--white);
-  transition: text-decoration-color 0.3s ease, color 0.3s ease;
-  text-decoration: none;
-}
-
-a:visited {
-  color: var(--white);
-}
-
+/* Header Styles */
 .header {
   background: url("../assets/header_bg_1.png");
   color: var(--primary-bg-blue);
@@ -50,7 +27,7 @@ a:visited {
 .navbar {
   width: 100%;
   position: sticky;
-  top: 0px;
+  top: 0;
   height: 60px;
   background-color: var(--primary-bg-blue);
   display: flex;
@@ -64,12 +41,21 @@ a:visited {
 .navbar ul {
   display: flex;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 100%;
   gap: var(--spacing-medium);
+  align-items: center;
+}
+
+.navbar ul a,
+.navbar ul a:visited {
+  color: var(--white);
+  text-decoration: none;
+  transition: text-decoration-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-container {
   position: relative;
+  cursor: pointer;
 }
 
 .dropdown {
@@ -86,7 +72,7 @@ a:visited {
   flex-direction: column;
 }
 
-.dropdown a {
+.dropdown p{
   display: block;
   padding: var(--spacing-small) var(--spacing-medium);
   color: var(--primary-bg-blue);
@@ -95,18 +81,15 @@ a:visited {
 
 .dropdown a:hover {
   background-color: var(--copyright-color);
-  
 }
-.dropdown-container:hover{
-  cursor: pointer;
-}
+
 .dropdown-container:hover .dropdown {
   display: flex;
   flex-direction: column;
 }
 
 .btn a {
-  color: var(--primary-bg-blue);
+  color: var(--primary-bg-blue) !important;
   background-color: var(--white);
   border-radius: 20px;
   padding: var(--spacing-small) var(--spacing-medium);

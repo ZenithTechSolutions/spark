@@ -23,18 +23,19 @@
 .callForPapers-header {
     align-items: flex-start;
     width: 100%;
+    font-size: var(--font-size-small);
+
 }
 
 .callForPapers-header h1 {
     border-left: 5px solid var(--primary-color);
     padding-left: 10px;
-    font-size: 1.5em;
-    color: var(--primary-color);
+    color: var(--black);
 }
 
 .callForPapers-header p {
     margin-top: 10px;
-    font-size: 1em;
+    font-size: 1rem;
     color: #555;
 }
 
@@ -84,7 +85,7 @@
 
 .topic-content h2 {
     font-size: 1.2em;
-    color: var(--primary-color);
+    color: black;
     margin-bottom: 10px;
 }
 

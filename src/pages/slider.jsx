@@ -53,7 +53,7 @@ function slider() {
                 </div>
             </div>
             <div class="slider-viewall">
-                <Link to='/Speakers' className="viewall-button">View All</Link>
+                <Link to='/Speakers' className="viewall-button"><p>View All</p></Link>
             </div>
         </>
     )

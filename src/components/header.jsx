@@ -22,8 +22,8 @@ function Header() {
                     <li className='dropdown-container'>
                         Committee   <span> &#x2B9F;</span>
                         <div className='dropdown'>
-                            <Link to='/Committees'>committees</Link>
-                            <Link >Speacial Technical Committees</Link>
+                            <Link to='/Committees'><p>Committees</p></Link>
+                            <Link ><p>Special Technical Committees</p></Link>
                         </div>
                     </li>
                     <li><Link to='/Guidelines'>Guidelines</Link></li>
@@ -32,17 +32,17 @@ function Header() {
                     <li className='dropdown-container'>
                         Attend  <span>&#x2B9F;</span>
                         <div className="dropdown">
-                            <Link to='/Explore'>Explore Tamil Nadu</Link>
-                            <Link to='/Venue' >Conference Venue</Link>
-                            <Link to='/Accommodation'>Accomodation</Link>
+                            <Link to='/Explore'><p>Explore Tamil Nadu</p></Link>
+                            <Link to='/Venue' ><p>Conference Venue</p></Link>
+                            <Link to='/Accommodation'><p>Accomodation</p></Link>
                         </div>
                     </li>
                     <li className='dropdown-container'>
                         Registration <span>&#x2B9F;</span>
                         <div className='dropdown'>
-                            <Link >Register</Link>
-                            <Link >Download Brochure</Link>
-                            <Link >Workshops</Link>
+                            <a href='/https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/view.pdf' download><p>Register</p></a>
+                            <Link ><p>Download Brochure</p></Link>
+                            <Link ><p>Workshops</p></Link>
                         </div>
                     </li>
                     <li><Link to='/Plagiarism-Policy'>Plagiarism Policy</Link></li>

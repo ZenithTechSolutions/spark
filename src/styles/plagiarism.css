@@ -10,16 +10,22 @@
     line-height: 1.5;
 }
 
-.heading {
-    padding: 0 0 0 10px;
-    font-size: 23px;
-    font-weight: 700;
+.plagiarism-h {
+    padding: var(--spacing-small);
+    font-size: var(--font-size-small);
+    font-weight: 800;
     border-left: 4px solid var(--primary-bg-blue);
     gap: var(--spacing-small);
     margin-bottom: 20px;
-    color: var(--primary-bg-blue);
 }
+.plagiarism-p p{
+    font-size: 1rem;
+    color: var(--black);
+}
+.rule p,.rule h{
+    line-height: 1.6;
 
+}
 .span {
     font-weight: 700;
     text-align: center;

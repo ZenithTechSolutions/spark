@@ -1,58 +1,36 @@
-import '../styles/speakers.css'
-import vishal from '../assets/vishal.png'
-import vignesh from '../assets/vignesh.png'
-import sadhur from '../assets/sadhur.png'
-import pradeep from '../assets/pradeep.png'
-import giri from '../assets/giri.jpg'
+import '../styles/speakers.css';
+import vishal from '../assets/vishal.png';
+import vignesh from '../assets/vignesh.png';
+import sadhur from '../assets/sadhur.png';
+import pradeep from '../assets/pradeep.png';
+import giri from '../assets/giri.jpg';
+
+const speakersData = [
+    { img: vishal, name: "Dr. Vishal Kannan S.I", position: "ASP/ECE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
+    { img: pradeep, name: "Dr. Pradeep T.M", position: "ASP/EEE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
+    { img: vignesh, name: "Dr. Vignesh M", position: "ASP/ECE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
+    { img: giri, name: "Dr. Giri Prasath B.P", position: "ASP/ECE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
+    { img: sadhur, name: "Dr. Sathurnithy S", position: "ASP/EEE", department: "Department of Biomedical Science, Sana'a University, Yemen" }
+];
 
 function Speakers() {
     return (
         <div className="speakers">
             <h1>Speakers for SPARK'25</h1>
             <div className="boxes">
-                <div className="box">
-                    <img src={vishal} alt="vishal" />
-                    <div className="box_content">
-                        <h1>Dr.Vishal Kannan.S.I</h1>
-                        <h2>ASP/ECE</h2>
-                        <p>Department of Biomedical Science, Sana'a University, Yemen</p>
+                {speakersData.map((speaker, index) => (
+                    <div key={index} className="box">
+                        <img src={speaker.img} alt={speaker.name} />
+                        <div className="box_content">
+                            <h2>{speaker.name}</h2>
+                            <h3>{speaker.position}</h3>
+                            <p>{speaker.department}</p>
+                        </div>
                     </div>
-                </div>
-                <div className="box">
-                    <img src={pradeep} alt="" />
-                    <div className="box_content">
-                        <h1>Dr.Pradeep.T M</h1>
-                        <h2>ASP/EEE</h2>
-                        <p>Department of Biomedical Science, Sana'a University, Yemen</p>
-                    </div>
-                </div>
-                <div className="box">
-                    <img src={vignesh} alt="" />
-                    <div className="box_content">
-                        <h1>Dr.Vignesh.M</h1>
-                        <h2>ASP/ECE</h2>
-                        <p>Department of Biomedical Science, Sana'a University, Yemen</p>
-                    </div>
-                </div>
-                <div className="box">
-                    <img src={giri} alt="" />
-                    <div className="box_content">
-                        <h1>Dr.Giri Prasath.B.P</h1>
-                        <h2>ASP/ECE</h2>
-                        <p>Department of Biomedical Science, Sana'a University, Yemen</p>
-                    </div>
-                </div>
-                <div className="box">
-                    <img src={sadhur} alt="" />
-                    <div className="box_content">
-                        <h1>Dr.Sathurnithy.S</h1>
-                        <h2>ASP/EEE</h2>
-                        <p>Department of Biomedical Science, Sana'a University, Yemen</p>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
-    )
+    );
 }
 
 export default Speakers;
