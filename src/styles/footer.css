@@ -85,8 +85,8 @@ footer {
     font-size: var(--font-size-heading);
 }
 
-.social-icons a i:hover {
-    font-size: var(--font-size-base);
+.social-icons a:hover i {
+    transform: scale(1.2);
 }
 
 .social-icons a i {

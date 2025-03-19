@@ -1,5 +1,5 @@
 import '../styles/call.css'
-import { FaLinkedin, FaTwitter, FaPhone, FaCalendarAlt, FaPaperPlane, FaCamera, FaBell, FaCalendarMinus, FaFileDownload, FaFileWord } from "react-icons/fa"
+import { FaLinkedin, FaTwitter, FaPhoneAlt, FaCalendarAlt, FaPaperPlane, FaCamera, FaBell, FaCalendarMinus, FaFileDownload, FaFileWord } from "react-icons/fa"
 import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
@@ -14,7 +14,7 @@ function Call() {
         <div class="callForPapers">
             <div class="callForPapers-content">
                 <div class="callForPapers-header">
-                    <h1>CALL FOR PAPERS</h1>
+                    <h1>Call for Papers</h1>
                     <p>Authors are invited to submit high-quality research papers aligned with the conference topics, including but not limited to:</p>
                 </div>
                 <div class="callForPapers-topics">
@@ -183,7 +183,7 @@ function Call() {
                     <div class="social-links">
                         <a href="#" class="download-link"><FaLinkedin />Linked In</a>
                         <a href="#" class="download-link"><FaTwitter />Twitter</a>
-                        <a href="#" class="download-link"><FaPhone />Phone</a>
+                        <a href="#" class="download-link"><FaPhoneAlt />Phone</a>
                     </div>
                 </div>
 
