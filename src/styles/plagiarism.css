@@ -27,9 +27,14 @@
 .plagiarism-box {
     margin-top: 20px;
     padding: 20px;
-    background: #f5f5f5;
+    /* background: #f5f5f5; */
+    border: 1px dashed var(--primary-bg-blue);
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rule {
+    margin: 0 20px;
 }
 
 .rule p,.rule h{
@@ -42,7 +47,7 @@
 }
 
 .span {
-    font-weight: 700;
+    font-size: 1.2rem;
     text-align: left;
     margin-bottom: 20px;
     /* border-left: 4px solid var(--primary-bg-blue); */
