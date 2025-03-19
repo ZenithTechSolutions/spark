@@ -50,3 +50,25 @@
     color: var(--primary-bg-blue);
     /* padding: 0 0 0 10px; */
 }
+
+
+@media (max-width: 660px) {
+    .plagiarism_cointainer {
+        padding: 20px;
+    }
+    .plagiarism-box {
+        padding: 10px;
+    }
+    .plagiarism-h {
+        font-size: .7rem;
+    }
+    .plagiarism-p {
+        font-size: .9rem;
+    }
+    .rule p {
+        font-size: .9rem;
+    }
+    .span {
+        font-size: .9rem;
+    }
+}
