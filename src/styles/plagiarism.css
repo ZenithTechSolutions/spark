@@ -14,7 +14,7 @@
     padding: 0 0 0 10px;
     border-left: 4px solid var(--primary-bg-blue);
     gap: var(--spacing-small);
-    font-size: .8rem;
+    font-size:.8rem;
     color: var(--primary-bg-blue);
     margin-bottom: 20px;
 }
@@ -27,7 +27,6 @@
 .plagiarism-box {
     margin-top: 20px;
     padding: 20px;
-    /* background: #f5f5f5; */
     border: 1px dashed var(--primary-bg-blue);
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,12 +36,8 @@
     margin: 0 20px;
 }
 
-.rule p,.rule h{
-    line-height: 1.6;
-
-}
-
 .rule p {
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 

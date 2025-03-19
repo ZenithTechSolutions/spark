@@ -28,9 +28,10 @@
 }
 
 .callForPapers-header h1 {
-    border-left: 5px solid var(--primary-color);
+    border-left: 4px solid var(--primary-color);
     padding-left: 10px;
     color: var(--primary-color);
+    font-size: 24px;
 }
 
 .callForPapers-header p {
