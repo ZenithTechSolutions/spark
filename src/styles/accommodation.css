@@ -129,7 +129,7 @@
     cursor: pointer;
 }
 
-hr {
+.accommodation-main hr {
     height: 2.5px;
     background-color: #33333380;
     margin: 32px;
