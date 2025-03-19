@@ -105,6 +105,11 @@ footer {
     font-size: var(--font-size-small);
 }
 
+.footer-copyright a {
+    text-decoration: none;
+    color: var(--copyright-color);
+}
+
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;

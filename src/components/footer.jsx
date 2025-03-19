@@ -36,7 +36,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-copyright">
-                <p>Copyright &copy; 2025 KPR Institute of Engineering and Technology Developed by Team ZENITH</p>
+                <p>Copyright &copy; 2025 KPR Institute of Engineering and Technology Developed by <Link to='https://zenith-chi-six.vercel.app/' target='_blank'>Team Zenith</Link></p>
             </div>
         </footer>
     )
