@@ -40,7 +40,7 @@ function Header() {
                     <li className='dropdown-container'>
                         Registration <span>&#x2B9F;</span>
                         <div className='dropdown'>
-                            <Link ><p>Register</p></Link>
+                            <a href='/https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/view.pdf' download><p>Register</p></a>
                             <Link ><p>Download Brochure</p></Link>
                             <Link ><p>Workshops</p></Link>
                         </div>
