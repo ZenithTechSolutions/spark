@@ -85,8 +85,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #d7c2cc;
-    color: var(--primary-bg-blue);
+    background-color: var(--primary-bg-blue);
+    color: var(--white);
     font-size: 1rem;
     border-radius: 40px;
     border: none;
@@ -98,7 +98,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: var(--form-bg);
+    background-color: var(--card-background-color);
     color: var(--primary-bg-blue);
 }
 
