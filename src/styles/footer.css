@@ -105,9 +105,14 @@ footer {
     font-size: var(--font-size-small);
 }
 
-.footer-copyright a {
+.footer-contact a,p{
     text-decoration: none;
-    color: var(--copyright-color);
+    color: var(--secondary-color);
+    transition: transform 0.9s ease-in-out;
+}
+.footer-contact a:hover {
+    color: var(--white);
+    transform: scale(1.03);
 }
 
 @media (max-width: 768px) {
