@@ -30,7 +30,7 @@
 .callForPapers-header h1 {
     border-left: 5px solid var(--primary-color);
     padding-left: 10px;
-    color: var(--black);
+    color: var(--primary-color);
 }
 
 .callForPapers-header p {
@@ -85,7 +85,7 @@
 
 .topic-content h2 {
     font-size: 1.2em;
-    color: black;
+    color: var(--primary-color);
     margin-bottom: 10px;
 }
 

@@ -4,6 +4,7 @@
     background-color: #ffffff;
     margin: 25px;
     border-radius: 10px;
+    padding: 40px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .grid-container{
@@ -74,3 +75,10 @@ span {
     color: #000000;
 }
 
+.text h1 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-left: 4px solid var(--primary-color);
+    padding: 0 0 0 10px;
+}

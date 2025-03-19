@@ -57,8 +57,7 @@
 
 .hostel-availability h1 {
     font-size: 60px;
-    color: transparent;
-    -webkit-text-stroke: 2px var(--white);
+    color: var(--white);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 0;
 }
@@ -69,7 +68,7 @@
 }
 
 .acc-hotel-content h1 {
-    border-left: 5px solid var(--primary-bg-blue);
+    border-left: 4px solid var(--primary-bg-blue);
     padding-left: 10px;
     color: var(--primary-bg-blue);
     font-size: 24px;

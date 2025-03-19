@@ -3,9 +3,9 @@ import '../styles/guidelines.css'
 function Guidelines() {
     return (
         <div class="Guidelines_container">
-            <div class="guideline-h"><h1>SUBMISSION GUIDELINES</h1></div>
+            <div class="guideline-h"><h1>Submission Guidelines</h1></div>
             <div class="guideline-p"><p>Authors are invited to submit original research articles for the <span>SPARK Conference at KPR Institute of Engineering and Technology.</span> All papers must follow the <span>AIP Conference Standard</span> Format, and the official template can be downloaded from the provided link. Manuscripts should be written in clear English and properly structured. Submissions that do not follow the formatting guidelines will be rejected without review.</p></div>
-            <div class="guideline-h"><h1>MANUSCRIPT FORMAT</h1></div>
+            <div class="guideline-h"><h1>Manuscript Format</h1></div>
             <div class="guideline-p">
                 <ul>
                     <li>Manuscripts must be submitted in <span>Microsoft Word format (.docx)</span> through the Google Form available on the conference website. Each submission should include the <span>title, author details, an abstract</span> (250–300 words), 3–5 relevant keywords, and a properly formatted reference list (IEEE or APA style). Papers should be 4–6 pages long, adhering strictly to the given template.</li>
@@ -14,7 +14,7 @@ function Guidelines() {
                 </ul>
             </div>
             <button class="guideline-btn">Download Conference Template</button>
-            <div class="guideline-h"><h1>IMPORTANT TO NOTE</h1></div>
+            <div class="guideline-h"><h1>Important to note</h1></div>
             <div class="guideline-p">
                 <ol>
                     <li>Transfer of e-copyright and presenting paper in conference is mandatory.</li>
