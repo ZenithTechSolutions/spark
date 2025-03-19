@@ -5,7 +5,7 @@
     width: 95%;
 }
 
-span {
+.contact_us-container span {
     font-size: 1rem;
     font-weight: 700;
 }
@@ -217,4 +217,30 @@ input[type="submit"]:hover {
 
 .map-image a:hover::after {
     width: 100%;
+}
+
+@media (max-width:660px){
+    .contact_us-form{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        /* margin-left: 0; */
+    }
+    .form-content{
+        width: 100%;
+        gap: 10px;
+    }
+    .get-in-touch{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .get-in-touch-info{
+        width: 100%;
+    }
+    .contact{
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
 }
