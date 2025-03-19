@@ -105,7 +105,7 @@ footer {
     font-size: var(--font-size-small);
 }
 
-.footer-contact a,p{
+.footer-contact a,.footer-contact p{
     text-decoration: none;
     color: var(--secondary-color);
     transition: transform 0.9s ease-in-out;
