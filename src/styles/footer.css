@@ -105,6 +105,16 @@ footer {
     font-size: var(--font-size-small);
 }
 
+.footer-contact a,p{
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: transform 0.9s ease-in-out;
+}
+.footer-contact a:hover {
+    color: var(--white);
+    transform: scale(1.03);
+}
+
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;

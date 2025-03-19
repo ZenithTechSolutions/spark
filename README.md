@@ -143,4 +143,4 @@ The website is live and accessible here:
 
 ## License
 Copyright © KPR Institute of Engineering and Technology
-Developed with passion by [Team ZENITH](#). All rights reserved.
+Developed with passion by [Team ZENITH](https://zenith-chi-six.vercel.app/). All rights reserved.

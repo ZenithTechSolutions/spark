@@ -33,10 +33,11 @@ function Footer() {
                         <li><Link to='/'><FaPhoneAlt /></Link></li>
                         <li><Link to='/'><FaEnvelope /></Link></li>
                     </ul>
+                    <p> Developed by <Link to='https://zenith-chi-six.vercel.app/' target='_blank'>Team Zenith</Link></p>
                 </div>
             </div>
             <div className="footer-copyright">
-                <p>Copyright &copy; 2025 KPR Institute of Engineering and Technology Developed by Team ZENITH</p>
+                <p>Copyright &copy; 2025 KPR Institute of Engineering and Technology</p>
             </div>
         </footer>
     )
