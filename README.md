@@ -9,12 +9,19 @@ This event brings together leading researchers, academicians, and industry exper
 ## Table of Contents  
 
  [About](#about)  
+ 
  [Conference Highlights](#conference-highlights)  
+ 
  [Key Themes & Topics](#key-themes--topics)  
+ 
  [Technologies Used](#technologies-used)  
+ 
  [Setup Instructions](#setup-instructions)  
+ 
  [Team & Contributors](#team--contributors)  
+ 
  [Live Preview](#live-preview)  
+ 
  [License](#license)  
 
 
@@ -31,7 +38,6 @@ This event brings together leading researchers, academicians, and industry exper
 - **Hands-on Workshops** – Practical exposure to cutting-edge technologies.  
 - **Networking Opportunities** – Connect with professionals, researchers, and industry leaders.  
 
-SPARK 2025 aims to foster collaboration and knowledge sharing to drive future technological evolution.  
 
 
 
@@ -44,7 +50,7 @@ SPARK 2025 aims to foster collaboration and knowledge sharing to drive future te
 - **Industry & Academic Collaborations** – Strengthening research partnerships.  
 - **Interactive Q&A & Discussions** – Engage with experts on emerging topics.  
 
-For more details, visit our official **[Conference Website](#)**  
+For more details, visit our official **[Conference Website](https://spark-three-orcin.vercel.app/)**  
 
 
 
@@ -114,13 +120,13 @@ http://localhost:5173
 ## Team & Contributors
 This project is proudly developed and maintained by Team ZENITH:
 
-[Sadhur](#)
+[Sadhur](https://github.com/Sadhurnithy)
 
-[Pradeep](#)
+[Pradeep](https://github.com/Pradeep5377)
 
-[Giri Prasath](#)
+[Giri Prasath](https://github.com/Giriprasath1726)
 
-[Vishal Kannan](#)
+[Vishal Kannan](https://github.com/VISHALKANNAN070)
 
 
 
@@ -129,7 +135,7 @@ This project is proudly developed and maintained by Team ZENITH:
 
 ## Live Preview
 The website is live and accessible here:
-[Link Here](#)
+[Link Here](https://spark-three-orcin.vercel.app/)
 
 
 
