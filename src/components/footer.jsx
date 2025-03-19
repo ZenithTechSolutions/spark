@@ -1,6 +1,6 @@
 import '../styles/footer.css'
 import { Link } from 'react-router-dom'
-import { FaLinkedinIn, FaTwitter, FaPhone, FaEnvelope } from "react-icons/fa"
+import { FaLinkedinIn, FaTwitter, FaPhoneAlt, FaEnvelope } from "react-icons/fa"
 import logo from '../assets/kpr_learn_beyond_logo.jpg'
 
 function Footer() {
@@ -30,7 +30,7 @@ function Footer() {
                     <ul className="social-icons">
                         <li><Link to='/'><FaLinkedinIn /></Link></li>
                         <li><Link to='/'><FaTwitter /></Link></li>
-                        <li><Link to='/'><FaPhone /></Link></li>
+                        <li><Link to='/'><FaPhoneAlt /></Link></li>
                         <li><Link to='/'><FaEnvelope /></Link></li>
                     </ul>
                 </div>
