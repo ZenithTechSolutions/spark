@@ -11,7 +11,7 @@ import KirubaShankar from '../assets/KirubaShankar.jpg';
 function Committees() {
   return (
     <div class="committee-container">
-      <div class="header">
+      <div class="committee-header">
         <h1>Committees</h1>
       </div>
       <div class="Mteam">
