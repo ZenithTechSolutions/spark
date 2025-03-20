@@ -12,6 +12,7 @@ import Explore from './pages/explore';
 import Guidelines from './pages/guidelines';
 import Accommodation from './pages/accommodation'
 import Venue from './pages/venue'
+import Register from './pages/register'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path='/Explore' element={<Explore />} />
         <Route path='/Accommodation' element={<Accommodation />} />
         <Route path='/Venue' element={<Venue />} />
+        <Route path='/Register' element={<Register />} />
       </Routes >
       <Footer />
     </>

@@ -66,7 +66,7 @@ function Header() {
           <li className="dropdown-container" onClick={() => toggleDropdown("registration")}>
             Registration <span>&#x2B9F;</span>
             <div className={`dropdown ${openDropdown === "registration" ? "open" : ""}`}>
-              <Link to="https://googleformlink" target="_blank" onClick={toggleMenu}><p>Register</p></Link>
+              <Link to="/Register" onClick={toggleMenu}><p>Register</p></Link>
               <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={toggleMenu}><p>Download Brochure</p></Link>
               <Link onClick={toggleMenu}><p>Workshops</p></Link>
             </div>
