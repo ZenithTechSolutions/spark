@@ -1,17 +1,17 @@
 import '../styles/committees.css';
-// import KPRamasamy from '../assets/KPRamasamy.jpg';
-// import AMNatarajan from '../assets/AMNatarajan.jpg';
-// import DSaravanan from '../assets/DSaravanan.jpg';
-// import ABalamurugan from '../assets/ABalamurugan.jpg';
-// import PNarayanasamy from '../assets/PNarayanasamy.jpg';
-// import MAManikandan from '../assets/MAManikandan.jpg';
-// import BThamaraikannan from '../assets/BThamaraikannan.jpg';
-// import KirubaShankar from '../assets/KirubaShankar.jpg';
+import KPRamasamy from '../assets/KPRamasamy.jpg';
+import AMNatarajan from '../assets/AMNatarajan.jpg';
+import DSaravanan from '../assets/DSaravanan.jpg';
+import ABalamurugan from '../assets/ABalamurugan.jpg';
+import PNarayanasamy from '../assets/PNarayanasamy.jpg';
+import MAManikandan from '../assets/MAManikandan.jpg';
+import BThamaraikannan from '../assets/BThamaraikannan.jpg';
+import KirubaShankar from '../assets/KirubaShankar.jpg';
 
 function Committees() {
   return (
     <div class="committee-container">
-      {/* <div class="header">
+      <div class="header">
         <h1>Committees</h1>
       </div>
       <div class="Mteam">
@@ -83,7 +83,7 @@ function Committees() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }
