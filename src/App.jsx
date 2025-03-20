@@ -1,4 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Header from './components/header'
 import Footer from './components/footer'
 import Home from './pages/home'
@@ -34,6 +36,8 @@ function App() {
         <Route path='/Register' element={<Register />} />
       </Routes >
       <Footer />
+      <Analytics />
+      <SpeedInsights />
     </>
   )
 }
