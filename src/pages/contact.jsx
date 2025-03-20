@@ -80,7 +80,7 @@ function Contact() {
                 <div className="get-in-touch-contact">
                     <div className="contact">
                         <p>Contact</p>
-                        <p>+91 9443839525 <br />+91 96554 45823<br />spark2025@kpriet.ac.in</p>
+                        <p><a href='tel:+91 9443839525'>+91 94438 39525</a><br /><a href='tel:+91 9655445823'>+91 96554 45823 </a> <br /><a rel="link" href="mailto:spark2025@kpriet.ac.in" target="_blank">spark2025@kpriet.ac.in</a></p>
                     </div>
                 </div>
             </div>

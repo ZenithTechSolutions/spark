@@ -1,0 +1,117 @@
+.committee-container {
+    margin: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 25px;
+    color: black;
+}
+
+.committee-container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header {
+    font-size: 1rem;
+    border-left: #1b345f;
+    padding: 25px 0 25px 0;
+}
+
+.header h1 {
+    border-left: 4px solid #1b345f;
+    padding-left: 20px;
+    color: var(--primary-bg-blue);
+}
+
+.Mteam h3 {
+    color: #1A924A;
+    font-weight: 500;
+}
+
+.Mteam h2 {
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.teams-text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.teams-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    height: 180px;
+    width: 360px;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 0 10px 0 10px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.16);
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.teams-box:hover {
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.32);
+    transform: translateY(-4px);
+}
+
+.teams-box h4,
+.teams-box h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.teams-box h5 {
+    font-weight: 500;
+}
+
+.teams-box h4 {
+    font-weight: 700;
+}
+
+.Mteam-row {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.Cteam-row1,
+.Cteam-row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Cteam-row1 {
+    margin: 0 0 30px 0;
+}
+
+.Cteam h3 {
+    color: #1A924A;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.Cteam h2 {
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
