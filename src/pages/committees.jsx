@@ -126,7 +126,7 @@ const CommitteeList = ({ title, members }) => (
     <h2>{title}</h2>
     <ul className="committee-list">
       {members.map((name, index) => (
-        <li key={index}>{name}</li>
+        <li key={index} style={{listStyle:"disc"}}>{name}</li>
       ))}
     </ul>
   </div>
