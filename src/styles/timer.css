@@ -110,7 +110,7 @@
   .countdown-container {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1rem;
+	gap: 40px;
 	justify-content: center;
   }
   
@@ -151,4 +151,12 @@
   .date-picker input:focus {
 	background-color: #3a4c73;
   }
+@media(max-width:768px){
+	.countdown-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+	  }
+}
 
