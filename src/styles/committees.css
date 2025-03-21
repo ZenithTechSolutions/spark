@@ -84,7 +84,7 @@
     gap: 20px; 
     padding-left: 50px;
 }
-@media(max-width : 480px){
+@media(max-width : 500px){
     .committee-container{
         margin: 0px;
         border-radius: 0px;

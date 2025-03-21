@@ -10,7 +10,7 @@ function Header() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    setOpenDropdown(null); // Close dropdowns when menu opens/closes
+    setOpenDropdown(null);
   };
 
   const toggleDropdown = (dropdown) => {
@@ -18,8 +18,8 @@ function Header() {
   };
 
   const handleItemClick = () => {
-    setIsMenuOpen(false); // Close menu when any item is clicked
-    setOpenDropdown(null); // Close all dropdowns
+    setIsMenuOpen(false); 
+    setOpenDropdown(null);
   };
 
   return (

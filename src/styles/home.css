@@ -71,7 +71,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .main_container{
     margin: 0;
     padding: 10px;

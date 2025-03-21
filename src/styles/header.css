@@ -44,7 +44,9 @@
   gap: var(--spacing-medium);
   align-items: center;
 }
-
+.navbar span{
+  font-weight: normal;
+}
 .navbar ul a {
   color: var(--white);
   text-decoration: none;
@@ -107,7 +109,6 @@
   z-index: 1100;
 }
 
-/* Navbar - Mobile */
 @media (max-width: 1150px) {
   .hamburger {
     display: block;
@@ -137,7 +138,7 @@
     background-color: var(--primary-bg-blue);
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
-    padding-top: 80px;
+    padding: 10px;
   }
 
   .navbar.open {
@@ -170,5 +171,8 @@
   .header_content {
     justify-content: space-evenly;
     padding: 0 0 0 7px ;
+  }
+  .navbar{
+    padding:0px;
   }
 }

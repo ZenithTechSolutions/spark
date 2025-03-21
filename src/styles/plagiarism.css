@@ -1,6 +1,5 @@
 .plagiarism_cointainer {
     color: var(--black);
-    width: 95vw;
     margin: 25px auto;
     padding: 40px 60px;
     background: #ffffff;
@@ -40,23 +39,11 @@
     color: var(--primary-bg-blue);
 }
 
-@media (max-width: 660px) {
+@media (max-width: 500px) {
     .plagiarism_cointainer {
+        margin: 0px;
+        border-radius: 0px;
         padding: 20px;
     }
-    .plagiarism-box {
-        padding: 10px;
-    }
-    .plagiarism-h {
-        font-size: .7rem;
-    }
-    .plagiarism-p {
-        font-size: .9rem;
-    }
-    .rule p {
-        font-size: .9rem;
-    }
-    .span {
-        font-size: .9rem;
-    }
+
 }
