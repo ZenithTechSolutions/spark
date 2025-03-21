@@ -14,7 +14,7 @@
     padding: 0 0 0 10px;
     border-left: 4px solid var(--primary-bg-blue);
     gap: var(--spacing-small);
-    font-size:.8rem;
+    font-size:.75rem;
     color: var(--primary-bg-blue);
     margin-bottom: 20px;
 }

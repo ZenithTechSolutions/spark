@@ -116,7 +116,7 @@
     background-color: var(--primary-color);
     padding: 15px 20px;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in;
     font-size: 0.9em;
     font-weight: 500;
 }
@@ -132,7 +132,7 @@
     border: 2px solid var(--primary-color);
     border-radius: 15px;
     position: sticky;
-    top: 70px;
+    top: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;

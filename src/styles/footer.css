@@ -40,7 +40,8 @@ footer {
 .footer-services h3,
 .footer-contact h3 {
     margin-bottom: var(--spacing-small);
-    font-size: var(--font-size-heading);
+    font-weight: 600;
+    letter-spacing: 1px;
     color: var(--text-color);
 }
 
@@ -57,7 +58,7 @@ footer {
 
 .footer-services ul li,
 .footer-contact ul li {
-    margin-bottom: var(--spacing-small);
+    margin-bottom: .3rem;
 }
 
 .footer-services ul li a,
@@ -105,14 +106,19 @@ footer {
     font-size: var(--font-size-small);
 }
 
-.footer-contact a,.footer-contact p{
+.footer-contact a,
+.footer-contact p {
     text-decoration: none;
     color: var(--secondary-color);
-    transition: transform 0.9s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
+
+.footer-contact p {
+    font-size: var(--font-size-base);
+}
+
 .footer-contact a:hover {
-    color: var(--white);
-    transform: scale(1.03);
+    color: var(--text-color);
 }
 
 @media (max-width: 768px) {

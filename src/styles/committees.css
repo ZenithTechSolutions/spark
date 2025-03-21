@@ -2,7 +2,7 @@
     margin: 25px;
     border-radius: 10px;
     background-color: #fff;
-    padding: 25px;
+    padding: 40px 60px;
     color: black;
 }
 
@@ -15,18 +15,20 @@
 .committee-header {
     font-size: 1rem;
     border-left: #1b345f;
-    padding: 25px 0 25px 0;
 }
 
 .committee-header h1 {
-    border-left: 4px solid #1b345f;
-    padding-left: 20px;
+    border-left: 4px solid var(--primary-bg-blue);
+    padding-left: 10px;
     color: var(--primary-bg-blue);
+    font-size: 24px;
 }
 
 .Mteam h3 {
-    color: #1A924A;
-    font-weight: 500;
+    color: var(--primary-green);
+    font-weight: 600;
+    margin-top: 30px;
+    letter-spacing: 5px;
 }
 
 .Mteam h2 {
@@ -50,6 +52,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 10px;
     background-color: #ffffff;
     height: 180px;
     width: 360px;
@@ -105,9 +108,10 @@
 }
 
 .Cteam h3 {
-    color: #1A924A;
-    font-weight: 500;
-    margin-top: 30px;
+    color: var(--primary-green);
+    font-weight: 600;
+    margin-top: 60px;
+    letter-spacing: 5px;
 }
 
 .Cteam h2 {

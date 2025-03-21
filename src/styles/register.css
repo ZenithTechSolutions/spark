@@ -1,19 +1,21 @@
 .register-container {
     background-color: #ffffff;
     margin: 25px;
-    padding: 40px;
+    padding: 40px 60px;
     border-radius: 10px;
     color: black;
 }
+
 .register-container h1{
     color: var(--primary-bg-blue);
 }
+
 .register-header h1,
 .register-table-content h1,
 .register-account-details h1 {
-    border-left: 4px solid #1b345f;
+    border-left: 4px solid var(--primary-bg-blue);
     padding-left: 10px;
-    font-size: 2rem;
+    font-size: 24px;
 }
 
 .register-header p {
@@ -29,6 +31,12 @@
     border-radius: 10px;
     text-decoration: none;
     margin-left: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.register-header a:hover {
+    background-color: var(--card-background-color);
+    color: var(--primary-bg-blue);
 }
 
 .register-table-content {

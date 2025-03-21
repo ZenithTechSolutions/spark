@@ -32,7 +32,7 @@ function Contact() {
             <div className="contact_us-form">
                 <div className="form-main">
                     <form onSubmit={handleSubmit}>
-                        <label htmlFor="email">Your Email *</label><br />
+                        <label htmlFor="email">Your Email <span>*</span></label><br />
                         <input
                             type="email"
                             id="email"
@@ -43,7 +43,7 @@ function Contact() {
                             onChange={handleChange}
                             value={formData.xxx}
                         /><br />
-                        <label htmlFor="subject">Subject *</label><br />
+                        <label htmlFor="subject">Subject <span>*</span></label><br />
                         <input
                             type="text"
                             id="subject"
@@ -52,7 +52,7 @@ function Contact() {
                             placeholder="Let us know how we can help"
                             onChange={handleChange}
                         /><br />
-                        <label htmlFor="message">Your Message *</label><br />
+                        <label htmlFor="message">Your Message <span>*</span></label><br />
                         <input type='text'
                             id="message"
                             name="message"
@@ -79,7 +79,7 @@ function Contact() {
                 </div>
                 <div className="get-in-touch-contact">
                     <div className="contact">
-                        <p>Contact</p>
+                        <p className='contact-h'>Contact</p>
                         <p><a href='tel:+91 9443839525'>+91 94438 39525</a><br /><a href='tel:+91 9655445823'>+91 96554 45823 </a> <br /><a rel="link" href="mailto:spark2025@kpriet.ac.in" target="_blank">spark2025@kpriet.ac.in</a></p>
                     </div>
                 </div>

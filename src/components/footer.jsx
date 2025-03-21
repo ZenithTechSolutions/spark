@@ -18,11 +18,11 @@ function Footer() {
                 <div className="footer-services">
                     <h3>Services</h3>
                     <ul>
-                        <li><Link to='/'>Registration</Link></li>
+                        <li><Link to='/Register'>Registration</Link></li>
                         <li><Link to='/Speakers'>Speakers</Link></li>
                         <li><Link to='/Call-for-Papers'>Call for Papers</Link></li>
-                        <li><Link to='/'>Upcoming Sessions</Link></li>
-                        <li><Link to='/'>Workshop</Link></li>
+                        <li><Link to='/Guidelines'>Guidelines</Link></li>
+                        <li><Link to='/Venue'>Conference Venue</Link></li>
                     </ul>
                 </div>
                 <div className="footer-contact">
