@@ -53,3 +53,10 @@
 .guideline-p span {
     font-weight: 700;
 }
+@media(max-width:480px){
+    .Guidelines_container{
+        margin: 0px;
+        border-radius: 0px;
+        padding: 20px;
+    }
+}

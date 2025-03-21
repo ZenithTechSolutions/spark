@@ -7,7 +7,7 @@
 }
 
 .about_institution {
-  padding: var(--spacing-medium) var(--spacing-large);
+  padding: 20px;
   gap: var(--spacing-medium);
 }
 
@@ -20,7 +20,7 @@
 }
 
 .about_container p {
-  font-size: var(--font-size-base);
+  font-size:1rem;
   font-weight: 400;
   padding: var(--spacing-small);
   text-align: justify;
@@ -67,71 +67,30 @@
 .about_spark,
 .about_ece,
 .about_eee {
-  padding: var(--spacing-medium) var(--spacing-large);
+  padding: 20px;
   gap: var(--spacing-medium);
 }
 
 
-
-@media (max-width: 768px) {
-  .about_institution h1 {
-    font-size: 20px;
-  }
-  
-  .about_institution p {
-    font-size: 12px;
-  }
-  
-  .about_ece h1,
-  .about_eee h1,
-  .about_spark h1{
-    font-size: 20px;
-    
-  }
-  .about_ece p,
-  .about_eee p,
-  .about_spark p{
-    font-size: 12px;
-  }
-}
-
 @media (max-width: 480px) {
-  .about_container {
-    padding: 10px;
+  .about_container{
+    margin: 0px;
+    padding: 20px;
+    border-radius: 0px;
   }
-  .about_institution h1 {
-    font-size: 16px;
+  .about_container hr{
+    margin: 20px 0px
   }
-  
-  .about_institution p {
-    font-size: 11px;
+  .about_logos p{
+    margin-bottom: 00px;
   }
-  
+
   .about_institution,
   .about_spark,
   .about_ece,
   .about_eee {
-    padding: 10px;
+    padding: 0px;
   }
   
-  .about_institution h1,
-  .about_ece h1,
-  .about_eee h1,
-  .about_spark h1{
-    margin: var(--spacing-small) 0 var(--spacing-medium) 0;
-    font-size: 16px;  
-  }
-  
-  .about_ece p,
-  .about_eee p,
-  .about_spark p{
-    font-size: 11px;
-  }
-}
 
-@media (max-width: 320px) {  
-  .about_container {
-    padding: 10px;
-    margin: 15px;
-  }
 }
