@@ -6,27 +6,27 @@ import venue4 from '../assets/venue4.jpg'
 import venue5 from '../assets/venue5.jpg'
 function Venue(){
     return(
-        <div class="total">
-        <div class="text">
+        <div className="total">
+        <div className="text">
             <h1>Conference Venue</h1>
             <p><span>Spark 2025</span> will take place at the <span>KPR Institute of Engineering and Technology (KPRIET)</span>.</p>
             <p>The SPARK Conference 2025 will take place at KPR Institute of Engineering and Technology, hosted across state-of-the-art halls, including Ragam Hall, Dhanam Hall, Pallavi Hall, Veena Hall, and Geetham Hall. Each venue is equipped with modern facilities to ensure a seamless and engaging conference experience.</p>
         </div>
-        <div class="grid-container">
-            <div class="image">
-                <div class="img1">
+        <div className="grid-container">
+            <div className="image">
+                <div className="img1">
                     <img src={venue1} alt="Image 1"/>
                 </div>
-                <div class="img2">
+                <div className="img2">
                     <img src={venue2} alt="Image 2"/>
                 </div>
-                <div class="img3">
+                <div className="img3">
                     <img src={venue3} alt="Image 3"/>
                 </div>
-                <div class="img4">
+                <div className="img4">
                     <img src={venue4} alt="Image 4"/>
                 </div>
-                <div class="img5">
+                <div className="img5">
                     <img src={venue5} alt="Image 5"/>
                 </div>
             </div>

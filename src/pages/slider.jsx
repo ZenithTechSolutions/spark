@@ -52,7 +52,7 @@ function slider() {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, illo.</p>
                 </div>
             </div>
-            <div class="slider-viewall">
+            <div className="slider-viewall">
                 <Link to='/Speakers' className="viewall-button"><p>View All</p></Link>
             </div>
         </>
