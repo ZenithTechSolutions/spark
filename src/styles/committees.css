@@ -52,10 +52,6 @@
     min-width: 250px; 
 }
 
-.team-box:hover {
-    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.32);
-    transform: translateY(-4px);
-}
 
 .team-text {
     display: flex;
@@ -86,6 +82,6 @@
     flex-direction: column;
     flex-wrap: wrap;  
     gap: 20px; 
-    padding: 30px;
+    padding-left: 50px;
 }
 
