@@ -25,12 +25,12 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 1 : Artificial Intelligence & Machine Learning</h2>
                             <ul>
-                                <li>Deep Learning and Neural Networks</li>
-                                <li>AI for Edge Computing and IoT</li>
-                                <li>Reinforcement Learning and Robotics</li>
-                                <li>Natural Language Processing and Speech Recognition</li>
-                                <li>AI for Smart Cities and Sustainable Development</li>
-                                <li>AI Ethics, Fairness, and Explainability</li>
+                                <li>&bull; Deep Learning and Neural Networks</li>
+                                <li>&bull; AI for Edge Computing and IoT</li>
+                                <li>&bull; Reinforcement Learning and Robotics</li>
+                                <li>&bull; Natural Language Processing and Speech Recognition</li>
+                                <li>&bull; AI for Smart Cities and Sustainable Development</li>
+                                <li>&bull; AI Ethics, Fairness, and Explainability</li>
                             </ul>
                         </div>
                     </div>
@@ -41,11 +41,11 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 2 : Embedded Systems & Internet of Things (IoT)</h2>
                             <ul>
-                                <li>Embedded AI and TinyML</li>
-                                <li>IoT for Smart Healthcare and Industry 4.0</li>
-                                <li>Wireless Sensor Networks and Edge Computing</li>
-                                <li>Secure and Energy-Efficient IoT Systems</li>
-                                <li>Digital Twins for Industrial Automation</li>
+                                <li>&bull; Embedded AI and TinyML</li>
+                                <li>&bull; IoT for Smart Healthcare and Industry 4.0</li>
+                                <li>&bull; Wireless Sensor Networks and Edge Computing</li>
+                                <li>&bull; Secure and Energy-Efficient IoT Systems</li>
+                                <li>&bull; Digital Twins for Industrial Automation</li>
                             </ul>
                         </div>
                     </div>
@@ -56,11 +56,11 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 3 : Electronics & VLSI</h2>
                             <ul>
-                                <li>Low-Power VLSI and Nanoelectronics</li>
-                                <li>FPGA-Based System Design</li>
-                                <li>MEMS and Sensors for Smart Applications</li>
-                                <li>5G and 6G Communication Circuits</li>
-                                <li>Neuromorphic and Quantum Computing Circuits</li>
+                                <li>&bull; Low-Power VLSI and Nanoelectronics</li>
+                                <li>&bull; FPGA-Based System Design</li>
+                                <li>&bull; MEMS and Sensors for Smart Applications</li>
+                                <li>&bull; 5G and 6G Communication Circuits</li>
+                                <li>&bull; Neuromorphic and Quantum Computing Circuits</li>
                             </ul>
                         </div>
                     </div>
@@ -71,11 +71,11 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 4 : Computer Science & Cybersecurity</h2>
                             <ul>
-                                <li>Cloud and Edge Computing Architectures</li>
-                                <li>Blockchain for Secure Transactions</li>
-                                <li>Quantum Computing and Cryptography</li>
-                                <li>Cybersecurity and Privacy in AI Systems</li>
-                                <li>Software Engineering and DevOps</li>
+                                <li>&bull; Cloud and Edge Computing Architectures</li>
+                                <li>&bull; Blockchain for Secure Transactions</li>
+                                <li>&bull; Quantum Computing and Cryptography</li>
+                                <li>&bull; Cybersecurity and Privacy in AI Systems</li>
+                                <li>&bull; Software Engineering and DevOps</li>
                             </ul>
                         </div>
                     </div>
@@ -86,11 +86,11 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 5 : Power Systems & Renewable Energy</h2>
                             <ul>
-                                <li>Smart Grids and Energy Storage Technologies</li>
-                                <li>AI for Renewable Energy Optimization</li>
-                                <li>Electric Vehicles and Charging Infrastructure</li>
-                                <li>Energy-Efficient Computing and Green Electronics</li>
-                                <li>Power Electronics for Sustainable Energy</li>
+                                <li>&bull; Smart Grids and Energy Storage Technologies</li>
+                                <li>&bull; AI for Renewable Energy Optimization</li>
+                                <li>&bull; Electric Vehicles and Charging Infrastructure</li>
+                                <li>&bull; Energy-Efficient Computing and Green Electronics</li>
+                                <li>&bull; Power Electronics for Sustainable Energy</li>
                             </ul>
                         </div>
                     </div>
@@ -101,11 +101,11 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 6 : Signal Processing & Communication Technologies</h2>
                             <ul>
-                                <li>5G, 6G, and Beyond: Emerging Technologies</li>
-                                <li>AI-Enabled Wireless Communication</li>
-                                <li>Image and Video Processing Applications</li>
-                                <li>Satellite and Optical Communication Networks</li>
-                                <li>Software-Defined Radio and Cognitive Networks</li>
+                                <li>&bull; 5G, 6G, and Beyond: Emerging Technologies</li>
+                                <li>&bull; AI-Enabled Wireless Communication</li>
+                                <li>&bull; Image and Video Processing Applications</li>
+                                <li>&bull; Satellite and Optical Communication Networks</li>
+                                <li>&bull; Software-Defined Radio and Cognitive Networks</li>
                             </ul>
                         </div>
                     </div>
@@ -116,11 +116,11 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 7 : Control Systems & Robotics</h2>
                             <ul>
-                                <li>Autonomous Systems and Drones</li>
-                                <li>AI-Based Industrial Automation</li>
-                                <li>Human-Robot Interaction and Assistive Robotics</li>
-                                <li>Digital Twins for Predictive Maintenance</li>
-                                <li>Smart Manufacturing and Industry 4.0</li>
+                                <li>&bull; Autonomous Systems and Drones</li>
+                                <li>&bull; AI-Based Industrial Automation</li>
+                                <li>&bull; Human-Robot Interaction and Assistive Robotics</li>
+                                <li>&bull; Digital Twins for Predictive Maintenance</li>
+                                <li>&bull; Smart Manufacturing and Industry 4.0</li>
                             </ul>
                         </div>
                     </div>
@@ -131,11 +131,11 @@ function Call() {
                         <div className="topic-content">
                             <h2>Track 8 : Smart and Sustainable Technologies</h2>
                             <ul>
-                                <li>AI for Climate Change Mitigation</li>
-                                <li>Digital Transformation for Sustainable Development</li>
-                                <li>Smart Agriculture and Precision Farming</li>
-                                <li>Green AI and Sustainable Computing</li>
-                                <li>Smart Transportation and Urban Planning</li>
+                                <li>&bull; AI for Climate Change Mitigation</li>
+                                <li>&bull; Digital Transformation for Sustainable Development</li>
+                                <li>&bull; Smart Agriculture and Precision Farming</li>
+                                <li>&bull; Green AI and Sustainable Computing</li>
+                                <li>&bull; Smart Transportation and Urban Planning</li>
                             </ul>
                         </div>
                     </div>
