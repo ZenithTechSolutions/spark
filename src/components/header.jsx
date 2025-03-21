@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
 import logo from "../assets/kpr_main_logo.png";
-import { FaBars, FaTimes } from "react-icons/fa"; // Import icons
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,19 +10,15 @@ function Header() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    setOpenDropdown(null); // Close dropdowns when menu toggles
   };
 
-  const toggleDropdown = (dropdownName) => {
-    setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
-  };
 
   return (
     <>
       <div className="header">
         <div className="header_content">
           <div className="hamburger" onClick={toggleMenu}>
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
+            { <FaBars />}
           </div>
           <p>
             International Conference on Smart Systems, Power Electronics
@@ -36,11 +32,12 @@ function Header() {
       {/* Navbar Section */}
       <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
         <ul>
+          <li className="hamburger" style={{ color: "white" }} onClick={toggleMenu}><FaTimes/></li>
           <li><Link to="/Home" onClick={toggleMenu}>Home</Link></li>
           <li><Link to="/About-Us" onClick={toggleMenu}>About Us</Link></li>
 
           {/* Committee Dropdown */}
-          <li className="dropdown-container" onClick={() => toggleDropdown("committee")}>
+          <li className="dropdown-container">
             Committee <span> &#x2B9F;</span>
             <div className={`dropdown ${openDropdown === "committee" ? "open" : ""}`}>
               <Link to="/Committees" onClick={toggleMenu}><p>Committees</p></Link>
