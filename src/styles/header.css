@@ -53,6 +53,10 @@
   transition: text-decoration-color 0.3s ease, color 0.3s ease;
 }
 
+.dropdown-container span {
+  font-weight: 400 !important;
+}
+
 .dropdown-container {
   position: relative;
   cursor: pointer;
@@ -171,8 +175,5 @@
   .header_content {
     justify-content: space-evenly;
     padding: 0 0 0 7px ;
-  }
-  .navbar{
-    padding:0px;
   }
 }
