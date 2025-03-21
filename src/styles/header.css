@@ -24,7 +24,6 @@
   width: 160px;
 }
 
-/* Navbar */
 .navbar {
   width: 100%;
   position: sticky;
@@ -52,7 +51,6 @@
   transition: text-decoration-color 0.3s ease, color 0.3s ease;
 }
 
-/* Dropdown */
 .dropdown-container {
   position: relative;
   cursor: pointer;
@@ -71,9 +69,8 @@
   z-index: 1000;
   flex-direction: column;
 }
-
-.dropdown.open {
-  display: flex;
+.dropdown-container:hover .dropdown{
+  display: block;
 }
 
 .dropdown p {
@@ -157,11 +154,6 @@
   .dropdown {
     position: static;
     display: none;
-  }
-
-  .dropdown.open {
-    display: flex;
-    flex-direction: column;
   }
 
   .btn a {
