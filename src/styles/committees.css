@@ -1,3 +1,4 @@
+/* Container Styling */
 .committee-container {
     margin: 25px;
     border-radius: 10px;
@@ -6,17 +7,7 @@
     color: black;
 }
 
-.committee-container img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-}
-
-.committee-header {
-    font-size: 1rem;
-    border-left: #1b345f;
-}
-
+/* Header */
 .committee-header h1 {
     border-left: 4px solid var(--primary-bg-blue);
     padding-left: 10px;
@@ -24,98 +15,87 @@
     font-size: 24px;
 }
 
-.Mteam h3 {
+/* Image Styling */
+.committee-container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Section Titles */
+.team-section h3 {
     color: var(--primary-green);
     font-weight: 600;
     margin-top: 30px;
     letter-spacing: 5px;
 }
 
-.Mteam h2 {
+.team-section h2 {
     font-weight: 600;
     border-bottom: 2px solid black;
     width: fit-content;
 }
 
-.teams-text {
-    flex-grow: 1;
+/* Teams Box */
+.team-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-size: 0.8rem;
-}
-
-.teams-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    gap: 10px;
     background-color: #ffffff;
-    height: 180px;
-    width: 360px;
+    padding: 15px;
     border-radius: 15px;
-    margin-top: 30px;
-    padding: 0 10px 0 10px;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.16);
     transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+    flex: 1 1 calc(33.33% - 30px); /* Responsive sizing */
+    min-width: 250px; /* Ensures it doesn't shrink too much */
 }
 
-.teams-box:hover {
+.team-box:hover {
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.32);
     transform: translateY(-4px);
 }
 
-.teams-box h4,
-.teams-box h5 {
+/* Team Text */
+.team-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
-.teams-box h5 {
-    font-weight: 500;
-}
-
-.teams-box h4 {
+.team-box h4 {
     font-weight: 700;
 }
 
-.Mteam-row {
+.team-box h5 {
+    font-weight: 500;
+}
+
+.team-row {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: center;
-    margin-left: 10px;
 }
 
-.Cteam-row1,
-.Cteam-row2 {
+
+.committee-list {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    flex-wrap: wrap;  
+    gap: 20px; 
     justify-content: center;
-    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+    padding: 30px;
 }
 
-.Cteam-row1 {
-    margin: 0 0 30px 0;
+.committee-list li {
+    font-size: 1rem;
+    text-align: center;
+    /* flex: 1 1 calc(33.33% - 40px);  */
+    min-width: 220px;
+    transition: transform 0.2s ease-in-out;
 }
 
-.Cteam h3 {
-    color: var(--primary-green);
-    font-weight: 600;
-    margin-top: 60px;
-    letter-spacing: 5px;
-}
-
-.Cteam h2 {
-    font-weight: 600;
-    border-bottom: 2px solid black;
-    width: fit-content;
-}
