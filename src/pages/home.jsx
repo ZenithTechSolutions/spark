@@ -1,7 +1,7 @@
 import "../styles/home.css";
 import Countdown from "./timer";
 import Slider from "./slider";
-import bgposter from "../assets/bg-poster-kpr.png";
+import bgposter from "../assets/bg-poster-kpr (1).png";
 import Sidebar from './sidebar';
 
 
