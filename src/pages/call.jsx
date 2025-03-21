@@ -11,18 +11,18 @@ import img8 from '../assets/img8.png'
 
 function Call() {
     return (
-        <div class="callForPapers">
-            <div class="callForPapers-content">
-                <div class="callForPapers-header">
+        <div className="callForPapers">
+            <div className="callForPapers-content">
+                <div className="callForPapers-header">
                     <h1>Call for Papers</h1>
                     <p>Authors are invited to submit high-quality research papers aligned with the conference topics, including but not limited to:</p>
                 </div>
-                <div class="callForPapers-topics">
-                    <div class="topic-card">
-                        <div class="topic-image">
+                <div className="callForPapers-topics">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img1} alt="Artificial Intelligence & Machine Learning" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 1 : Artificial Intelligence & Machine Learning</h2>
                             <ul>
                                 <li>Deep Learning and Neural Networks</li>
@@ -34,11 +34,11 @@ function Call() {
                             </ul>
                         </div>
                     </div>
-                    <div class="topic-card">
-                        <div class="topic-image">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img2} alt="Embedded Systems & Internet of Things (IoT)" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 2 : Embedded Systems & Internet of Things (IoT)</h2>
                             <ul>
                                 <li>Embedded AI and TinyML</li>
@@ -49,11 +49,11 @@ function Call() {
                             </ul>
                         </div>
                     </div>
-                    <div class="topic-card">
-                        <div class="topic-image">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img3} alt="Electronics & VLSI" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 3 : Electronics & VLSI</h2>
                             <ul>
                                 <li>Low-Power VLSI and Nanoelectronics</li>
@@ -64,11 +64,11 @@ function Call() {
                             </ul>
                         </div>
                     </div>
-                    <div class="topic-card">
-                        <div class="topic-image">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img4} alt="Computer Science & Cybersecurity" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 4 : Computer Science & Cybersecurity</h2>
                             <ul>
                                 <li>Cloud and Edge Computing Architectures</li>
@@ -79,11 +79,11 @@ function Call() {
                             </ul>
                         </div>
                     </div>
-                    <div class="topic-card">
-                        <div class="topic-image">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img5} alt="Power Systems & Renewable Energy" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 5 : Power Systems & Renewable Energy</h2>
                             <ul>
                                 <li>Smart Grids and Energy Storage Technologies</li>
@@ -94,11 +94,11 @@ function Call() {
                             </ul>
                         </div>
                     </div>
-                    <div class="topic-card">
-                        <div class="topic-image">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img6} alt="Signal Processing & Communication Technologies" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 6 : Signal Processing & Communication Technologies</h2>
                             <ul>
                                 <li>5G, 6G, and Beyond: Emerging Technologies</li>
@@ -109,11 +109,11 @@ function Call() {
                             </ul>
                         </div>
                     </div>
-                    <div class="topic-card">
-                        <div class="topic-image">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img7} alt="Control Systems & Robotics" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 7 : Control Systems & Robotics</h2>
                             <ul>
                                 <li>Autonomous Systems and Drones</li>
@@ -124,11 +124,11 @@ function Call() {
                             </ul>
                         </div>
                     </div>
-                    <div class="topic-card">
-                        <div class="topic-image">
+                    <div className="topic-card">
+                        <div className="topic-image">
                             <img src={img8} alt="Smart and Sustainable Technologies" />
                         </div>
-                        <div class="topic-content">
+                        <div className="topic-content">
                             <h2>Track 8 : Smart and Sustainable Technologies</h2>
                             <ul>
                                 <li>AI for Climate Change Mitigation</li>
@@ -140,58 +140,58 @@ function Call() {
                         </div>
                     </div>
                 </div>
-                <div class="callForPapers-cta">
-                    <a href="#" class="cta-button">Submit Paper</a>
+                <div className="callForPapers-cta">
+                    <a href="#" className="cta-button">Submit Paper</a>
                 </div>
             </div>
-            <div class="sidebar">
-                <div class="sidebar-section">
+            <div className="sidebar">
+                <div className="sidebar-section">
                     <h3><FaCalendarAlt />Important Dates</h3>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-icon"><FaPaperPlane /></div>
-                            <div class="timeline-content">
+                    <div className="timeline">
+                        <div className="timeline-item">
+                            <div className="timeline-icon"><FaPaperPlane /></div>
+                            <div className="timeline-content">
                                 <strong>Paper Submission Deadline</strong>
                                 <p>May 31, 2025</p>
                             </div>
                         </div>
-                        <div class="timeline-item">
-                            <div class="timeline-icon"><FaBell /></div>
-                            <div class="timeline-content">
+                        <div className="timeline-item">
+                            <div className="timeline-icon"><FaBell /></div>
+                            <div className="timeline-content">
                                 <strong>Notification of Acceptance</strong>
                                 <p>June 10, 2025</p>
                             </div>
                         </div>
-                        <div class="timeline-item">
-                            <div class="timeline-icon"><FaCamera /></div>
-                            <div class="timeline-content">
+                        <div className="timeline-item">
+                            <div className="timeline-icon"><FaCamera /></div>
+                            <div className="timeline-content">
                                 <strong>Camera-Ready Submission</strong>
                                 <p>July 18, 2025</p>
                             </div>
                         </div>
-                        <div class="timeline-item">
-                            <div class="timeline-icon"><FaCalendarMinus /></div>
-                            <div class="timeline-content">
+                        <div className="timeline-item">
+                            <div className="timeline-icon"><FaCalendarMinus /></div>
+                            <div className="timeline-content">
                                 <strong>Conference Date</strong>
                                 <p>July 18, 2025</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="sidebar-section">
-                    <h3><i class="fa-solid fa-share-nodes"></i> Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#" class="download-link"><FaLinkedin />Linked In</a>
-                        <a href="#" class="download-link"><FaTwitter />Twitter</a>
-                        <a href="#" class="download-link"><FaPhoneAlt />Phone</a>
+                <div className="sidebar-section">
+                    <h3><i className="fa-solid fa-share-nodes"></i> Follow Us</h3>
+                    <div className="social-links">
+                        <a href="#" className="download-link"><FaLinkedin />Linked In</a>
+                        <a href="#" className="download-link"><FaTwitter />Twitter</a>
+                        <a href="#" className="download-link"><FaPhoneAlt />Phone</a>
                     </div>
                 </div>
 
-                <div class="sidebar-section">
-                    <h3><i class="fa-solid fa-download"></i> More Details</h3>
-                    <div class="download-links">
-                        <a href="#" class="download-link"><FaFileDownload /> Brochure</a>
-                        <a href="#" class="download-link"><FaFileWord /> Submission Guidelines</a>
+                <div className="sidebar-section">
+                    <h3><i className="fa-solid fa-download"></i> More Details</h3>
+                    <div className="download-links">
+                        <a href="#" className="download-link"><FaFileDownload /> Brochure</a>
+                        <a href="#" className="download-link"><FaFileWord /> Submission Guidelines</a>
                     </div>
                 </div>
             </div>
