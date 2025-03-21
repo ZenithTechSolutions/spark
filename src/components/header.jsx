@@ -16,7 +16,7 @@ function Header() {
       <div className="header">
         <div className="header_content">
           <div className="hamburger" onClick={toggleMenu}>
-            { isMenuOpen ?  null : <FaBars />}
+            {isMenuOpen ? null : <FaBars />}
           </div>
           <p>
             International Conference on Smart Systems, Power Electronics
@@ -30,18 +30,12 @@ function Header() {
       {/* Navbar Section */}
       <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
         <ul>
-          <li className="hamburger" style={{ color: "white" }} onClick={toggleMenu}><FaTimes/></li>
+          <li className="hamburger" style={{ color: "white" }} onClick={toggleMenu}><FaTimes /></li>
           <li><Link to="/Home" onClick={toggleMenu}>Home</Link></li>
           <li><Link to="/About-Us" onClick={toggleMenu}>About Us</Link></li>
 
           {/* Committee Dropdown */}
-          <li className="dropdown-container">
-            Committee <span> &#x2B9F;</span>
-            <div className="dropdown">
-              <Link to="/Committees" onClick={toggleMenu}><p>Committees</p></Link>
-              <Link onClick={toggleMenu}><p>Special Technical Committees</p></Link>
-            </div>
-          </li>
+          <li className="dropdown-container"><Link to="/Committees">Committees</Link></li>
 
           <li><Link to="/Guidelines" onClick={toggleMenu}>Guidelines</Link></li>
           <li><Link to="/Call-for-papers" onClick={toggleMenu}>Call for Papers</Link></li>
