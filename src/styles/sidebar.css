@@ -3,7 +3,7 @@
     border: 2px solid var(--primary-color);
     border-radius: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 35px;
     height: fit-content;
     width: fit-content;
