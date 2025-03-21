@@ -72,7 +72,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .about_container{
     margin: 0px;
     padding: 20px;
