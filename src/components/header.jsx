@@ -35,7 +35,7 @@ function Header() {
           <li><Link to="/About-Us" onClick={toggleMenu}>About Us</Link></li>
 
           {/* Committee Dropdown */}
-          <li className="dropdown-container"><Link to="/Committees">Committees</Link></li>
+          <li className="dropdown-container"><Link to="/Committees" onClick={toggleMenu}>Committees</Link></li>
 
           <li><Link to="/Guidelines" onClick={toggleMenu}>Guidelines</Link></li>
           <li><Link to="/Call-for-papers" onClick={toggleMenu}>Call for Papers</Link></li>
