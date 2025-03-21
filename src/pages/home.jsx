@@ -25,9 +25,7 @@ function Home() {
         <hr />
         <Slider />
         <hr />
-        <div className="important">
           <Countdown />
-        </div>
       </div>
     </>
   );

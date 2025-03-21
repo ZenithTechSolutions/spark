@@ -26,6 +26,7 @@
 .home{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .home-content{
   line-height: 1.5;
@@ -41,12 +42,7 @@
   text-align: justify;
   padding: 10px 30px;
 }
-.important {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 40px;
-}
+
 @media (min-width : 1025px){
   .home-content{
     width:70%;
@@ -66,21 +62,12 @@
     align-items: center;
     justify-content: center;
   }
-  .important {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 }
 
 @media (max-width: 768px) {
   .main_container {
     margin: 15px;
     padding: 15px;
-  }
-
-  .important {
-    padding: 20px;
   }
 }
 

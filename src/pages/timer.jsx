@@ -1,5 +1,5 @@
-import '../styles/timer.css';
 import React, { useState, useEffect } from "react";
+import '../styles/timer.css'; // Import the CSS file
 
 function Countdown() {
   const [targetDate, setTargetDate] = useState(new Date("2025-07-18T00:00:00").getTime());
@@ -65,7 +65,6 @@ function Countdown() {
 
   const currentTime = new Date().getTime();
   const days = Math.floor((targetDate - currentTime) / 86400000);
-  // const daysDigits = String(days).padStart(3, "0").split("");
 
   return (
     <div className="countdown-body">
