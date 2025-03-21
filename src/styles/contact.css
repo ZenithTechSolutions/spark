@@ -197,6 +197,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     background-color: var(--form-bg);
+    
 }
 
 .map-image img {
@@ -218,6 +219,10 @@ input:focus {
 .map-image p {
     color: black;
     padding-left: 10px;
+}
+
+#externallink-icon{
+    font-size: 13px;
 }
 
 
