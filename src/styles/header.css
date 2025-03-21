@@ -79,7 +79,7 @@
   white-space: nowrap;
 }
 
-.dropdown a:hover {
+.dropdown p:hover {
   background-color: var(--copyright-color);
 }
 
