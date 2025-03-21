@@ -9,8 +9,8 @@ function Home() {
   return (
     <>
       <div className="main_container">
-          <img src={bgposter} alt="" />
         <div className="container">
+          <img src={bgposter} alt="" />
         </div>
         <hr />
         <Slider />
