@@ -6,22 +6,11 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
-
-/* Top Section */
-.container {
-  padding: 60px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  gap: 20px;
+.container{
+  text-align: center;
+  max-width: 100%;
 }
-
-/* Image */
 .container img {
-  width: 600px;
-  height: 400px;
-  object-fit: cover;
   border-radius: 10px;
 }
 
