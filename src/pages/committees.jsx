@@ -1,7 +1,7 @@
 import '../styles/committees.css';
 import KPRamasamy from '../assets/KPRamasamy.jpg';
 import AMNatarajan from '../assets/AMNatarajan.jpg';
-import gayathri from '../assets/gayathri.png';
+import gayathri from '../assets/gayathri.jpg';
 
 /* ===========================
         TEAM DATA
