@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import ScrollToTop  from './components/ScrollToTop';
 import Header from './components/header'
 import Footer from './components/footer'
 import Home from './pages/home'
@@ -19,6 +20,7 @@ import Register from './pages/register'
 function App() {
   return (
     <>
+    <ScrollToTop />  {/* component Used for Scroll to top of a page */}
       <Header />
       <Routes >
         <Route path='/' element={<Home />} />
