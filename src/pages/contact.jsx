@@ -103,7 +103,7 @@ function Contact() {
                     <img src={kpr_top_view} alt="KPR Institute of Engineering and Technology" />
                     <p>KPR Institute of Engineering and Technology, Arasur, Coimbatore</p>
                     <a
-                        href="https://www.google.com/maps/place/KPR+Institute+of+Engineering+and+Technology/@11.0767263,77.1392167,17.25z/data=!4m6!3m5!1s0x3ba8ff7a08d662bb:0x81c68f2ddd8c1dfa!8m2!3d11.0764689!4d77.1420187!16s%2Fg%2F11g9l_vy7x?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D"
+                        href="https://www.google.com/maps/dir//KPR+Institute+of+Engineering+and+Technology,+Avinashi+-+Coimbatore+Road,+Arasur,+Uthupalayam,+Tamil+Nadu+641407,+India/@11.076469,77.142019,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba8ff7a08d662bb:0x81c68f2ddd8c1dfa!2m2!1d77.1420187!2d11.0764689?hl=en-IN&entry=ttu&g_ep=EgoyMDI1MDMxOS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
                         target="_blank"
                         rel="noopener noreferrer">
                         Get Direction <span id ="externallink-icon"><FaExternalLinkAlt/></span>
