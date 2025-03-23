@@ -159,7 +159,7 @@ const Committee = () => {
           <h1>{team.id}</h1>
           <div className="committee-list">
             {team.members.map((member, j) => (
-              <div key={j} className={`${member.img ? 'team-box' : null}`}>
+              <div key={j} className={`${member.img ? 'team-box' : "team-box-null"}`}>
                 {member.img && (
                   <img src={member.img} alt={member.name} />
                 )}

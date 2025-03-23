@@ -12,48 +12,53 @@
     padding-left: 10px;
     color: var(--primary-bg-blue);
     font-size: 24px;
-    margin:40px 0px 10px 0px;
+    margin: 40px 0px 10px 0px;
 }
+
 .committee-list {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;  
+    justify-content: center;
     gap: 20px; 
     padding-left: 20px;
 }
+
 .committee-container img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-}
-
-.team-section h3 {
-    color: var(--primary-green);
-    font-weight: 600;
-    margin-top: 30px;
-    letter-spacing: 5px;
-}
-
-.team-section h2 {
-    font-weight: 600;
-    border-left: 4px solid var(--primary-bg-blue);
-    width: fit-content;
-    padding-left: 10px;
-    margin: 20px 0px;
+    object-fit: contain;
 }
 
 .team-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: #ffffff;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.16);
-    min-width: 250px; 
+    max-width: 400px;
+    flex: 1 1 calc(25% - 30px);
 }
-
+.team-box-null{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    flex: 100%;
+}
+.team-no-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+    min-width: 250px;
+    flex: 1 1 calc(25% - 30px);
+}
 
 .team-text-col {
     display: flex;
@@ -61,19 +66,37 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    text-align: center;
 }
-.team-text-row{
-    gap: 30px;
+
+.team-text-row {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-.team-text-row h3{
-    min-width: 300px;
+    justify-content: flex-start;
+    gap: 30px;
 }
 
-@media(max-width : 500px){
-    .committee-container{
+.team-text-row h3 {
+    min-width: 200px;
+}
+
+@media (max-width: 1120px) {
+    .team-box,
+    .team-no-box {
+        flex: 1 1 calc(50% - 30px); 
+    }
+}
+
+@media (max-width: 700px) {
+    .team-box,
+    .team-no-box {
+        flex: 1 1 100%; /* 1 item per row */
+    }
+}
+
+@media (max-width: 500px) {
+    .committee-container {
         margin: 0px;
         border-radius: 0px;
         padding: 20px;
@@ -81,10 +104,8 @@
     .committee-list {
         padding-left: 0px;
     }
-    .team-text-row{
-       flex-direction: column;
-       gap: 10px;
+    .team-text-row {
+        flex-direction: column;
+        gap: 10px;
     }
-
 }
-
