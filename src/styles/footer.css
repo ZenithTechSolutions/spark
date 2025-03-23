@@ -86,10 +86,6 @@ footer {
     font-size: var(--font-size-heading);
 }
 
-.social-icons a:hover i {
-    transform: scale(1.2);
-    transition: transform 0.3s ease;
-}
 
 .social-icons a i {
     font-size: var(--font-size-base);
@@ -108,9 +104,10 @@ footer {
 
 .footer-contact a,
 .footer-contact p {
+    display: inline-block;
     text-decoration: none;
     color: var(--secondary-color);
-    transition: color 0.2s ease-in-out;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .footer-contact p {
@@ -118,7 +115,9 @@ footer {
 }
 
 .footer-contact a:hover {
-    color: var(--text-color);
+    transform: scale(1.07);
+    color: var(--text-color);    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {
