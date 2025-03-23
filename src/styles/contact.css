@@ -32,14 +32,14 @@
 .contact_us-form {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 1200px;
-    margin-left: 30px;
-    height: 546px;
-    gap: 180px;
+    align-items: space-between;
+    width: 100%;
+    margin-left: 90px;
+    justify-content: space-evenly;
 }
 
 .form-main {
+    margin-right: 50px;
     width: 500px;
     height: 466px;
     display: flex;
@@ -225,29 +225,138 @@ input:focus {
     font-size: 13px;
 }
 
-
-@media (max-width:660px){
+@media (max-width:1150px){
+    .contact_us-container
+    {
+        width: 80%;
+        padding: 20px;
+    }
     .contact_us-form{
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 20px;
         width: 100%;
-        /* margin-left: 0; */
     }
     .form-content{
         width: 100%;
         gap: 10px;
+    }
+    .form-main{
+        width: 100%;
     }
     .get-in-touch{
         flex-direction: column;
         gap: 20px;
         width: 100%;
     }
-    .get-in-touch-info{
+
+
+/* Media query for mobile devices (max-width: 700px) */
+@media (max-width: 700px) {
+    .contact_us-container {
+        width: 90%;
+        padding: 15px;
+    }
+    .contact_us-form {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .form-content {
+        width: 100%;
+        height: auto;
+    }
+    .form-main {
         width: 100%;
     }
-    .contact{
+    .get-in-touch {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    .get-in-touch-info {
+        width: 100%;
+    }
+    .contact {
+        /* border: 1px solid black; */
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        width: 100%;
+    }
+    .map {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .map-live {
+        width: 100%;
+        margin-left: 0;
+    }
+    .map-image img {
+        width: 100%;
+        height: auto;
+    }
+    .map-image {
+        width: 100%;
+    }
+}
+
+/* Media query for very small devices (max-width: 480px) */
+@media (max-width: 560px) {
+    .contact_us-container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        
+    }
+    .contact_us-form {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    .form-content {
+        width: 100%;
+        gap: 5px;
+    }
+    .form-main {
+        width: 100%;
+    }
+    .get-in-touch {
         flex-direction: column;
         gap: 10px;
         width: 100%;
     }
+    .get-in-touch-info {
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .map {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .map-live {
+        width: 100%;
+        margin-left: 0;
+    }
+    .map-image img {
+        width: 100%;
+        height: auto;
+    }
+    .map-image {
+        width: 100%;
+    }
+    input[type="email"],
+    input[type="text"] {
+        width: 100%;
+    }
+    input[type="submit"] {
+        width: 100%;
+    }
+}
 }
