@@ -132,6 +132,7 @@
   }
 
   .header_content img {
+    position: absolute;
     right: 30px;
   }
 
