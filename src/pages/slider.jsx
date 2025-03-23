@@ -13,43 +13,43 @@ function slider() {
             <div className="wrapper">
                 <div className="item item1">
                     <img src={s1} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit!</p>
+                    <h3>Prof. Dr. M. Shridhar</h3>
+                    <p>Professor Emeritus, USA</p>
                 </div>
                 <div className="item item2">
                     <img src={s2} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit!</p>
+                    <h3>Ir. Eur. Ing. Ts. Dr. Lau Chee Yong</h3>
+                    <p>Assistant Professor, Malaysia</p>
                 </div>
                 <div className="item item3">
                     <img src={s3} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit!</p>
+                    <h3>Prof. Dr. Po-Ming Lee</h3>
+                    <p>Professor, Taiwan</p>
                 </div>
                 <div className="item item4">
                     <img src={s4} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit!</p>
+                    <h3>Prof. Dr. Kyung Tae Kim</h3>
+                    <p>Professor, South Korea</p>
                 </div>
                 <div className="item item5">
                     <img src={s5} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit!</p>
+                    <h3>Prof. Dr. -Ing. Bernhard Glück</h3>
+                    <p>Professor, Germany</p>
                 </div>
                 <div className="item item6">
                     <img src={s1} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit!</p>
+                    <h3>Prof. Dr. M. Shridhar</h3>
+                    <p>Professor Emeritus, USA</p>
                 </div>
                 <div className="item item7">
                     <img src={s2} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit!</p>
+                    <h3>Ir. Eur. Ing. Ts. Dr. Lau Chee Yong</h3>
+                    <p>Assistant Professor, Malaysia</p>
                 </div>
                 <div className="item item8">
                     <img src={s3} />
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, illo.</p>
+                    <h3>Prof. Dr. Po-Ming Lee</h3>
+                    <p>Professor, Taiwan</p>
                 </div>
             </div>
             <div className="slider-viewall">

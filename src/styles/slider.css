@@ -20,7 +20,7 @@
 }
 
 .item {
-    width: 260px;
+    width: 270px;
     border-radius: 6px;
     position: absolute;
     background-color: rgb(239, 232, 232);
@@ -36,7 +36,7 @@
     text-align: center;
     color: var(--primary-bg-blue);
     cursor: pointer;
-    height: 400px;
+    height: 370px;
 }
 
 .item p {

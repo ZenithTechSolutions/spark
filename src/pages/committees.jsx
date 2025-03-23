@@ -12,6 +12,7 @@ const titles = ["Conference Chair", "Conference Coordinator", "Technical Program
 ];
 const committee = [
   {
+    
     id: "Management Team", members: [
       { img: KPRamasamy, name: "Dr. K.P. Ramasamy", role: "Chairman" },
       { img: AMNatarajan, name: "Dr. A.M. Natarajan", role: "Chief Executive" },
