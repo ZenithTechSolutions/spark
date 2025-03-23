@@ -95,7 +95,6 @@ footer {
     color: var(--copyright-color);
     padding-bottom: 10px;
 }
-
 .footer-copyright {
     text-align: center;
     margin-top: var(--spacing-small);
