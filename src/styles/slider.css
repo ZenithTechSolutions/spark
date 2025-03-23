@@ -3,7 +3,7 @@
     max-width: 1536px;
     position: relative;
     border-radius: 6px;
-    min-height: 400px;
+    min-height: 412px;
     margin: 2rem;
     overflow: hidden;
     mask-image: linear-gradient(to right,
@@ -21,10 +21,11 @@
 
 .item {
     width: 260px;
-    border-radius: 6px;
+    height: 412px;
+    border-radius: 10px;
     position: absolute;
     background-color: rgb(239, 232, 232);
-    left: max(calc(300px * 8), 100%);
+    left: max(calc(300px * 5), 100%);
     animation-name: scrollLeft;
     animation-duration: 30s;
     animation-timing-function: linear;
@@ -52,37 +53,24 @@
 }
 
 .item1 {
-    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+    animation-delay: calc(30s / 5 * (5 - 1) * -1);
 }
 
 .item2 {
-    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+    animation-delay: calc(30s / 5 * (5 - 2) * -1);
 }
 
 .item3 {
-    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+    animation-delay: calc(30s / 5 * (5 - 3) * -1);
 }
 
 .item4 {
-    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+    animation-delay: calc(30s / 5 * (5 - 4) * -1);
 }
 
 .item5 {
-    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+    animation-delay: calc(30s / 5 * (5 - 5) * -1);
 }
-
-.item6 {
-    animation-delay: calc(30s / 8 * (8 - 6) * -1);
-}
-
-.item7 {
-    animation-delay: calc(30s / 8 * (8 - 7) * -1);
-}
-
-.item8 {
-    animation-delay: calc(30s / 8 * (8 - 8) * -1);
-}
-
 .slider-viewall {
     display: flex;
     justify-content: center;
