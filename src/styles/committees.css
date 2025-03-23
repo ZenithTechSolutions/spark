@@ -4,95 +4,114 @@
     background-color: #fff;
     padding: 40px 60px;
     color: black;
+    padding-top: 10px;
 }
-
-.committee-header {
-    font-size: 1rem;
-    border-left: #1b345f;
+.committee-container h1{
+    border-left: 4px solid var(--primary-bg-blue);
+    padding-left: 10px;
+    color: var(--primary-bg-blue);
+    font-size: 24px;
+    margin: 40px 0px 10px 0px;
 }
 .committee-header h1 {
     border-left: 4px solid var(--primary-bg-blue);
     padding-left: 10px;
     color: var(--primary-bg-blue);
     font-size: 24px;
+    margin: 40px 0px 10px 0px;
+}
+
+.committee-list {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 20px; 
+    padding-left: 20px;
 }
 
 .committee-container img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-}
-
-.team-section h3 {
-    color: var(--primary-green);
-    font-weight: 600;
-    margin-top: 30px;
-    letter-spacing: 5px;
-}
-.team-box:first-child{
-    flex: 1 1 100%;
-    
-}
-.team-section h2 {
-    font-weight: 600;
-    border-left: 4px solid var(--primary-bg-blue);
-    width: fit-content;
-    padding-left: 10px;
-    margin: 20px 0px;
+    object-fit: contain;
 }
 
 .team-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: #ffffff;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.16);
-    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
-    flex: 1 1 calc(33.33% - 30px);
-    min-width: 250px; 
+    max-width: 400px;
+    flex: 1 1 calc(25% - 30px);
+}
+.team-box-null{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    flex: 100%;
+}
+.team-no-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+    min-width: 250px;
+    flex: 1 1 calc(25% - 30px);
 }
 
-
-.team-text {
+.team-text-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 0.9rem;
     flex-grow: 1;
-}
-.team-box h4 {
-    font-weight: 700;
+    text-align: center;
 }
 
-.team-box h5 {
-    font-weight: 500;
-}
-
-.team-row {
+.team-text-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     gap: 30px;
-    justify-content: center;
 }
 
-
-.committee-list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;  
-    gap: 20px; 
-    padding-left: 50px;
+.team-text-row h3 {
+    min-width: 200px;
 }
-@media(max-width : 500px){
-    .committee-container{
+
+@media (max-width: 1120px) {
+    .team-box,
+    .team-no-box {
+        flex: 1 1 calc(50% - 30px); 
+    }
+}
+
+@media (max-width: 700px) {
+    .team-box,
+    .team-no-box {
+        flex: 1 1 100%; 
+    }
+}
+
+@media (max-width: 500px) {
+    .committee-container {
         margin: 0px;
         border-radius: 0px;
         padding: 20px;
     }
-
+    .committee-list {
+        padding-left: 0px;
+    }
+    .team-text-row {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
-
