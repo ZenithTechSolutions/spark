@@ -48,8 +48,8 @@
     border-radius: 15px;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.16);
     transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
-    flex: 1 1 calc(33.33% - 30px);
-    min-width: 250px; 
+    flex: 1 1 calc(50% - 50px);
+    min-width: 300px; 
 }
 
 

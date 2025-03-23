@@ -1,17 +1,23 @@
 import '../styles/committees.css';
 import KPRamasamy from '../assets/KPRamasamy.jpg';
 import AMNatarajan from '../assets/AMNatarajan.jpg';
+import DSaravanan from '../assets/DSaravanan.jpg';
 import gayathri from '../assets/gayathri.jpg';
+import eeehod from '../assets/eeehod.jpeg';
+import ecehod from '../assets/ecehod.jpeg';
+
+
 
 const managementTeam = [
   { img: KPRamasamy, name: "Dr. K.P. Ramasamy", role: "Chairman" },
   { img: AMNatarajan, name: "Dr. A.M. Natarajan", role: "Chief Executive" },
+  { img:DSaravanan, name: "Dr. D.Saravanan", role: "Principal" },
   { img: gayathri, name: "Ms. M. Gayathri", role: "Secretary" }
 ];
 
 const conferenceChairs = [
-  { img:ecehod: "Dr. M. Kathirvelu", role: "Professor & Head, ECE, KPRIET" },
-  { img:eeehod,na. K. Mohana Sundaram", role: "Professor & Head, EE, KPRIET" }
+  { img:ecehod, name: "Dr. M. Kathirvelu", role: "Professor & Head, ECE, KPRIET" },
+  { img:eeehod, name: "K. Mohana Sundaram", role: "Professor & Head, EE, KPRIET" }
 ];
 
 const conferenceCoordinators = [
