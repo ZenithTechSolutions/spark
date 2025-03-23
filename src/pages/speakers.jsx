@@ -1,16 +1,16 @@
 import '../styles/speakers.css';
-import vishal from '../assets/vishal.png';
-import vignesh from '../assets/vignesh.png';
-import sadhur from '../assets/sadhur.png';
-import pradeep from '../assets/pradeep.png';
-import giri from '../assets/giri.jpg';
+import speaker1 from '../assets/speaker-Shridhar.jpg';
+import speaker2 from '../assets/speaker-Lau Chee Yong.jpg';
+import speaker3 from '../assets/speaker-Prof.Dr. Po-Ming Lee.jpg';
+import speaker4 from '../assets/speaker-Prof.Dr. Kyung Tae Kim.jpg';
+import speaker5 from '../assets/speaker-Bernhard Glück.jpg';
 
 const speakersData = [
-    { img: vishal, name: "Dr. Vishal Kannan S.I", position: "ASP/ECE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
-    { img: pradeep, name: "Dr. Pradeep T.M", position: "ASP/EEE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
-    { img: vignesh, name: "Dr. Vignesh M", position: "ASP/ECE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
-    { img: giri, name: "Dr. Giri Prasath B.P", position: "ASP/ECE", department: "Department of Biomedical Science, Sana'a University, Yemen" },
-    { img: sadhur, name: "Dr. Sathurnithy S", position: "ASP/EEE", department: "Department of Biomedical Science, Sana'a University, Yemen" }
+    { img: speaker1, name: "Prof. Dr. M. Shridhar",position :"Professor Emeritus" ,location:"USA" },
+    { img: speaker2, name: "Ir. Eur. Ing. Ts. Dr. Lau Chee Yong", position: " Assistant Professor ",location:"Malaysia" },
+    { img: speaker3, name: "Prof. Dr. Po-Ming Lee", position: "Professor",location:"Taiwan" },
+    { img: speaker4, name: "Prof. Dr. Kyung Tae Kim", position: "Professor " ,location:"South Korea"},
+    { img: speaker5, name: "Prof. Dr. -Ing. Bernhard Glück", position: "Professor",location:"Germany" }
 ];
 
 function Speakers() {
@@ -24,7 +24,7 @@ function Speakers() {
                         <div className="box_content">
                             <h2>{speaker.name}</h2>
                             <h3>{speaker.position}</h3>
-                            <p>{speaker.department}</p>
+                            <p>{speaker.location}</p>
                         </div>
                     </div>
                 ))}
