@@ -7,9 +7,6 @@ import gayathri from '../assets/gayathri.jpg';
 import eeehod from '../assets/eeehod.jpeg';
 import ecehod from '../assets/ecehod.jpeg';
 
-
-const titles = ["Conference Chair", "Conference Coordinator", "Technical Program Committee", "Publication Committee", "Finance Committee", "Organizing Committee", "Advisory Committee"
-];
 const committee = [
   {
     id: "Management Team", members: [
@@ -162,14 +159,22 @@ const Committee = () => {
           <h1>{team.id}</h1>
           <div className="committee-list">
             {team.members.map((member, j) => (
-              <div key={j} className="team-box">
+              <div key={j} className={`${member.img ? 'team-box' : null}`}>
                 {member.img && (
                   <img src={member.img} alt={member.name} />
                 )}
-                 <div className="team-text">
-                <h3>{member.name}</h3>
-                <p>{member.role}</p>
-              </div>
+                {member.img ? (
+                  <div className='team-text-col'>
+                    <h3>{member.name}</h3>
+                    <p>{member.role}</p>
+                  </div>
+                ) : (
+                  <div className='team-text-row'>
+                  <h3>{member.name}</h3>
+                  <p>- &nbsp;&nbsp;{member.role}</p>
+                </div>
+                )}
+
               </div>
             ))}
           </div>
