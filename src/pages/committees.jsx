@@ -10,8 +10,8 @@ const managementTeam = [
 ];
 
 const conferenceChairs = [
-  { name: "Dr. M. Kathirvelu", role: "Professor & Head, ECE, KPRIET" },
-  { name: "Dr. K. Mohana Sundaram", role: "Professor & Head, EE, KPRIET" }
+  { img:ecehod: "Dr. M. Kathirvelu", role: "Professor & Head, ECE, KPRIET" },
+  { img:eeehod,na. K. Mohana Sundaram", role: "Professor & Head, EE, KPRIET" }
 ];
 
 const conferenceCoordinators = [
