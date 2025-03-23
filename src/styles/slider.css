@@ -36,6 +36,7 @@
     text-align: center;
     color: var(--primary-bg-blue);
     cursor: pointer;
+    height: 400px;
 }
 
 .item p {
