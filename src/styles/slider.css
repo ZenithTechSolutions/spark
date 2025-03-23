@@ -20,7 +20,11 @@
 }
 
 .item {
+<<<<<<< Updated upstream
     width: 270px;
+=======
+    width: 260px;
+>>>>>>> Stashed changes
     border-radius: 6px;
     position: absolute;
     background-color: rgb(239, 232, 232);
