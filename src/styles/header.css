@@ -119,18 +119,19 @@
     display: block;
   }
 
-.header_content{
-  position: relative;
-  display: flex;
-  justify-content: left;
-  width: 100vw;
-} 
-.header_content p{
-  width: 420px;
-  padding-left: 20px;
-}
- .header_content img{
-  position: absolute;
+  .header_content {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+  }
+
+  .header_content p {
+    width: 420px;
+    padding-left: 20px;
+  }
+
+  .header_content img {
     right: 30px;
   }
 
