@@ -5,18 +5,14 @@ import logo from "../assets/kpr_main_logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
-  const [menu,setMenu]=useState(true)
-  const [hamclick,setHamClick]=useState(false)
-  const [dropclick,setDrop]=useState(false)
-  const isMenuOpen=()=>{
-    setMenu(!menu)
-  }
-  const hamMenu=()=>{
-    setHamClick(!hamclick)
-  }
-  const dropMenu=()=>{
-    setDrop(!dropclick)
-  }
+  const [menu, setMenu] = useState(true);
+  const [hamclick, setHamClick] = useState(false);
+  const [dropDown, setDropDown] = useState({ attend: false, registration: false });
+  
+  const toggleMenu = () => setMenu(!menu);
+  const hamMenu = () => setHamClick(!hamclick);
+  const toggleDropDown = (name) => setDropDown((prev) => ({ ...prev, [name]: !prev[name] }));
+  
   return (
     <>
       <div className="header">
@@ -50,9 +46,9 @@ function Header() {
           <li><Link to="/Speakers">Speakers</Link></li>
 
           {/* Attend Dropdown */}
-          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={dropMenu}>
+          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={()=>toggleDropDown("attend")} >
           <span>Attend &#x2B9F;</span>
-              <div className="dropdown">
+              <div className={dropDown.attend ? "dropdown-hide" : "dropdown-show"}>
                 <Link to="/Explore"><p>Explore Tamil Nadu</p></Link>
                 <Link to="/Venue"><p>Conference Venue</p></Link>
                 <Link to="/Accommodation" ><p>Accommodation</p></Link>
@@ -60,10 +56,10 @@ function Header() {
           </li>
 
           {/* Registration Dropdown */}
-          <li className={dropMenu ? "dropdown-container-on" : "dropdown-container-off"} onClick={dropMenu}>
+          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={()=>toggleDropDown("registration")}>
             <span>Registration &#x2B9F;</span>
-              <div className="dropdown">
-                <Link to="/Register"><p>Register</p></Link>
+            <div className={dropDown.registration ? "dropdown-hide" : "dropdown-show"}>
+            <Link><p>Register</p></Link>
                 <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank">
                   <p>Download Brochure</p>
                 </Link>
