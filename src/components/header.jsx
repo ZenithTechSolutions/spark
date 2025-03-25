@@ -5,29 +5,12 @@ import logo from "../assets/kpr_main_logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState(null);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-    setOpenDropdown(null);
-  };
-
-  const toggleDropdown = (dropdown) => {
-    setOpenDropdown(openDropdown === dropdown ? null : dropdown);
-  };
-
-  const handleItemClick = () => {
-    setIsMenuOpen(false); 
-    setOpenDropdown(null);
-  };
-
   return (
     <>
       <div className="header">
         <div className="header_content">
-          <div className="hamburger" onClick={toggleMenu}>
-            {isMenuOpen ? null : <FaBars />}
+          <div className="hamburger">
+             <FaBars />
           </div>
           <p>
             International Conference on Smart Systems, Power Electronics
@@ -39,50 +22,46 @@ function Header() {
       </div>
 
       {/* Navbar Section */}
-      <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
+      <nav className="navbar">
         <ul>
-          <li className="hamburger" style={{ color: "white" }} onClick={toggleMenu}>
+          <li className="hamburger" style={{ color: "white" }}>
             <FaTimes />
           </li>
-          <li><Link to="/Home" onClick={handleItemClick}>Home</Link></li>
-          <li><Link to="/About-Us" onClick={handleItemClick}>About Us</Link></li>
+          <li><Link to="/Home">Home</Link></li>
+          <li><Link to="/About-Us" >About Us</Link></li>
 
           {/* Committee */}
-          <li><Link to="/Committees" onClick={handleItemClick}>Committees</Link></li>
+          <li><Link to="/Committees" >Committees</Link></li>
 
-          <li><Link to="/Guidelines" onClick={handleItemClick}>Guidelines</Link></li>
-          <li><Link to="/Call-for-papers" onClick={handleItemClick}>Call for Papers</Link></li>
-          <li><Link to="/Speakers" onClick={handleItemClick}>Speakers</Link></li>
+          <li><Link to="/Guidelines" >Guidelines</Link></li>
+          <li><Link to="/Call-for-papers">Call for Papers</Link></li>
+          <li><Link to="/Speakers">Speakers</Link></li>
 
           {/* Attend Dropdown */}
           <li className="dropdown-container">
-            <span onClick={() => toggleDropdown("attend")}>Attend &#x2B9F;</span>
-            {openDropdown === "attend" && (
+            <span>Attend &#x2B9F;</span>
               <div className="dropdown">
-                <Link to="/Explore" onClick={handleItemClick}><p>Explore Tamil Nadu</p></Link>
-                <Link to="/Venue" onClick={handleItemClick}><p>Conference Venue</p></Link>
-                <Link to="/Accommodation" onClick={handleItemClick}><p>Accommodation</p></Link>
+                <Link to="/Explore"><p>Explore Tamil Nadu</p></Link>
+                <Link to="/Venue"><p>Conference Venue</p></Link>
+                <Link to="/Accommodation" ><p>Accommodation</p></Link>
               </div>
-            )}
           </li>
 
           {/* Registration Dropdown */}
           <li className="dropdown-container">
-            <span onClick={() => toggleDropdown("registration")}>Registration &#x2B9F;</span>
-            {openDropdown === "registration" && (
+            <span>Registration &#x2B9F;</span>
               <div className="dropdown">
-                <Link to="/Register" onClick={handleItemClick}><p>Register</p></Link>
-                <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={handleItemClick}>
+                <Link to="/Register"><p>Register</p></Link>
+                <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank">
                   <p>Download Brochure</p>
                 </Link>
-                <Link onClick={handleItemClick}><p>Workshops</p></Link>
+                <Link><p>Workshops</p></Link>
               </div>
-            )}
           </li>
 
-          <li><Link to="/Plagiarism-Policy" onClick={handleItemClick}>Plagiarism Policy</Link></li>
-          <li><Link to="/Contact-Us" onClick={handleItemClick}>Contact Us</Link></li>
-          <li className="btn"><Link onClick={handleItemClick}>Submit Paper</Link></li>
+          <li><Link to="/Plagiarism-Policy">Plagiarism Policy</Link></li>
+          <li><Link to="/Contact-Us">Contact Us</Link></li>
+          <li className="btn"><Link >Submit Paper</Link></li>
         </ul>
       </nav>
     </>
