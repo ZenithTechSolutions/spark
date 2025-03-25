@@ -15,7 +15,9 @@ function Accommodation() {
                     <div className="hostel-availability">
                         <h1>Hostels are available!</h1>
                     </div>
-                    <img src={hostelImg} alt="Hostel accommodation available at KPRIET" />
+                    <div className="acc-hostel-image">
+                        <img src={hostelImg} alt="Hostel accommodation available at KPRIET" />
+                    </div>
                     <p>
                         Participants can stay in well-maintained hostel accommodations within the campus at a nominal cost.
                         The hostels provide a safe, clean, and convenient stay with essential facilities, ensuring easy access
