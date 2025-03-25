@@ -6,11 +6,12 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
   const [hamclick, setHamClick] = useState(false);
-  const [dropDown, setDropDown] = useState({ attend: false, registration: false });
+  const [attend, setAttend] = useState(false);
+  const [regis, setRegis] = useState(false);
 
   const hamMenu = () => setHamClick(!hamclick);
-  const toggleDropDown = (name) =>
-    setDropDown((prev) => ({ ...prev, [name]: !prev[name] }));
+  const attendClick = () => setAttend(!attend);
+  const regisClick = () => setRegis(!regis);
 
   return (
     <>
@@ -42,9 +43,9 @@ function Header() {
           <li><Link to="/Speakers" onClick={hamMenu}>Speakers</Link></li>
 
           {/* Attend Dropdown */}
-          <li onClick={() => toggleDropDown("attend")} className="dropdown-container">
+          <li onClick={ attendClick} className="dropdown-container">
             <Link>Attend &#x2B9F;</Link>
-            <div className={dropDown.attend ? "dropdown-show" : "dropdown-hide"}>
+            <div className={attend ? "dropdown-show" : "dropdown-hide"} >
               <Link to="/Explore" onClick={hamMenu}><p>Explore Tamil Nadu</p></Link>
               <Link to="/Venue" onClick={hamMenu}><p>Conference Venue</p></Link>
               <Link to="/Accommodation" onClick={hamMenu}><p>Accommodation</p></Link>
@@ -52,9 +53,9 @@ function Header() {
           </li>
 
           {/* Registration Dropdown */}
-          <li onClick={() => {hamMenu(); toggleDropDown("registration")}} className="dropdown-container">
+          <li onClick={regisClick} className="dropdown-container">
             <Link>Registration &#x2B9F;</Link>
-            <div className={dropDown.registration ? "dropdown-show" : "dropdown-hide"}>
+            <div className={regis ? "dropdown-show" : "dropdown-hide"}>
               <Link to="/Register" onClick={hamMenu}><p>Register</p></Link>
               <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={hamMenu}>
                 <p>Download Brochure</p>
