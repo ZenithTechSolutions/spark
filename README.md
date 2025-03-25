@@ -1,10 +1,8 @@
 # Spark'25
+
 Welcome to the official repository of **SPARK 2025**, a premier international conference dedicated to advancing research and innovation in **Smart Systems, Power Electronics, Artificial Intelligence, Robotics, and Knowledge Engineering**.  
 
 This event brings together leading researchers, academicians, and industry experts to discuss groundbreaking technological advancements, share insights, and foster collaboration.  
-
-
-
 
 ## Table of Contents  
 
@@ -24,27 +22,20 @@ This event brings together leading researchers, academicians, and industry exper
  
  [License](#license)  
 
-
-
-
-
 ## About  
+
 **SPARK 2025** serves as a global platform for knowledge exchange and research discussions, promoting technological advancements across multiple domains.  
 
 ### The conference will feature:  
+
 - **Keynote Sessions** – Insights from global industry leaders and distinguished researchers.  
 - **Technical Paper Presentations** – Explore pioneering research and novel innovations.  
 - **Expert Panel Discussions** – Engage in discussions on emerging trends and challenges.  
 - **Hands-on Workshops** – Practical exposure to cutting-edge technologies.  
 - **Networking Opportunities** – Connect with professionals, researchers, and industry leaders.  
 
+## Conference Highlights 
 
-
-
-
-
-
-## Conference Highlights  
 - **Distinguished Speakers** – Learn from world-renowned experts.  
 - **Call for Papers** – Submit and present your research work.  
 - **Industry & Academic Collaborations** – Strengthening research partnerships.  
@@ -52,9 +43,8 @@ This event brings together leading researchers, academicians, and industry exper
 
 For more details, visit our official **[Conference Website](https://spark-three-orcin.vercel.app/)**  
 
-
-
 ## Key Themes & Topics  
+
 SPARK 2025 will focus on several key areas, including but not limited to:  
 
   - **Smart Systems** – IoT, Embedded Systems, Edge Computing, Automation  
@@ -65,12 +55,8 @@ SPARK 2025 will focus on several key areas, including but not limited to:
 
 Researchers, scholars, and professionals are invited to submit their original contributions under these themes.  
 
-
-
-
-
-
 ## Technologies Used  
+
 The SPARK 2025 website is developed using the latest web technologies to ensure a seamless experience.  
 
 - **Frontend**: React.js for dynamic UI  
@@ -78,17 +64,15 @@ The SPARK 2025 website is developed using the latest web technologies to ensure 
 - **Deployment**: Vercel for fast, scalable hosting  
 - **Core Web Technologies**: HTML5, CSS3, JavaScript  
 
-
-
-
-
 ## Setup Instructions  
+
 To run the website locally, follow these steps:  
 
 #### Clone the Repository  
 ```sh
 git clone https://github.com/vickyy234/spark.git
 ```
+
 #### Navigate to the Project Directory
 ```sh
 cd spark
@@ -98,6 +82,7 @@ cd spark
 ```sh
 npm install
 ```
+
 #### *Or*
 ```sh
 npm i
@@ -113,11 +98,8 @@ npm run dev
 http://localhost:5173
 ```
 
-
-
-
-
 ## Team & Contributors
+
 This project is developed and maintained by Team ZENITH:
 
 [Sadhur](https://github.com/Sadhurnithy)
