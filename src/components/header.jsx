@@ -5,11 +5,19 @@ import logo from "../assets/kpr_main_logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
+  const [menu,setMenu]=useState(true)
+  const [hamclick,setHamClick]=useState(false)
+  const isMenuOpen=()=>{
+    setMenu(!menu)
+  }
+  const hamMenu=()=>{
+    setHamClick(!hamclick)
+  }
   return (
     <>
       <div className="header">
         <div className="header_content">
-          <div className="hamburger">
+          <div className="hamburger"  onClick={hamMenu}>
              <FaBars />
           </div>
           <p>
@@ -22,7 +30,7 @@ function Header() {
       </div>
 
       {/* Navbar Section */}
-      <nav className="navbar">
+      <nav className={hamclick ? "navbar" : "navbar-open"}>
         <ul>
           <li className="hamburger" style={{ color: "white" }}>
             <FaTimes />
@@ -38,8 +46,8 @@ function Header() {
           <li><Link to="/Speakers">Speakers</Link></li>
 
           {/* Attend Dropdown */}
-          <li className="dropdown-container">
-            <span>Attend &#x2B9F;</span>
+          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"}>
+          <span>Attend &#x2B9F;</span>
               <div className="dropdown">
                 <Link to="/Explore"><p>Explore Tamil Nadu</p></Link>
                 <Link to="/Venue"><p>Conference Venue</p></Link>
@@ -48,7 +56,7 @@ function Header() {
           </li>
 
           {/* Registration Dropdown */}
-          <li className="dropdown-container">
+          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"}>
             <span>Registration &#x2B9F;</span>
               <div className="dropdown">
                 <Link to="/Register"><p>Register</p></Link>
