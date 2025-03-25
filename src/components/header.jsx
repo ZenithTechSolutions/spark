@@ -6,35 +6,22 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
   const [hamclick, setHamClick] = useState(false);
-  const [attend, setAttend] = useState(false);
-  const [regis, setRegis] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null);
 
   const hamMenu = () => {
     setHamClick(!hamclick)
-    setAttend(false);
-    setRegis(false);
+    setActiveDropdown(null);
   };
-  const attendClick = (e) => {
+  const toggleDropdown = (e, dropdown) => {
     e.stopPropagation();
-    setAttend(!attend)
-    setRegis(false);
+    setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
   };
-  const regisClick = (e) => {
-    e.stopPropagation();
-    setRegis(!regis)
-    setAttend(false);
-  };
-  useEffect(() => {
-    const handleClickOutside = () => {
-      setAttend(false);
-      setRegis(false);
-    };
 
+  useEffect(() => {
+    const handleClickOutside = () => setActiveDropdown(null);
     document.addEventListener("click", handleClickOutside);
 
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-    };
+    return () => document.removeEventListener("click", handleClickOutside);
   }, []);
   return (
     <>
@@ -66,9 +53,9 @@ function Header() {
           <li><Link to="/Speakers" onClick={hamMenu}>Speakers</Link></li>
 
           {/* Attend Dropdown */}
-          <li onClick={attendClick} className="dropdown-container">
+          <li onClick={(e)=>toggleDropdown(e,"attend")} className="dropdown-container">
             <Link>Attend &#x2B9F;</Link>
-            <div className={attend ? "dropdown-show" : "dropdown-hide"} >
+            <div className={activeDropdown==="attend" ? "dropdown-show" : "dropdown-hide"} >
               <Link to="/Explore" onClick={hamMenu}><p>Explore Tamil Nadu</p></Link>
               <Link to="/Venue" onClick={hamMenu}><p>Conference Venue</p></Link>
               <Link to="/Accommodation" onClick={hamMenu}><p>Accommodation</p></Link>
@@ -76,9 +63,9 @@ function Header() {
           </li>
 
           {/* Registration Dropdown */}
-          <li onClick={regisClick} className="dropdown-container">
-            <Link>Registration &#x2B9F;</Link>
-            <div className={regis ? "dropdown-show" : "dropdown-hide"}>
+          <li onClick={(e)=>toggleDropdown(e,"regis")} className="dropdown-container">
+            <Link>Register &#x2B9F;</Link>
+            <div className={activeDropdown==="regis" ? "dropdown-show" : "dropdown-hide"} >
               <Link to="/Register" onClick={hamMenu}><p>Register</p></Link>
               <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={hamMenu}>
                 <p>Download Brochure</p>
