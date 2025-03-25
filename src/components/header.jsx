@@ -7,11 +7,15 @@ import { FaBars, FaTimes } from "react-icons/fa";
 function Header() {
   const [menu,setMenu]=useState(true)
   const [hamclick,setHamClick]=useState(false)
+  const [dropclick,setDrop]=useState(false)
   const isMenuOpen=()=>{
     setMenu(!menu)
   }
   const hamMenu=()=>{
     setHamClick(!hamclick)
+  }
+  const dropMenu=()=>{
+    setDrop(!dropclick)
   }
   return (
     <>
@@ -46,7 +50,7 @@ function Header() {
           <li><Link to="/Speakers">Speakers</Link></li>
 
           {/* Attend Dropdown */}
-          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"}>
+          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={dropMenu}>
           <span>Attend &#x2B9F;</span>
               <div className="dropdown">
                 <Link to="/Explore"><p>Explore Tamil Nadu</p></Link>
@@ -56,7 +60,7 @@ function Header() {
           </li>
 
           {/* Registration Dropdown */}
-          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"}>
+          <li className={dropMenu ? "dropdown-container-on" : "dropdown-container-off"} onClick={dropMenu}>
             <span>Registration &#x2B9F;</span>
               <div className="dropdown">
                 <Link to="/Register"><p>Register</p></Link>
