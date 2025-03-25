@@ -39,6 +39,20 @@
     color: #555;
 }
 
+.place-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    line-height: 1.7em;
+    font-size: 0.9em;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .place-card:nth-child(even) {
     flex-direction: row-reverse;
     border-right: 3px solid var(--primary-color);
@@ -58,20 +72,6 @@
     width: 100%;
 }
 
-.place-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 15px;
-    line-height: 1.7em;
-    font-size: 0.9em;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .place-image img {
     width: 300px;
     height: 200px;
@@ -86,23 +86,150 @@
 .place-details h2 {
     font-size: 1.5em;
     color: var(--primary-color);
-    /* text-decoration: underline; */
     margin-bottom: 10px;
 }
 
 .place-details p {
     font-size: 1em;
-    color: #555;
+    color: var(--black);
     margin-bottom: 10px;
 }
 
 .place-details ul {
-    padding-left: 40px;
+    padding-left: 30px;
     padding-top: 10px;
     list-style-type: disc;
 }
 
 .place-details ul li {
+    color: var(--black);
     margin-bottom: 5px;
-    color: #555;
+}
+
+@media (max-width: 1024px) {
+    .place-card {
+        gap: 40px;
+    }
+
+    .place-image img {
+        width: 250px;
+        height: 200px;  
+    }
+
+    .place-details h2 {
+        font-size: 1.1rem;
+    }
+
+    .place-details ul li {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    .tourist-header h1 {
+        font-size: 20px;
+    }
+
+    .tourist-header p {
+        font-size: .8rem;
+    }
+
+    .place-card {
+        width: 650px;
+        gap: 30px;
+    }
+
+    .place-image img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .place-details h2{
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+
+    .place-details p {
+        font-size: .7rem;
+        margin-bottom: 0;
+    }
+    
+    .place-details ul li {
+        font-size: 0.8em;
+    }
+
+    .place-details ul {
+        padding: 2px 0 0 20px;
+        list-style-type: disc !important;
+    }
+
+    .place-details ul li {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .tourist-container {
+        margin: 10px;
+    }
+    
+    .place-card {
+        flex-direction: row;
+        width: 350px;
+        gap: 30px;
+    }
+
+    .tourist-container {
+        padding: 10px;
+    }
+
+    .tourist-header h1 {
+        font-size: 16px;
+    }
+
+    .tourist-header p {
+        font-size: .7rem;
+    }
+
+    .place-card:nth-child(even) {
+        flex-direction: column;
+        border: 2px solid var(--primary-color);
+    }
+    
+    .place-card:nth-child(odd) {
+        flex-direction: column;
+        border: 2px solid var(--primary-green);
+    }
+
+    .place-card {
+        padding: 10px;
+    }
+
+    .place-image img {
+        width:326px;
+        height: auto;
+    }
+
+    .place-details {
+        width: auto;
+    }
+
+    .place-details h2 {
+        font-size: 1em;
+    }
+
+    .place-details ul {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place-card {
+        width: fit-content;
+    }
+
+    .place-image img {
+        width:100%;
+        height: auto;
+    }
 }
