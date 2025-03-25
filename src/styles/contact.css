@@ -199,11 +199,12 @@ input:focus {
     display: flex; 
     flex-direction: column; 
     background-color: var(--form-bg); 
+    border-radius: 10px;
 }
 .map-image img {
     width: 500; 
     height: 243; 
-    border-radius: 10px; 
+    border-radius: 10px 10px 0 0; 
     margin-bottom: 10px; 
 }
 
@@ -340,9 +341,6 @@ input:focus {
         width: 100%;
         font-size: 15px;
         max-width: 120px;
-    }
-    .get-in-touch{
-        
     }
     }
     .contact{
