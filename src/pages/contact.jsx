@@ -64,7 +64,7 @@ function Contact() {
                     </form>
                 </div>
                 <div className="form-content">
-                <p style={{ paddingLeft: "160px" }}> <span> Ask how we can Help! </span></p>
+                <p> <span id ="form-content-header"> Ask how we can Help! </span></p>
                     <p>Please fill the provided form, and we will get back to you as soon as possible</p>
                     <p><span>Your Email </span>– Share your email with us so we can reach out to you with the right support and updates! Stay connected effortlessly.</p>
                     <p><span>Subject</span> – Help us understand your query better by selecting the right subject. This ensures a quick and precise response from our team.</p>
@@ -90,9 +90,7 @@ function Contact() {
                     <p> <span id="map-head"> Visit Us! </span> <br /> KPR Institute of Engineering and Technology, Arasur, Coimbatore, Tamil Nadu 641407</p>
                     <br />
                     <iframe
-                        width="480"
-                        height="290"
-                        style={{ border: "0" }}
+                        style={{ width: "100%", height: "290px", border: "0" }}
                         loading="lazy"
                         allowFullScreen
                         referrerPolicy="no-referrer-when-downgrade"
