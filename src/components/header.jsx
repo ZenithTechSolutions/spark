@@ -30,9 +30,9 @@ function Header() {
       </div>
 
       {/* Navbar Section */}
-      <nav className={hamclick ? "navbar" : "navbar-open"}>
+      <nav className={hamclick ? "navbar-open" : "navbar"}>
         <ul>
-          <li className="hamburger" style={{ color: "white" }}>
+          <li className="hamburger" onClick={hamMenu} style={{ color: "white" }}>
             <FaTimes />
           </li>
           <li><Link to="/Home">Home</Link></li>

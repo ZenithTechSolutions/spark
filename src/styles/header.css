@@ -121,6 +121,7 @@
 @media (max-width: 1150px) {
   .hamburger {
     display: block;
+    z-index: 1;
   }
 
   .header_content {
@@ -139,10 +140,7 @@
     position: absolute;
     right: 30px;
   }
-.navbar{
-  display: none;
-}
-  .navbar-open {
+  .navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -152,9 +150,25 @@
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     padding: 10px;
+    z-index: 1000;
   }
-
-  .navbar-l {
+.navbar ul{
+display: none;
+}
+  .navbar-open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--primary-bg-blue);
+    transform: translateX(0%);
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .navbar-open ul {
     flex-direction: column;
     align-items: flex-start;
     padding: var(--spacing-medium);
