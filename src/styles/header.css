@@ -173,7 +173,7 @@ display: none;
     flex-direction: column;
     align-items: flex-start;
     padding: var(--spacing-medium);
-    gap: var(--spacing-medium);
+    gap: var(--spacing-small);
   }
 
   .dropdown {
