@@ -72,3 +72,22 @@ th {
     padding-bottom: 8px;
     border: 1px solid black;
 }
+
+
+
+@media (max-width: 540px) {
+    .register-container {
+        margin: 0px;
+        border-radius: 0px;
+        padding: 20px;
+    }
+    .register-table table {
+        margin-left: 0px;
+    }
+    td,
+    th {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+}
