@@ -118,7 +118,7 @@ http://localhost:5173
 
 
 ## Team & Contributors
-This project is proudly developed and maintained by Team ZENITH:
+This project is developed and maintained by Team ZENITH:
 
 [Sadhur](https://github.com/Sadhurnithy)
 
