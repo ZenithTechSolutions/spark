@@ -154,7 +154,7 @@
     padding: 10px;
   }
 
-  .navbar-ul {
+  .navbar-l {
     flex-direction: column;
     align-items: flex-start;
     padding: var(--spacing-medium);
