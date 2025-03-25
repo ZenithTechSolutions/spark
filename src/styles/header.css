@@ -201,7 +201,7 @@ display: none;
     flex-direction: column;
     align-items: flex-start;
     padding: var(--spacing-medium);
-    gap: 10px;
+    gap: 6px;
   }
 
   .header_content {
