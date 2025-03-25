@@ -311,12 +311,12 @@ input:focus {
     .form-main {
         width: 100%; 
         height: auto;
-        max-width: 450px; /* Prevent it from getting too big */
+        max-width: 450px; 
         padding: 16px;
         margin: 0;
     }
     .form-content {
-        max-width: 450px; /* Prevent it from getting too big */
+        max-width: 450px;
         width: 100%;
         text-align: center;
         padding-left: 0;
