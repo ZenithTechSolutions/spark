@@ -77,7 +77,7 @@ function Header() {
 
           {/* Registration Dropdown */}
           <li onClick={regisClick} className="dropdown-container">
-            <Link>Registration \/;</Link>
+            <Link>Registration &#x2B9F;</Link>
             <div className={regis ? "dropdown-show" : "dropdown-hide"}>
               <Link to="/Register" onClick={hamMenu}><p>Register</p></Link>
               <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={hamMenu}>
