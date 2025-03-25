@@ -5,20 +5,19 @@ import logo from "../assets/kpr_main_logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
-  const [menu, setMenu] = useState(true);
   const [hamclick, setHamClick] = useState(false);
   const [dropDown, setDropDown] = useState({ attend: false, registration: false });
-  
-  const toggleMenu = () => setMenu(!menu);
+
   const hamMenu = () => setHamClick(!hamclick);
-  const toggleDropDown = (name) => setDropDown((prev) => ({ ...prev, [name]: !prev[name] }));
-  
+  const toggleDropDown = (name) =>
+    setDropDown((prev) => ({ ...prev, [name]: !prev[name] }));
+
   return (
     <>
       <div className="header">
         <div className="header_content">
-          <div className="hamburger"  onClick={hamMenu}>
-             <FaBars />
+          <div className="hamburger" onClick={hamMenu}>
+            <FaBars />
           </div>
           <p>
             International Conference on Smart Systems, Power Electronics
@@ -37,39 +36,36 @@ function Header() {
           </li>
           <li><Link to="/Home" onClick={hamMenu}>Home</Link></li>
           <li><Link to="/About-Us" onClick={hamMenu}>About Us</Link></li>
-
-          {/* Committee */}
           <li><Link to="/Committees" onClick={hamMenu}>Committees</Link></li>
-
           <li><Link to="/Guidelines" onClick={hamMenu}>Guidelines</Link></li>
           <li><Link to="/Call-for-papers" onClick={hamMenu}>Call for Papers</Link></li>
           <li><Link to="/Speakers" onClick={hamMenu}>Speakers</Link></li>
 
           {/* Attend Dropdown */}
-          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={()=>toggleDropDown("attend")} >
-          <span>Attend &#x2B9F;</span>
-              <div className={dropDown.attend ? "dropdown-hide" : "dropdown-show"}>
-                <Link to="/Explore" onClick={hamMenu}><p>Explore Tamil Nadu</p></Link>
-                <Link to="/Venue" onClick={hamMenu}><p>Conference Venue</p></Link>
-                <Link to="/Accommodation" onClick={hamMenu}><p>Accommodation</p></Link>
-              </div>
+          <li onClick={() => toggleDropDown("attend")} className="dropdown-container">
+            <Link>Attend &#x2B9F;</Link>
+            <div className={dropDown.attend ? "dropdown-show" : "dropdown-hide"}>
+              <Link to="/Explore" onClick={hamMenu}><p>Explore Tamil Nadu</p></Link>
+              <Link to="/Venue" onClick={hamMenu}><p>Conference Venue</p></Link>
+              <Link to="/Accommodation" onClick={hamMenu}><p>Accommodation</p></Link>
+            </div>
           </li>
 
           {/* Registration Dropdown */}
-          <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={()=>toggleDropDown("registration")}>
-            <span>Registration &#x2B9F;</span>
-            <div className={dropDown.registration ? "dropdown-hide" : "dropdown-show"}>
-            <Link onClick={hamMenu}><p>Register</p></Link>
-                <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank">
-                  <p onClick={hamMenu}>Download Brochure</p>
-                </Link>
-                <Link onClick={hamMenu}><p>Workshops</p></Link>
-              </div>
+          <li onClick={() => {hamMenu(); toggleDropDown("registration")}} className="dropdown-container">
+            <Link>Registration &#x2B9F;</Link>
+            <div className={dropDown.registration ? "dropdown-show" : "dropdown-hide"}>
+              <Link to="/Register" onClick={hamMenu}><p>Register</p></Link>
+              <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={hamMenu}>
+                <p>Download Brochure</p>
+              </Link>
+              <Link to="/Workshops" onClick={hamMenu}><p>Workshops</p></Link>
+            </div>
           </li>
 
           <li><Link to="/Plagiarism-Policy" onClick={hamMenu}>Plagiarism Policy</Link></li>
           <li><Link to="/Contact-Us" onClick={hamMenu}>Contact Us</Link></li>
-          <li className="btn"><Link onClick={hamMenu}>Submit Paper</Link></li>
+          <li className="btn"><Link to="/Submit-Paper" onClick={hamMenu}>Submit Paper</Link></li>
         </ul>
       </nav>
     </>

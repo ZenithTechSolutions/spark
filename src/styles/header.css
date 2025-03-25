@@ -22,7 +22,9 @@
   width: 160px;
 }
 
-.navbar,.navbar-open{
+/* Navbar */
+.navbar,
+.navbar-open {
   width: 100%;
   position: sticky;
   top: 0;
@@ -35,7 +37,8 @@
   font-size: clamp(0.8rem, 1.14vw, 1rem);
 }
 
-.navbar ul,.navbar-open ul {
+.navbar ul,
+.navbar-open ul {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -43,29 +46,15 @@
   align-items: center;
 }
 
-.navbar span,.navbar-open span {
-  font-weight: normal;
-}
-
-.navbar ul a,.navbar-open ul a {
+.navbar ul a,
+.navbar-open ul a {
   color: var(--white);
   text-decoration: none;
   transition: text-decoration-color 0.3s ease, color 0.3s ease;
 }
-
-.dropdown-container-on span {
-  font-weight: 400 !important;
+.dropdown-container{
+  position: relative; 
 }
-
-.dropdown-container-on {
-  position: relative;
-  cursor: pointer;
-}
-.dropdown-container-off {
-  position: relative;
-  cursor: pointer;
-}
-
 .dropdown-hide {
   display: none;
   position: absolute;
@@ -78,32 +67,28 @@
   border-radius: var(--spacing-small);
   z-index: 1000;
   flex-direction: column;
+  cursor: pointer;
+
 }
 .dropdown-show {
-  display: none;
   position: absolute;
   background-color: var(--white);
   padding: var(--spacing-small) 0;
   box-shadow: var(--box-shadow);
   min-width: 180px;
   top: 100%;
-  left: 0;
   border-radius: var(--spacing-small);
   z-index: 1000;
   flex-direction: column;
 }
 
-.dropdown-container-on:hover .dropdown-hide {
-  display: block;
-}
-
-.dropdown-hide p {
+.dropdown-show p {
   padding: var(--spacing-small) var(--spacing-medium);
   color: var(--primary-bg-blue);
   white-space: nowrap;
 }
 
-.dropdown-hide p:hover {
+.dropdown-show p:hover {
   background-color: var(--copyright-color);
 }
 
@@ -153,6 +138,7 @@
     position: absolute;
     right: 30px;
   }
+
   .navbar {
     position: fixed;
     top: 0;
@@ -165,9 +151,11 @@
     padding: 10px;
     z-index: 1000;
   }
-.navbar ul{
-display: none;
-}
+
+  .navbar ul {
+    display: none;
+  }
+
   .navbar-open {
     position: fixed;
     top: 0;
@@ -180,7 +168,7 @@ display: none;
     padding: 10px;
     z-index: 1000;
   }
-  
+
   .navbar-open ul {
     height: 100vh;
     flex-direction: column;
@@ -189,9 +177,8 @@ display: none;
     gap: var(--spacing-small);
   }
 
-  .dropdown-hide {
+  .dropdown-show {
     position: static;
-    display: none;
   }
 
   .btn a {
@@ -202,13 +189,15 @@ display: none;
 }
 
 @media (max-width: 670px) {
-  .header{
+  .header {
     height: auto;
     padding: 10px 0;
   }
+
   .header_content img {
     display: none;
   }
+
   .navbar-open ul {
     height: 100vh;
     flex-direction: column;
