@@ -9,9 +9,16 @@ function Header() {
   const [attend, setAttend] = useState(false);
   const [regis, setRegis] = useState(false);
 
-  const hamMenu = () => setHamClick(!hamclick);
-  const attendClick = () => setAttend(!attend);
-  const regisClick = () => setRegis(!regis);
+  const hamMenu = () => {setHamClick(!hamclick)
+    setAttend(false); 
+    setRegis(false);
+  };
+  const attendClick = () => {setAttend(!attend)
+    setRegis(false);
+  };
+  const regisClick = () => {setRegis(!regis)
+    setAttend(false);
+  };
 
   return (
     <>
