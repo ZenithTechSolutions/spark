@@ -35,23 +35,23 @@ function Header() {
           <li className="hamburger" onClick={hamMenu} style={{ color: "white" }}>
             <FaTimes />
           </li>
-          <li><Link to="/Home">Home</Link></li>
-          <li><Link to="/About-Us" >About Us</Link></li>
+          <li><Link to="/Home" onClick={hamMenu}>Home</Link></li>
+          <li><Link to="/About-Us" onClick={hamMenu}>About Us</Link></li>
 
           {/* Committee */}
-          <li><Link to="/Committees" >Committees</Link></li>
+          <li><Link to="/Committees" onClick={hamMenu}>Committees</Link></li>
 
-          <li><Link to="/Guidelines" >Guidelines</Link></li>
-          <li><Link to="/Call-for-papers">Call for Papers</Link></li>
-          <li><Link to="/Speakers">Speakers</Link></li>
+          <li><Link to="/Guidelines" onClick={hamMenu}>Guidelines</Link></li>
+          <li><Link to="/Call-for-papers" onClick={hamMenu}>Call for Papers</Link></li>
+          <li><Link to="/Speakers" onClick={hamMenu}>Speakers</Link></li>
 
           {/* Attend Dropdown */}
           <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={()=>toggleDropDown("attend")} >
           <span>Attend &#x2B9F;</span>
               <div className={dropDown.attend ? "dropdown-hide" : "dropdown-show"}>
-                <Link to="/Explore"><p>Explore Tamil Nadu</p></Link>
-                <Link to="/Venue"><p>Conference Venue</p></Link>
-                <Link to="/Accommodation" ><p>Accommodation</p></Link>
+                <Link to="/Explore" onClick={hamMenu}><p>Explore Tamil Nadu</p></Link>
+                <Link to="/Venue" onClick={hamMenu}><p>Conference Venue</p></Link>
+                <Link to="/Accommodation" onClick={hamMenu}><p>Accommodation</p></Link>
               </div>
           </li>
 
@@ -59,17 +59,17 @@ function Header() {
           <li className={menu ? "dropdown-container-on" : "dropdown-container-off"} onClick={()=>toggleDropDown("registration")}>
             <span>Registration &#x2B9F;</span>
             <div className={dropDown.registration ? "dropdown-hide" : "dropdown-show"}>
-            <Link><p>Register</p></Link>
+            <Link onClick={hamMenu}><p>Register</p></Link>
                 <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank">
-                  <p>Download Brochure</p>
+                  <p onClick={hamMenu}>Download Brochure</p>
                 </Link>
-                <Link><p>Workshops</p></Link>
+                <Link onClick={hamMenu}><p>Workshops</p></Link>
               </div>
           </li>
 
-          <li><Link to="/Plagiarism-Policy">Plagiarism Policy</Link></li>
-          <li><Link to="/Contact-Us">Contact Us</Link></li>
-          <li className="btn"><Link >Submit Paper</Link></li>
+          <li><Link to="/Plagiarism-Policy" onClick={hamMenu}>Plagiarism Policy</Link></li>
+          <li><Link to="/Contact-Us" onClick={hamMenu}>Contact Us</Link></li>
+          <li className="btn"><Link onClick={hamMenu}>Submit Paper</Link></li>
         </ul>
       </nav>
     </>
