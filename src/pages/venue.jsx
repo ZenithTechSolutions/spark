@@ -7,7 +7,7 @@ import venue5 from '../assets/venue5.jpg'
 function Venue(){
     return(
         <div className="total">
-        <div className="text">
+        <div className="text-head">
             <h1>Conference Venue</h1>
             <p><span>Spark 2025</span> will take place at the <span>KPR Institute of Engineering and Technology (KPRIET)</span>.</p>
             <p>The SPARK Conference 2025 will take place at KPR Institute of Engineering and Technology, hosted across state-of-the-art halls, including Ragam Hall, Dhanam Hall, Pallavi Hall, Veena Hall, and Geetham Hall. Each venue is equipped with modern facilities to ensure a seamless and engaging conference experience.</p>
