@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
 import logo from "../assets/kpr_main_logo.png";
@@ -9,17 +9,33 @@ function Header() {
   const [attend, setAttend] = useState(false);
   const [regis, setRegis] = useState(false);
 
-  const hamMenu = () => {setHamClick(!hamclick)
-    setAttend(false); 
+  const hamMenu = () => {
+    setHamClick(!hamclick)
+    setAttend(false);
     setRegis(false);
   };
-  const attendClick = () => {setAttend(!attend)
+  const attendClick = (e) => {
+    e.stopPropagation();
+    setAttend(!attend)
     setRegis(false);
   };
-  const regisClick = () => {setRegis(!regis)
+  const regisClick = (e) => {
+    e.stopPropagation();
+    setRegis(!regis)
     setAttend(false);
   };
+  useEffect(() => {
+    const handleClickOutside = () => {
+      setAttend(false);
+      setRegis(false);
+    };
 
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
   return (
     <>
       <div className="header">
@@ -50,7 +66,7 @@ function Header() {
           <li><Link to="/Speakers" onClick={hamMenu}>Speakers</Link></li>
 
           {/* Attend Dropdown */}
-          <li onClick={ attendClick} className="dropdown-container">
+          <li onClick={attendClick} className="dropdown-container">
             <Link>Attend &#x2B9F;</Link>
             <div className={attend ? "dropdown-show" : "dropdown-hide"} >
               <Link to="/Explore" onClick={hamMenu}><p>Explore Tamil Nadu</p></Link>
