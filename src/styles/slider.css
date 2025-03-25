@@ -89,7 +89,7 @@
     background-color: var(--primary-color);
     padding: 15px 20px;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in;
     font-size: 0.9em;
     font-weight: 500;
 }
