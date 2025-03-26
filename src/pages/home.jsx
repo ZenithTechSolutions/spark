@@ -3,7 +3,8 @@ import Countdown from "./timer";
 import Slider from "./slider";
 import bgposter from "../assets/bg-poster-kpr (1).png";
 import HomeSidebar from './home-sidebar';
-
+import turnitinlogo from "../assets/turnitin-logo.svg";
+import scorpuslogo from "../assets/Scopus_logo.svg";
 
 function Home() {
   return (
@@ -24,6 +25,14 @@ function Home() {
         </div>
         <hr />
         <Slider />
+        <hr />
+        <div className="home-logo-content">
+          <h1>Accepted papers will be published in SCOPUS Indexed AIP/IEEE/Springer Conference Proceedings.</h1>
+        </div>
+        <div className="home-logo">
+          <img src={scorpuslogo} alt="Scorpus Logo" />
+          <img src={turnitinlogo} id="home-logo-turnitin"alt="Turnitin Logo" />
+        </div>
         <hr />
           <Countdown />
       </div>
