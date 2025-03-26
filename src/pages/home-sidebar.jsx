@@ -25,7 +25,7 @@ function HomeSidebar() {
                         <div className="home-timeline-icon"><FaCamera /></div>
                         <div className="home-timeline-content">
                             <strong>Camera-Ready Submission</strong>
-                            <p>July 18, 2025</p>
+                            <p>June 18, 2025</p>
                         </div>
                     </div>
                     <div className="home-timeline-item">

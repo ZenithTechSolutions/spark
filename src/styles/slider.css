@@ -1,3 +1,12 @@
+.slider-header{
+    display: flex;
+    justify-content: center;
+}
+.slider-header h2{
+    color: var(--primary-bg-blue);
+    padding-left: 10px;
+    margin-left: 20px;
+  }
 .wrapper {
     width: 90%;
     max-width: 1536px;
@@ -42,6 +51,7 @@
 
 .item p {
     padding: 0px 20px 20px 10px;
+    padding-bottom: 0px;
 
 }
 

@@ -11,9 +11,9 @@ const committee = [
   {
     id: "Management Team", members: [
       { img: KPRamasamy, name: "Dr. K.P. Ramasamy", role: "Chairman" },
+      { img: gayathri, name: "Ms. M. Gayathri", role: "Secretary" },
       { img: AMNatarajan, name: "Dr. A.M. Natarajan", role: "Chief Executive" },
-      { img: DSaravanan, name: "Dr. D.Saravanan", role: "Principal" },
-      { img: gayathri, name: "Ms. M. Gayathri", role: "Secretary" }
+      { img: DSaravanan, name: "Dr. D.Saravanan", role: "Principal" }
     ]
   },
   {
@@ -44,7 +44,13 @@ const committee = [
       { name: "Dr. Murugan K", role: "Associate Professor, KPRIET" },
       { name: "Dr. Jagadesh T", role: "Assistant Professor, KPRIET" },
       { name: "Dr. P. Pandiyan", role: "Associate Professor, KPRIET" },
-      { name: "Dr. A. Mohamed Ibrahim", role: "Assistant Professor, KPRIET" }
+      { name: "Dr. A. Mohamed Ibrahim", role: "Assistant Professor, KPRIET" },
+      { name: "Dr. Arijit De", role: "Associate Professor, KPRIET" },
+      { name: "Mrs. Rima Deka", role: "Assistant Professor, KPRIET" },
+      { name: "Dr. Debashish Pal", role: "Assistant Professor, KPRIET" },
+      { name: "Mr. Ashish Ranjan Shadangi", role: "Assistant Professor, KPRIET" },
+      { name: "Mr. Himangshu Deka", role: "Assistant Professor, KPRIET" }
+
     ]
   }, {
 
@@ -58,7 +64,6 @@ const committee = [
     id: " Organizing Committee", members: [
       { name: "Dr. Muralidharan J", role: "Associate Professor, KPRIET" },
       { name: "Dr. Jaikumar R", role: "Associate Professor, KPRIET" },
-      { name: "Dr. Arijit De", role: "Associate Professor, KPRIET" },
       { name: "Mr. Jakir Hussain G K", role: "Assistant Professor, KPRIET" },
       { name: "Dr. Prasad J", role: "Assistant Professor, KPRIET" },
       { name: "Dr. Vigneswaran D", role: "Assistant Professor, KPRIET" },
@@ -76,10 +81,6 @@ const committee = [
       { name: "Ms. Suganyadevi S", role: "Assistant Professor, KPRIET" },
       { name: "Ms. Saranya M D", role: "Assistant Professor, KPRIET" },
       { name: "Ms. Supriya M", role: "Assistant Professor, KPRIET" },
-      { name: "Mrs. Rima Deka", role: "Assistant Professor, KPRIET" },
-      { name: "Dr. Debashish Pal", role: "Assistant Professor, KPRIET" },
-      { name: "Mr. Ashish Ranjan Shadangi", role: "Assistant Professor, KPRIET" },
-      { name: "Mr. Himangshu Deka", role: "Assistant Professor, KPRIET" },
       { name: "Dr. C. Pazhanimuthu", role: "Assistant Professor, KPRIET" },
       { name: "Dr. V. Parimala", role: "Assistant Professor, KPRIET" },
       { name: "Dr. S. Ravindran", role: "Assistant Professor, KPRIET" },

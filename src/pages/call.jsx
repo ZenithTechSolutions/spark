@@ -15,7 +15,7 @@ function Call() {
             <div className="callForPapers-content">
                 <div className="callForPapers-header">
                     <h1>Call for Papers</h1>
-                    <p>Authors are invited to submit high-quality research papers aligned with the conference topics, including but not limited to:</p>
+                    <p> <span>Accepted papers will be published in SCOPUS Indexed AIP/IEEE/Springer Conference Proceedings.</span><br/> Authors are invited to submit high-quality research papers aligned with the conference topics, including but not limited to:</p>
                 </div>
                 <div className="callForPapers-topics">
                     <div className="topic-card">
@@ -166,7 +166,7 @@ function Call() {
                             <div className="timeline-icon"><FaCamera /></div>
                             <div className="timeline-content">
                                 <strong>Camera-Ready Submission</strong>
-                                <p>July 18, 2025</p>
+                                <p>June 18, 2025</p>
                             </div>
                         </div>
                         <div className="timeline-item">

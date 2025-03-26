@@ -10,6 +10,9 @@ import s5 from '../assets/speaker-Bernhard Glück.jpg';
 function slider() {
     return (
         <>
+                <div className="slider-header">
+                    <h2>Keynote Speakers</h2> 
+                </div>
             <div className="wrapper">
                 <div className="item item1">
                     <img src={s1} />

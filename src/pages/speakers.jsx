@@ -16,7 +16,7 @@ const speakersData = [
 function Speakers() {
     return (
         <div className="speakers">
-            <h1>Speakers for SPARK'25</h1>
+            <h1>Keynote Speakers for SPARK'25</h1>
             <div className="boxes">
                 {speakersData.map((speaker, index) => (
                     <div key={index} className="box">
