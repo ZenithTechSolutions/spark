@@ -1,6 +1,6 @@
 import '../styles/footer.css'
 import { Link } from 'react-router-dom'
-import { FaLinkedinIn, FaTwitter, FaPhoneAlt, FaEnvelope } from "react-icons/fa"
+import { FaLinkedinIn, FaTwitter, FaPhoneAlt, FaEnvelope, FaInstagram, FaGlobe } from "react-icons/fa"
 import logo from '../assets/kpr_learn_beyond_logo.jpg'
 
 function Footer() {
@@ -28,10 +28,10 @@ function Footer() {
                 <div className="footer-contact">
                     <h3>Contact Us</h3>
                     <ul className="social-icons">
-                        <li><Link to='/'><FaLinkedinIn /></Link></li>
-                        <li><Link to='/'><FaTwitter /></Link></li>
-                        <li><Link to='/'><FaPhoneAlt /></Link></li>
-                        <li><Link to='/'><FaEnvelope /></Link></li>
+                        <li><Link to='https://www.linkedin.com/school/kprietonline/posts/' target='blank'><FaLinkedinIn /></Link></li>
+                        <li><Link to='https://www.instagram.com/kprietonline/' target='blank'><FaInstagram /></Link></li>
+                        <li><Link to='https://kpriet.ac.in/' target='blank'><FaGlobe /></Link></li>
+                        <li><Link to='/'target='blank'><FaEnvelope /></Link></li>
                     </ul>
                     <p> Developed by <Link to='https://zenith-chi-six.vercel.app/' target='_blank'>Team Zenith</Link></p>
                 </div>

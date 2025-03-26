@@ -6,11 +6,11 @@ import speaker4 from '../assets/speaker-Prof.Dr. Kyung Tae Kim.jpg';
 import speaker5 from '../assets/speaker-Bernhard Glück.jpg';
 
 const speakersData = [
-    { img: speaker1, name: "Prof. Dr. M. Shridhar",position :"Professor Emeritus" ,location:"USA" },
-    { img: speaker2, name: "Ir. Eur. Ing. Ts. Dr. Lau Chee Yong", position: " Assistant Professor ",location:"Malaysia" },
-    { img: speaker3, name: "Prof. Dr. Po-Ming Lee", position: "Professor",location:"Taiwan" },
-    { img: speaker4, name: "Prof. Dr. Kyung Tae Kim", position: "Professor " ,location:"South Korea"},
-    { img: speaker5, name: "Prof. Dr. -Ing. Bernhard Glück", position: "Professor",location:"Germany" }
+    { img: speaker1, name: "Prof. Dr. M. Shridhar",clg :"University of Michigan-Dearborn" ,position :"Professor Emeritus" ,location:"USA" },
+    { img: speaker2, name: "Ir. Eur. Ing. Ts. Dr. Lau Chee Yong",clg :"Asia Pacific University" , position: " Assistant Professor ",location:"Malaysia" },
+    { img: speaker3, name: "Prof. Dr. Po-Ming Lee", clg :"Southern Taiwan University of Science and Technology" ,position: "Professor",location:"Taiwan" },
+    { img: speaker4, name: "Prof. Dr. Kyung Tae Kim",clg :"Hannam University" , position: "Professor " ,location:"South Korea"},
+    { img: speaker5, name: "Prof. Dr. -Ing. Bernhard Glück", clg :"Technical University of Bradenburg" ,position: "Professor",location:"Germany" }
 ];
 
 function Speakers() {
@@ -24,6 +24,7 @@ function Speakers() {
                         <div className="box_content">
                             <h2>{speaker.name}</h2>
                             <h3>{speaker.position}</h3>
+                            <h3>{speaker.clg}</h3>
                             <p>{speaker.location}</p>
                         </div>
                     </div>

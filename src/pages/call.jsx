@@ -1,5 +1,5 @@
 import '../styles/call.css'
-import { FaLinkedin, FaTwitter, FaPhoneAlt, FaCalendarAlt, FaPaperPlane, FaCamera, FaBell, FaCalendarMinus, FaFileDownload, FaFileWord } from "react-icons/fa"
+import { FaLinkedin, FaTwitter, FaPhoneAlt, FaCalendarAlt, FaPaperPlane, FaCamera, FaBell, FaCalendarMinus, FaFileDownload, FaFileWord, FaInstagram, FaGlobe } from "react-icons/fa"
 import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
@@ -8,6 +8,7 @@ import img5 from '../assets/img5.png'
 import img6 from '../assets/img6.png'
 import img7 from '../assets/img7.png'
 import img8 from '../assets/img8.png'
+import { FaWebAwesome, FaWebflow } from 'react-icons/fa6'
 
 function Call() {
     return (
@@ -181,17 +182,17 @@ function Call() {
                 <div className="sidebar-section">
                     <h3><i className="fa-solid fa-share-nodes"></i> Follow Us</h3>
                     <div className="social-links">
-                        <a href="#" className="download-link"><FaLinkedin />Linked In</a>
-                        <a href="#" className="download-link"><FaTwitter />Twitter</a>
-                        <a href="#" className="download-link"><FaPhoneAlt />Phone</a>
+                        <a href="https://www.linkedin.com/school/kprietonline/posts/" className="download-link" target='blank'><FaLinkedin />Linked In</a>
+                        <a href="https://www.instagram.com/kprietonline/" className="download-link" target='blank'><FaInstagram />Instagram</a>
+                        <a href="https://kpriet.ac.in/" className="download-link" target='blank'><FaGlobe />Website</a>
                     </div>
                 </div>
 
                 <div className="sidebar-section">
                     <h3><i className="fa-solid fa-download"></i> More Details</h3>
                     <div className="download-links">
-                        <a href="#" className="download-link"><FaFileDownload /> Brochure</a>
-                        <a href="#" className="download-link"><FaFileWord /> Submission Guidelines</a>
+                        <a href="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" className="download-link" target='blank'><FaFileDownload /> Brochure</a>
+                        <a href="./Guidelines" className="download-link"><FaFileWord /> Submission Guidelines</a>
                     </div>
                 </div>
             </div>
