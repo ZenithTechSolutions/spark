@@ -70,7 +70,6 @@ function Header() {
               <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={hamMenu}>
                 <p>Download Brochure</p>
               </Link>
-              <Link to="/Workshops" onClick={hamMenu}><p>Workshops</p></Link>
             </div>
           </li>
 
