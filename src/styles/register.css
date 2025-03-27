@@ -92,4 +92,10 @@ th {
     .register-table table {
         margin-left: 0;
     }
+
+    .register-header a {
+        font-size: .9rem;
+    }
 }
+
+
