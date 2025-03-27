@@ -55,8 +55,8 @@ function Register() {
                             <td>$250 USD</td>
                             <td>$300 USD</td>                        </tr>
                     </table>
-                    <p>* All the fees details given above are including 18% GST</p>
                 </div>
+                <p>* All the fees details given above are including 18% GST</p>
             </div>
             <div className="register-account-details">
                 <h1>Bank Account Details</h1>
