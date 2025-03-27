@@ -56,7 +56,7 @@ function Header() {
           <li onClick={(e)=>toggleDropdown(e,"attend")} className="dropdown-container">
             <Link>Attend &#x2B9F;</Link>
             <div className={activeDropdown==="attend" ? "dropdown-show" : "dropdown-hide"} >
-              <Link to="/Explore" onClick={hamMenu}><p>Explore Tamil Nadu</p></Link>
+              <Link to="/Explore" onClick={hamMenu}><p>Explore South India</p></Link>
               <Link to="/Venue" onClick={hamMenu}><p>Conference Venue</p></Link>
               <Link to="/Accommodation" onClick={hamMenu}><p>Accommodation</p></Link>
             </div>
