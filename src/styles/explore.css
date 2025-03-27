@@ -166,4 +166,34 @@
     }
 }
 
+@media (max-width: 600px) {  
+    .tourist-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .place-card {
+        flex-direction: column !important; 
+        gap: 20px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .place-card:nth-child(even),
+    .place-card:nth-child(odd) {
+        border: 2px solid var(--primary-color);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .place-image img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+
+    .place-details {
+        width: 100%;
+    }
+}
+
 
