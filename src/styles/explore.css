@@ -196,4 +196,33 @@
     }
 }
 
+@media (max-width: 480px) {
+    .tourist-container {
+        padding: 20px;
+        margin: 0;
+        border-radius: 0;
+    }
 
+    .tourist-header h1 {
+        font-size: 18px;
+    }
+
+    .tourist-header p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .tourist-container {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .place-details h2 {
+        font-size: 0.95em;
+    }
+
+    .place-details ul {
+        padding-left: 15px;
+    }
+}
