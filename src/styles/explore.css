@@ -126,17 +126,17 @@
 }
 
 @media (max-width: 768px) {
+    .tourist-container {
+        padding: 20px;
+        margin: 15px;
+    }
+
     .tourist-header h1 {
         font-size: 20px;
     }
 
     .tourist-header p {
-        font-size: .8rem;
-    }
-
-    .place-card {
-        width: 650px;
-        gap: 30px;
+        font-size: 0.9rem;
     }
 
     .place-image img {
@@ -144,92 +144,26 @@
         height: 150px;
     }
 
-    .place-details h2{
+    .place-details h2 {
         font-size: 1rem;
-        margin-bottom: 2px;
-    }
-
-    .place-details p {
-        font-size: .7rem;
-        margin-bottom: 0;
-    }
-    
-    .place-details ul li {
-        font-size: 0.8em;
-    }
-
-    .place-details ul {
-        padding: 2px 0 0 20px;
-        list-style-type: disc !important;
+        margin-bottom: 5px;
     }
 
     .place-details ul li {
-        margin-bottom: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .tourist-container {
-        margin: 10px;
-    }
-    
-    .place-card {
-        flex-direction: row;
-        width: 350px;
-        gap: 30px;
-    }
-
-    .tourist-container {
-        padding: 10px;
-    }
-
-    .tourist-header h1 {
-        font-size: 16px;
-    }
-
-    .tourist-header p {
-        font-size: .7rem;
-    }
-
-    .place-card:nth-child(even) {
-        flex-direction: column;
-        border: 2px solid var(--primary-color);
-    }
-    
-    .place-card:nth-child(odd) {
-        flex-direction: column;
-        border: 2px solid var(--primary-green);
-    }
-
-    .place-card {
-        padding: 10px;
-    }
-
-    .place-image img {
-        width:326px;
-        height: auto;
+        font-size: 0.85em;
     }
 
     .place-details {
-        width: auto;
-    }
-
-    .place-details h2 {
-        font-size: 1em;
+        width: 100%;
     }
 
     .place-details ul {
-        padding-left: 10px;
+        padding-left: 20px;
+    }
+
+    .place-details ul li {
+        margin-bottom: 5px;
     }
 }
 
-@media (max-width: 320px) {
-    .place-card {
-        width: fit-content;
-    }
 
-    .place-image img {
-        width:100%;
-        height: auto;
-    }
-}
