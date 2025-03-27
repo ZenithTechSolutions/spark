@@ -134,6 +134,7 @@ th {
     table {
         min-width: 550px;
     }
+    
     .register-header a {
         font-size: .7rem;
         margin: 0;
@@ -145,3 +146,19 @@ th {
     }
 }
 
+@media (max-width: 360px) {
+    .register-container {
+        padding: 15px 10px;
+    }
+    
+    td, th {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    .register-header h1,
+    .register-table-content h1,
+    .register-account-details h1 {
+        font-size: 18px;
+    }
+}
