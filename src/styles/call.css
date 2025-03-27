@@ -377,3 +377,24 @@
     }
 }
 
+@media (max-width: 480px) {
+    .callForPapers-header h1 {
+        font-size: 18px;
+    }
+
+    .callForPapers-header p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .topic-content h2 {
+        font-size: 0.95em;
+    }
+
+    .topic-content ul {
+        padding-left: 15px;
+    }
+}
+
+
