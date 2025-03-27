@@ -340,3 +340,40 @@
         margin-bottom: 5px;
     }
 }
+
+@media (max-width: 600px) {  
+    .callForPapers {
+        margin: 0;
+    }
+
+    .topic-card {
+        flex-direction: column !important; 
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .topic-card:nth-child(even),
+    .topic-card:nth-child(odd) {
+        border: 2px solid var(--primary-color);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .topic-image img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+
+    .topic-content {
+        width: 100%;
+    }
+
+    .cta-button {
+        font-size: 0.7rem;
+    }
+
+    .callForPapers-cta {
+        margin: 0;
+    }
+}
+
