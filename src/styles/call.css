@@ -281,7 +281,7 @@
         gap: 40px;
     }
 
-    .topic-card img {
+    .topic-image img {  /* Changed from .topic-card img to match original class */
         width: 250px;
         height: 200px;  
     }
@@ -298,6 +298,7 @@
 @media (max-width: 768px) {
     .callForPapers {
         padding: 20px;
+        margin: 15px;
     }
 
     .callForPapers-header h1 {
@@ -305,94 +306,95 @@
     }
 
     .callForPapers-header p {
-        font-size: .8rem;
+        font-size: 0.9rem;
     }
 
-    .topic-card img {
+    .topic-image img {
         width: 200px;
         height: 150px;
     }
 
-    .topic-content h2{
+    .topic-content h2 {
         font-size: 1rem;
-        margin-bottom: 0;
+        margin-bottom: 5px;
     }
 
     .topic-content ul li {
-        font-size: 0.8em;
+        font-size: 0.85em;
     }
 
     .cta-button {
-        font-size: .8rem;
-        padding: 10px;
+        font-size: 0.9rem;
+        padding: 12px 15px;
     }
 
     .topic-content {
-        width: fit-content;
-    }
-
-    .topic-content ul {
-        padding-left: 30px;
-        list-style-type: disc;
-    }
-
-    .topic-content ul li {
-        margin-bottom: 2px;
-    }
-}
-
-@media (max-width: 480px) {
-    .callForPapers {
-        padding: 10px;
-    }
-
-    .callForPapers-header h1 {
-        font-size: 16px;
-    }
-
-    .callForPapers-header p {
-        font-size: .7rem;
-    }
-
-    .topic-card:nth-child(even) {
-        flex-direction: column;
-        border: 2px solid var(--primary-color);
-    }
-    
-    .topic-card:nth-child(odd) {
-        flex-direction: column;
-        border: 2px solid var(--primary-green);
-    }
-
-    .topic-card {
-        padding: 10px;
-    }
-
-    .topic-image img {
         width: 100%;
-        height: auto;
-    }
-
-    .topic-content {
-        width: fit-content;
-    }
-
-    .topic-content h2 {
-        font-size: 1em;
     }
 
     .topic-content ul {
         padding-left: 20px;
     }
 
+    .topic-content ul li {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 600px) {  
+    .callForPapers {
+        margin: 0;
+    }
+
+    .topic-card {
+        flex-direction: column !important; 
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .topic-card:nth-child(even),
+    .topic-card:nth-child(odd) {
+        border: 2px solid var(--primary-color);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .topic-image img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+
+    .topic-content {
+        width: 100%;
+    }
+
     .cta-button {
-        font-size: 0.8em;
-        padding: 10px;
+        font-size: 0.7rem;
+    }
+
+    .callForPapers-cta {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .callForPapers-header h1 {
+        font-size: 18px;
+    }
+
+    .callForPapers-header p {
+        font-size: 0.85rem;
     }
 }
 
 @media (max-width: 320px) {
-    .topic-content {
-        width: fit-content;
+    .topic-content h2 {
+        font-size: 0.95em;
+    }
+
+    .topic-content ul {
+        padding-left: 15px;
     }
 }
+
+

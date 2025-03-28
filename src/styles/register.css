@@ -73,21 +73,92 @@ th {
     border: 1px solid black;
 }
 
-
-
-@media (max-width: 540px) {
+@media (max-width: 768px) {
     .register-container {
-        margin: 0px;
-        border-radius: 0px;
-        padding: 20px;
+        padding: 25px 30px;
+        margin: 15px;
     }
-    .register-table table {
-        margin-left: 0px;
-    }
-    td,
-    th {
-        padding-right: 10px;
-        padding-left: 10px;
+
+    .account-table table {
+        padding: 0;
     }
     
+    .register-header h1,
+    .register-table-content h1,
+    .register-account-details h1 {
+        font-size: 20px;
+    }
+    
+    .register-table table {
+        margin-left: 0;
+    }
+
+    .register-header a {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .register-header p {
+        font-size: .85rem;
+    }
+    
+    .register-table-content p {
+        font-size: .85rem;
+        padding: 0;
+    }
+    
+    .register-account-details p {
+        font-size: .85rem;
+    }
+    .register-container {
+        margin: 0;
+        border-radius: 0;
+        padding: 20px 15px;
+    }
+    
+    td, th {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    
+    .register-header p {
+        padding: 15px 0 20px 0;
+    }
+    
+    .register-table-content {
+        padding: 40px 0 20px 0;
+        gap: 30px;
+    }
+    
+    table {
+        min-width: 550px;
+    }
+    
+    .register-header a {
+        font-size: .7rem;
+        margin: 0;
+    }
+
+    .register-table, .account-table {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 360px) {
+    .register-container {
+        padding: 15px 10px;
+    }
+    
+    td, th {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    .register-header h1,
+    .register-table-content h1,
+    .register-account-details h1 {
+        font-size: 18px;
+    }
 }

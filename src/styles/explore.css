@@ -126,17 +126,17 @@
 }
 
 @media (max-width: 768px) {
+    .tourist-container {
+        padding: 20px;
+        margin: 15px;
+    }
+
     .tourist-header h1 {
         font-size: 20px;
     }
 
     .tourist-header p {
-        font-size: .8rem;
-    }
-
-    .place-card {
-        width: 650px;
-        gap: 30px;
+        font-size: 0.9rem;
     }
 
     .place-image img {
@@ -144,92 +144,85 @@
         height: 150px;
     }
 
-    .place-details h2{
+    .place-details h2 {
         font-size: 1rem;
-        margin-bottom: 2px;
+        margin-bottom: 5px;
     }
 
-    .place-details p {
-        font-size: .7rem;
-        margin-bottom: 0;
-    }
-    
     .place-details ul li {
-        font-size: 0.8em;
+        font-size: 0.85em;
+    }
+
+    .place-details {
+        width: 100%;
     }
 
     .place-details ul {
-        padding: 2px 0 0 20px;
-        list-style-type: disc !important;
+        padding-left: 20px;
     }
 
     .place-details ul li {
-        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 600px) {  
+    .tourist-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .place-card {
+        flex-direction: column !important; 
+        gap: 20px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .place-card:nth-child(even),
+    .place-card:nth-child(odd) {
+        border: 2px solid var(--primary-color);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .place-image img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+
+    .place-details {
+        width: 100%;
     }
 }
 
 @media (max-width: 480px) {
     .tourist-container {
-        margin: 10px;
-    }
-    
-    .place-card {
-        flex-direction: row;
-        width: 350px;
-        gap: 30px;
-    }
-
-    .tourist-container {
-        padding: 10px;
+        padding: 20px;
+        margin: 0;
+        border-radius: 0;
     }
 
     .tourist-header h1 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .tourist-header p {
-        font-size: .7rem;
-    }
-
-    .place-card:nth-child(even) {
-        flex-direction: column;
-        border: 2px solid var(--primary-color);
-    }
-    
-    .place-card:nth-child(odd) {
-        flex-direction: column;
-        border: 2px solid var(--primary-green);
-    }
-
-    .place-card {
-        padding: 10px;
-    }
-
-    .place-image img {
-        width:326px;
-        height: auto;
-    }
-
-    .place-details {
-        width: auto;
-    }
-
-    .place-details h2 {
-        font-size: 1em;
-    }
-
-    .place-details ul {
-        padding-left: 10px;
+        font-size: 0.85rem;
     }
 }
 
 @media (max-width: 320px) {
-    .place-card {
-        width: fit-content;
+    .tourist-container {
+        padding: 10px;
+        margin: 0;
     }
 
-    .place-image img {
-        width:100%;
-        height: auto;
+    .place-details h2 {
+        font-size: 0.95em;
+    }
+
+    .place-details ul {
+        padding-left: 15px;
     }
 }

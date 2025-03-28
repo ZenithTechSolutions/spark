@@ -6,7 +6,7 @@ function Register() {
             <div className="register-header">
                 <h1>Registration</h1>
                 <p>Learn How to Register for <span>SPARK 2025</span>: A guide to submitting your paper for premier international conference that brings together researchers, academicians, industry professionals, and students to explore cutting-edge advancements in smart systems, power electronics, artificial intelligence, robotics, and knowledge engineering.</p>
-                <a href="ssssssss" target='_blank'>Register Now</a>
+                <a href="#" target='_blank'>Register Now</a>
             </div>
             <div className="register-table-content">
                 <h1>Registration fee</h1>
@@ -55,8 +55,8 @@ function Register() {
                             <td>$250 USD</td>
                             <td>$300 USD</td>                        </tr>
                     </table>
-                    <p>* All the fees details given above are including 18% GST</p>
                 </div>
+                <p>* All the fees details given above are including 18% GST</p>
             </div>
             <div className="register-account-details">
                 <h1>Bank Account Details</h1>
