@@ -31,7 +31,7 @@ function Footer() {
                         <li><Link to='https://www.linkedin.com/school/kprietonline/posts/' target='blank'><FaLinkedinIn /></Link></li>
                         <li><Link to='https://www.instagram.com/kprietonline/' target='blank'><FaInstagram /></Link></li>
                         <li><Link to='https://kpriet.ac.in/' target='blank'><FaGlobe /></Link></li>
-                        <li><Link to='/'target='blank'><FaEnvelope /></Link></li>
+                        <li><Link to='info@kpriet.ac.in'target='blank'><FaEnvelope /></Link></li>
                     </ul>
                     <p> Developed by <Link to='https://zenith-chi-six.vercel.app/' target='_blank'>Team Zenith</Link></p>
                 </div>
