@@ -110,19 +110,12 @@ This project is developed and maintained by Team ZENITH:
 
 [Vishal Kannan](https://github.com/VISHALKANNAN070)
 
-
-
-
-
-
 ## Live Preview
+
 The website is live and accessible here:
 [Link Here](https://spark-three-orcin.vercel.app/)
 
-
-
-
-
 ## License
+
 Copyright © KPR Institute of Engineering and Technology
 Developed with passion by [Team ZENITH](https://zenith-chi-six.vercel.app/). All rights reserved.
