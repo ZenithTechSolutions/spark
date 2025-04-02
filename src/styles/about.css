@@ -20,7 +20,7 @@
 }
 
 .about_container p {
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: 400;
   padding: var(--spacing-small);
   text-align: justify;
@@ -73,15 +73,17 @@
 
 
 @media (max-width: 500px) {
-  .about_container{
+  .about_container {
     margin: 0px;
     padding: 20px;
     border-radius: 0px;
   }
-  .about_container hr{
+
+  .about_container hr {
     margin: 20px 0px
   }
-  .about_logos p{
+
+  .about_logos p {
     margin-bottom: 00px;
   }
 
@@ -91,6 +93,4 @@
   .about_eee {
     padding: 0px;
   }
-  
-
 }

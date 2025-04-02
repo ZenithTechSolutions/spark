@@ -91,6 +91,7 @@ footer {
     font-size: var(--font-size-base);
     transition: all 0.3s ease-out;
 }
+
 .footer-copyright p {
     color: var(--copyright-color);
     padding-bottom: 10px;
@@ -116,7 +117,7 @@ footer {
 
 .footer-contact a:hover {
     transform: scale(1.07);
-    color: var(--text-color);    
+    color: var(--text-color);
 }
 
 @media (max-width: 768px) {
@@ -148,4 +149,4 @@ footer {
         text-align: center;
         width: auto;
     }
-}   
+}

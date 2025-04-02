@@ -114,12 +114,14 @@
   .important {
     padding: 10px;
   }
-  .home-logo{
+
+  .home-logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .home-logo img{
+
+  .home-logo img {
     max-width: 180px;
   }
 }

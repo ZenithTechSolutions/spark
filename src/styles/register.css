@@ -6,7 +6,7 @@
     color: black;
 }
 
-.register-container h1{
+.register-container h1 {
     color: var(--primary-bg-blue);
 }
 
@@ -82,13 +82,13 @@ th {
     .account-table table {
         padding: 0;
     }
-    
+
     .register-header h1,
     .register-table-content h1,
     .register-account-details h1 {
         font-size: 20px;
     }
-    
+
     .register-table table {
         margin-left: 0;
     }
@@ -102,45 +102,48 @@ th {
     .register-header p {
         font-size: .85rem;
     }
-    
+
     .register-table-content p {
         font-size: .85rem;
         padding: 0;
     }
-    
+
     .register-account-details p {
         font-size: .85rem;
     }
+
     .register-container {
         margin: 0;
         border-radius: 0;
         padding: 20px 15px;
     }
-    
-    td, th {
+
+    td,
+    th {
         padding: 8px 10px;
         font-size: 12px;
     }
-    
+
     .register-header p {
         padding: 15px 0 20px 0;
     }
-    
+
     .register-table-content {
         padding: 40px 0 20px 0;
         gap: 30px;
     }
-    
+
     table {
         min-width: 550px;
     }
-    
+
     .register-header a {
         font-size: .7rem;
         margin: 0;
     }
 
-    .register-table, .account-table {
+    .register-table,
+    .account-table {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
@@ -150,12 +153,13 @@ th {
     .register-container {
         padding: 15px 10px;
     }
-    
-    td, th {
+
+    td,
+    th {
         padding: 6px 8px;
         font-size: 12px;
     }
-    
+
     .register-header h1,
     .register-table-content h1,
     .register-account-details h1 {

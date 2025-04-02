@@ -9,8 +9,8 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.Guidelines_container h1{
-    font-size: 24px ;
+.Guidelines_container h1 {
+    font-size: 24px;
     color: var(--primary-bg-blue);
 }
 
@@ -53,8 +53,9 @@
 .guideline-p span {
     font-weight: 700;
 }
-@media(max-width:500px){
-    .Guidelines_container{
+
+@media(max-width:500px) {
+    .Guidelines_container {
         margin: 0px;
         border-radius: 0px;
         padding: 20px;

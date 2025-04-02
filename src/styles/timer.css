@@ -6,17 +6,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  }
-  
-  .main-heading {
+}
+
+.main-heading {
 	font-size: clamp(2rem, 3.5vw, 2.7rem);
 	text-align: center;
 	letter-spacing: 1px;
 	margin-bottom: 1.5em;
 	color: #1b345f;
-  }
-  
-  .flip-card {
+}
+
+.flip-card {
 	position: relative;
 	display: inline-flex;
 	flex-direction: column;
@@ -28,12 +28,12 @@
 	align-items: center;
 	overflow: hidden;
 	perspective: 1000px;
-  }
-  
-  .top,
-  .bottom,
-  .flip-card.flip::after,
-  .flip-card.flip::before {
+}
+
+.top,
+.bottom,
+.flip-card.flip::after,
+.flip-card.flip::before {
 	padding: 0.25em;
 	height: 0.75em;
 	line-height: 1;
@@ -43,10 +43,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
-  
-  .top,
-  .flip-card.flip::before {
+}
+
+.top,
+.flip-card.flip::before {
 	display: flex;
 	align-items: flex-start;
 	background-color: #1b345f;
@@ -54,19 +54,19 @@
 	border-top-left-radius: 0.1em;
 	border-top-right-radius: 0.1em;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .bottom,
-  .flip-card.flip::after {
+}
+
+.bottom,
+.flip-card.flip::after {
 	display: flex;
 	align-items: flex-end;
 	background-color: #4a5d89;
 	color: white;
 	border-bottom-left-radius: 0.1em;
 	border-bottom-right-radius: 0.1em;
-  }
-  
-  .flip-card.flip::before {
+}
+
+.flip-card.flip::before {
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -75,15 +75,15 @@
 	transform-origin: bottom;
 	animation: flip-bottom 500ms ease;
 	backface-visibility: hidden;
-  }
-  
-  @keyframes flip-bottom {
+}
+
+@keyframes flip-bottom {
 	100% {
-	  transform: rotateX(180deg);
+		transform: rotateX(180deg);
 	}
-  }
-  
-  .flip-card.flip::after {
+}
+
+.flip-card.flip::after {
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -94,51 +94,52 @@
 	transform: rotateX(180deg);
 	backface-visibility: hidden;
 	opacity: 0;
-  }
-  
-  @keyframes flip-top {
+}
+
+@keyframes flip-top {
 	0% {
-	  opacity: 0;
-	  transform: rotateX(180deg);
+		opacity: 0;
+		transform: rotateX(180deg);
 	}
+
 	100% {
-	  opacity: 1;
-	  transform: rotateX(0deg);
+		opacity: 1;
+		transform: rotateX(0deg);
 	}
-  }
-  
-  .countdown-container {
+}
+
+.countdown-container {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 40px;
 	justify-content: center;
-  }
-  
-  .countdown-cards {
+}
+
+.countdown-cards {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-  }
-  
-  .card-title {
+}
+
+.card-title {
 	font-size: clamp(0.8rem, 1.5vw, 1rem);
 	letter-spacing: 1px;
 	margin-bottom: 0.5em;
 	color: #1b345f;
 	text-transform: uppercase;
-  }
-  
-  .card-container {
+}
+
+.card-container {
 	display: flex;
 	gap: 0.125em;
-  }
-  
-  .date-picker {
+}
+
+.date-picker {
 	margin-top: 20px;
 	text-align: center;
-  }
-  
-  .date-picker input {
+}
+
+.date-picker input {
 	font-size: 1rem;
 	padding: 0.5em;
 	border-radius: 0.25em;
@@ -146,17 +147,17 @@
 	background-color: #4a5d89;
 	color: white;
 	transition: background-color 0.3s ease;
-  }
-  
-  .date-picker input:focus {
+}
+
+.date-picker input:focus {
 	background-color: #3a4c73;
-  }
-@media(max-width:768px){
+}
+
+@media(max-width:768px) {
 	.countdown-container {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 20px;
 		justify-content: center;
-	  }
+	}
 }
-
