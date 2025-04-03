@@ -121,6 +121,4 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
-
 🚀 Developed by [Vignesh](https://github.com/vickyy234) | [Sadhur](https://github.com/Sadhurnithy) | [Pradeep](https://github.com/Pradeep5377) | [Giri Prasath](https://github.com/Giriprasath1726) | [Vishal Kannan](https://github.com/VISHALKANNAN070) – 👥 **Team ZENITH** – [Visit Us](https://zenith-chi-six.vercel.app/)
