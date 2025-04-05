@@ -210,9 +210,15 @@
     justify-content: start;
     gap: 20px;
   }
-
+  
   .header_content {
     justify-content: space-evenly;
     padding: 0 0 0 7px;
+  }
+}
+
+@media (max-width: 440px) {
+  .header_content p {
+    font-size: .7rem;
   }
 }
