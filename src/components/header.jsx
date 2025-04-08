@@ -2,6 +2,7 @@ import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
 import logo from "../assets/kpr_main_logo.png";
+import brochure from '../assets/brochure.jpg'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
@@ -67,7 +68,7 @@ function Header() {
             <Link>Register &#x2B9F;</Link>
             <div className={activeDropdown==="regis" ? "dropdown-show" : "dropdown-hide"} >
               <Link to="/Register" onClick={hamMenu}><p>Register</p></Link>
-              <Link to="https://drive.google.com/file/d/18rZ194D-BlNOfBFEkEv3s21ybQ2DM7Kz/vi" target="_blank" onClick={hamMenu}>
+              <Link to={brochure} target="_blank" onClick={hamMenu}>
                 <p>Download Brochure</p>
               </Link>
             </div>

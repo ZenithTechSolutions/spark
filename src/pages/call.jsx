@@ -142,7 +142,7 @@ function Call() {
                     </div>
                 </div>
                 <div className="callForPapers-cta">
-                    <a href="#" className="cta-button">Submit Paper</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7DCE183DKqH5nXS4Rfw7sOvKSraepqQBj6qVESXKqN832oQ/viewform" target='blank' className="cta-button">Submit Paper</a>
                 </div>
             </div>
             <div className="sidebar">
