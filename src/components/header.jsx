@@ -68,7 +68,7 @@ function Header() {
             <Link>Register &#x2B9F;</Link>
             <div className={activeDropdown==="regis" ? "dropdown-show" : "dropdown-hide"} >
               <Link to="/Register" onClick={hamMenu}><p>Register</p></Link>
-              <Link to={brochure} target="_blank" onClick={hamMenu}>
+              <Link to='' target="_blank" onClick={hamMenu}>
                 <p>Download Brochure</p>
               </Link>
             </div>
