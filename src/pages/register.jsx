@@ -6,7 +6,7 @@ function Register() {
             <div className="register-header">
                 <h1>Registration</h1>
                 <p>Learn How to Register for <span>SPARK 2025</span>: A guide to submitting your paper for premier international conference that brings together researchers, academicians, industry professionals, and students to explore cutting-edge advancements in smart systems, power electronics, artificial intelligence, robotics, and knowledge engineering.</p>
-                <a href="#https://forms.gle/axGvHTnTHuhFuZdTA" target='_blank'>Register Now</a>
+                <a href="https://forms.gle/axGvHTnTHuhFuZdTA" target='_blank'>Register Now</a>
             </div>
             <div className="register-table-content">
                 <h1>Registration fee</h1>

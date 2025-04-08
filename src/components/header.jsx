@@ -75,7 +75,7 @@ function Header() {
 
           <li><Link to="/Plagiarism-Policy" onClick={hamMenu}>Plagiarism Policy</Link></li>
           <li><Link to="/Contact-Us" onClick={hamMenu}>Contact Us</Link></li>
-          <li className="btn"><Link to="https://forms.gle/axGvHTnTHuhFuZdTA" onClick={hamMenu}>Submit Paper</Link></li>
+          <li className="btn"><Link to="https://forms.gle/axGvHTnTHuhFuZdTA" target="_blank" onClick={hamMenu}>Submit Paper</Link></li>
         </ul>
       </nav>
     </>
