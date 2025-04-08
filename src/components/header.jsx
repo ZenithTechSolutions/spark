@@ -2,7 +2,6 @@ import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
 import logo from "../assets/kpr_main_logo.png";
-import brochure from '../assets/brochure.jpg'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
