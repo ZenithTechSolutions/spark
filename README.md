@@ -70,7 +70,7 @@ To run the website locally, follow these steps:
 
 #### Clone the Repository  
 ```sh
-git clone https://github.com/vickyy234/spark.git
+git clone https://github.com/ZenithSquad/spark.git
 ```
 
 #### Navigate to the Project Directory
