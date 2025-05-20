@@ -106,8 +106,7 @@ This project is developed and maintained by [Zenith Tech Solutions](https://zeni
 
 ## Live Preview
 
-The website is live and accessible here:
-[Link Here](https://spark-three-orcin.vercel.app/)
+The website is live and accessible [here](https://spark-three-orcin.vercel.app/)
 
 ## License
 
