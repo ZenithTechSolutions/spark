@@ -100,7 +100,7 @@ http://localhost:5173
 
 ## Team & Contributors  
 
-This project is developed and maintained by [Team ZENITH](https://zenith-chi-six.vercel.app/):  
+This project is developed and maintained by [Zenith Tech Solutions](https://zenith-chi-six.vercel.app/):  
 
 **[Vignesh](https://github.com/vickyy234)** | **[Sadhur](https://github.com/Sadhurnithy)** | **[Pradeep](https://github.com/Pradeep5377)** | **[Giri Prasath](https://github.com/Giriprasath1726)** | **[Vishal Kannan](https://github.com/VISHALKANNAN070)**
 
