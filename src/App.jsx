@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation} from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import ScrollToTop from './components/ScrollToTop';
@@ -16,12 +16,17 @@ import Guidelines from './pages/guidelines';
 import Accommodation from './pages/accommodation'
 import Venue from './pages/venue'
 import Register from './pages/register'
+import Brochure from './pages/brochure';  
 
 function App() {
+
+  const location = useLocation();
+  const isBrochurePage = location.pathname === '/Brochure';
+
   return (
     <>
     <ScrollToTop />  {/* component Used for Scroll to top of a page */}
-      <Header />
+      {!isBrochurePage && <Header />}
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/Home' element={<Home />} />
@@ -36,8 +41,9 @@ function App() {
         <Route path='/Accommodation' element={<Accommodation />} />
         <Route path='/Venue' element={<Venue />} />
         <Route path='/Register' element={<Register />} />
+        <Route path='/Brochure' element={<Brochure />} />
       </Routes >
-      <Footer />
+      {!isBrochurePage && <Footer />}
       <Analytics />
       <SpeedInsights />
     </>
