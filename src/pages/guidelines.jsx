@@ -13,7 +13,7 @@ function Guidelines() {
                     <li>All submitted papers will undergo a <span>double-blind peer review</span> based on originality, technical quality, research impact, and clarity. Accepted papers must be <span>registered</span>, and the <span>corresponding author</span> should complete the <span>e-Copyright transfer</span> and present the paper at the conference, either in person or virtually. Papers without presentation will not be included in the final proceedings.</li>
                 </ul>
             </div>
-            <button className="guideline-btn">Download Conference Template</button>
+            <a href='./Brochure' target='_blank' className="guideline-a">Download Conference Template</a>
             <div className="guideline-h"><h1>Important to note</h1></div>
             <div className="guideline-p">
                 <ol>
