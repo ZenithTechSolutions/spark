@@ -17,7 +17,7 @@ function doPost(e) {
              'Email: ' + e.parameter['email'] + '\n' +
              'Subject: ' + e.parameter['subject'] + '\n' +
              'Message: ' + e.parameter['message'];
-  var emailAddress = 'vickymayilsamy@gmail.com'; 
+  var emailAddress = '____@gmail.com'; 
   MailApp.sendEmail(emailAddress, subject, body);
 
   // Enable CORS for React frontend
