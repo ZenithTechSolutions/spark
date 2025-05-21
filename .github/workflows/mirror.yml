@@ -4,22 +4,19 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
-  mirror:
+  sync:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    steps:
+      - name: Mirror Repository
+        uses: actions/checkout@v3
 
       - name: Mirror Repository
         run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git remote add mirror https://x-access-token:${{ secrets.GH_PAT }}@github.com/vickyy234/spark.git
-          git push mirror HEAD:main --force
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          git push mirror main --force
