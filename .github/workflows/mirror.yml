@@ -1,4 +1,4 @@
-name: Mirror Repository
+name: Sync Repository
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Mirror Repository
+      - name: Sync Repository
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_PAT }}
@@ -23,6 +23,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           rm -rf .github/workflows
           git add -A
+          git commit -m "Synced successfully" || echo "No changes to commit"
           git remote add mirror https://x-access-token:${{ secrets.GH_PAT }}@github.com/vickyy234/spark.git
           git fetch mirror main
           git push mirror main --force
