@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Mirror Repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Mirror Repository
         run: |
