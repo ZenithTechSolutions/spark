@@ -23,7 +23,6 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           rm -rf .github/workflows
           git add -A
-          git commit -m "Remove workflow files for mirror" || echo "No changes to commit"
           git remote add mirror https://x-access-token:${{ secrets.GH_PAT }}@github.com/vickyy234/spark.git
           git fetch mirror main
           git push mirror main --force
