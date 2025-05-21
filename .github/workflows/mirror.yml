@@ -18,5 +18,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git remote add mirror https://x-access-token:${{ secrets.GH_PAT }}@github.com/vickyy234/spark.git
+          git remote add mirror https://x-access-token:${{ secrets.GH_PAT }}@github.com/vickyy234/spark
           git push mirror HEAD:main --force
