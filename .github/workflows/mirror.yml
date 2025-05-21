@@ -1,4 +1,4 @@
-name: Mirror to personal repo
+name: Mirror Repository
 
 on:
   push:
@@ -8,15 +8,19 @@ on:
 jobs:
   mirror:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout source repo
-        uses: actions/checkout@v3
-
-      - name: Mirror to personal repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
+
+      - name: Mirror Repository
+        run: |
+          # The 'x-access-token' username is a standard way to use PATs.
+          # We provide the secret as the password.
           git remote add mirror https://x-access-token:${{ secrets.GH_PAT }}@github.com/vickyy234/spark.git
           git push mirror HEAD:main --force
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
