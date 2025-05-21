@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
@@ -18,8 +19,6 @@ jobs:
 
       - name: Mirror Repository
         run: |
-          # The 'x-access-token' username is a standard way to use PATs.
-          # We provide the secret as the password.
           git remote add mirror https://x-access-token:${{ secrets.GH_PAT }}@github.com/vickyy234/spark.git
           git push mirror HEAD:main --force
         env:
