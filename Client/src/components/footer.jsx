@@ -33,7 +33,7 @@ function Footer() {
                         <li><Link to='https://kpriet.ac.in/' target='blank'><FaGlobe /></Link></li>
                         <li><Link to='mailto:info@kpriet.ac.in'target='blank'><FaEnvelope /></Link></li>
                     </ul>
-                    <p> Developed by <Link to='https://zenith-chi-six.vercel.app/' target='_blank'>Team Zenith</Link></p>
+                    <p> Developed by <Link to='https://zenith-portfolio-orpin.vercel.app/' target='_blank'>Team Zenith</Link></p>
                 </div>
             </div>
             <div className="footer-copyright">
