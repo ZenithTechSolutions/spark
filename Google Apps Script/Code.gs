@@ -12,12 +12,12 @@ function doPost(e) {
   ]);
 
   // Email notification
-  var subject = 'New Contact Us Submission';
-  var body = 'You have received a new contact form submission:\n\n' +
+  var subject = 'New Contact Us Submission from Spark';
+  var body = 'Received a new contact form submission:\n\n' +
              'Email: ' + e.parameter['email'] + '\n' +
              'Subject: ' + e.parameter['subject'] + '\n' +
              'Message: ' + e.parameter['message'];
-  var emailAddress = '____@gmail.com'; 
+  var emailAddress = '______@gmail.com';
   MailApp.sendEmail(emailAddress, subject, body);
 
   // Enable CORS for React frontend
