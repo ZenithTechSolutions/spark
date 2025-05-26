@@ -1,6 +1,6 @@
 # Spark'25
 
-Welcome to the official repository of **SPARK 2025**, a premier international conference dedicated to advancing research and innovation in **Smart Systems, Power Electronics, Artificial Intelligence, Robotics, and Knowledge Engineering**.  
+Welcome to the official repository of **SPARK 2025**, A international conference dedicated to advancing research and innovation in **Smart Systems, Power Electronics, Artificial Intelligence, Robotics, and Knowledge Engineering**.  
 
 This event brings together leading researchers, academicians, and industry experts to discuss groundbreaking technological advancements, share insights, and foster collaboration.  
 
