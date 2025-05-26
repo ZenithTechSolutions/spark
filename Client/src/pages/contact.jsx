@@ -15,7 +15,7 @@ function Contact() {
         e.preventDefault();
         alert("Success");
         e.target.reset();
-        const scriptURL = "https://script.google.com/macros/s/AKfycbx2oh1tGh-Km_M5OV7165ahVwJ0F2iK84j1dc4UxJF6kszLeIqeE76qpVtxsRzwyv7DUA/exec";
+        const scriptURL = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
         await fetch(scriptURL, {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
