@@ -41,7 +41,9 @@ This event brings together leading researchers, academicians, and industry exper
 - **Industry & Academic Collaborations** – Strengthening research partnerships.  
 - **Interactive Q&A & Discussions** – Engage with experts on emerging topics.  
 
-For more details, visit our official **[Conference Website](https://spark-three-orcin.vercel.app/)**  
+For more details, visit our official
+
+[![Conference Website](https://img.shields.io/badge/Conference%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://spark-three-orcin.vercel.app/)
 
 ## Key Themes & Topics  
 
@@ -98,15 +100,21 @@ npm run dev
 http://localhost:5173
 ```
 
-## Team & Contributors  
+## Team & Contributors
 
-This project is developed and maintained by [Zenith Tech Solutions](https://zenith-portfolio-orpin.vercel.app/):  
+This project is developed and maintained by
 
-**[Vignesh](https://github.com/vickyy234)** | **[Sadhur](https://github.com/Sadhurnithy)** | **[Pradeep](https://github.com/Pradeep5377)** | **[Giri Prasath](https://github.com/Giriprasath1726)** | **[Vishal Kannan](https://github.com/VISHALKANNAN070)**
+[![ZenithTechSolutions](https://img.shields.io/badge/ZenithTechSolutions-0A192F?style=for-the-badge&logo=github&logoColor=white)](https://zenith-portfolio-orpin.vercel.app/)
+
+###### Contributors
+
+[![Vignesh](https://img.shields.io/badge/-Vignesh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vickyy234) [![Sadhur](https://img.shields.io/badge/-Sadhur-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sadhurnithy) [![Pradeep](https://img.shields.io/badge/-Pradeep-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pradeep5377) [![Giri Prasath](https://img.shields.io/badge/-GiriPrasath-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Giriprasath1726) [![Vishal Kannan](https://img.shields.io/badge/-VishalKannan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VISHALKANNAN070)
 
 ## Live Preview
 
-The website is live and accessible [here](https://spark-three-orcin.vercel.app/)
+The website is live and accessible below
+
+[![Click Here](https://img.shields.io/badge/Click%20Here-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://spark-three-orcin.vercel.app/)
 
 ## License
 
