@@ -108,7 +108,7 @@ This project is developed and maintained by
 
 ###### Contributors
 
-[![Vignesh](https://img.shields.io/badge/-Vignesh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vickyy234) [![Sadhur](https://img.shields.io/badge/-Sadhur-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sadhurnithy) [![Pradeep](https://img.shields.io/badge/-Pradeep-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pradeep5377) [![Giri Prasath](https://img.shields.io/badge/-GiriPrasath-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Giriprasath1726) [![Vishal Kannan](https://img.shields.io/badge/-VishalKannan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VISHALKANNAN070)
+[![Vignesh](https://img.shields.io/badge/-Vignesh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vickyy234) [![Sadhur](https://img.shields.io/badge/-Sadhur-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sadhurnithy) [![Pradeep](https://img.shields.io/badge/-Pradeep-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pradeep5377) [![Giri Prasath](https://img.shields.io/badge/-Giri%20Prasath-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Giriprasath1726) [![Vishal Kannan](https://img.shields.io/badge/-Vishal%20Kannan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VISHALKANNAN070)
 
 ## Live Preview
 
