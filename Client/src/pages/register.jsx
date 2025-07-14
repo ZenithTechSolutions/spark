@@ -16,44 +16,64 @@ function Register() {
                             <th>Details</th>
                             <th>Early Bird Registration</th>
                             <th>Late Registration</th>
+                            <th>ISBN Proceedings</th>
                         </tr>
                         <tr>
                             <td>Student Members</td>
                             <td>11,500 INR</td>
                             <td>12,000 INR</td>
+                            <td>1500 INR</td>
+
                         </tr>
                         <tr>
                             <td>Academician / Professional Members</td>
                             <td>11,500 INR</td>
                             <td>12,000 INR</td>
+                            <td>1500 INR</td>
+
                         </tr>
                         <tr>
                             <td>Research Scholors</td>
                             <td>11,500 INR</td>
                             <td>12,000 INR</td>
+                            <td>1500 INR</td>
+
                         </tr>
                         <tr>
                             <td>Industry Members</td>
                             <td>15,000 INR</td>
                             <td>20,000 INR</td>
+                            <td>1500 INR</td>
+
                         </tr>
                         <tr>
                             <td>Foreign student Members</td>
                             <td>$200 USD</td>
                             <td>$250 USD</td>
+                            <td>1500 INR</td>
+
                         </tr>
                         <tr>
                             <td>Foreign Academician / Professional Members</td>
                             <td>$200 USD</td>
-                            <td>$250 USD</td>                        </tr>
+                            <td>$250 USD</td>
+                            <td>1500 INR</td>
+
+                        </tr>
                         <tr>
                             <td>Foreign Research Scholors</td>
                             <td>$200 USD</td>
-                            <td>$250 USD</td>                        </tr>
+                            <td>$250 USD</td>
+                            <td>1500 INR</td>
+
+                        </tr>
                         <tr>
                             <td>Foreign Industry Members</td>
                             <td>$250 USD</td>
-                            <td>$300 USD</td>                        </tr>
+                            <td>$300 USD</td>
+                            <td>1500 INR</td>
+
+                        </tr>
                     </table>
                 </div>
                 <p>* All the fees details given above are including 18% GST</p>
