@@ -3,8 +3,10 @@ import Countdown from "./timer";
 import Slider from "./slider";
 import bgposter from "../assets/bg-poster-kpr.png";
 import HomeSidebar from './home-sidebar';
+import ieelogo from "../assets/IEE-Logo.png";
 import turnitinlogo from "../assets/turnitin-logo.svg";
 import scorpuslogo from "../assets/Scopus_logo.svg";
+import ieesb from "../assets/iee-sb.png";
 
 function Home() {
   return (
@@ -32,6 +34,8 @@ function Home() {
         <div className="home-logo">
           <img src={scorpuslogo} alt="Scorpus Logo" />
           <img src={turnitinlogo} id="home-logo-turnitin"alt="Turnitin Logo" />
+          <img src={ieelogo} alt="IEEE Logo" />
+          <img src={ieesb} alt="IEEE Student Branch" className="ieesb"/>
         </div>
         <hr />
           <Countdown />
